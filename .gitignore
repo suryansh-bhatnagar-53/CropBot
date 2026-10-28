@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Json files 
+india_blocks_map.json
+india_districts_map.json
+india_states_map.json
+india_villages_map.json
+
+# Secrets
+.env
+
+# Raw source PDFs and Docling cache
+data/raw/*.pdf
+data/docling/
+data/units/
+data/tables/
+data/review/*
+!data/review/expert_decisions.csv
+data/extracted/
+data/normalized/
+data/validated/
+data/verified/
+data/loaded/
+data/eval/
+
+# New book PDFs (books are recorded by URL and sha256 in the source registry)
+BooksData/*.pdf
+sources/pdfs/
+
+# Database dumps and data archives (KG phase close, 2026-10-24); never committed
+backups/

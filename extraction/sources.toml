@@ -1,0 +1,366 @@
+# Source registry for ../BooksData.
+#
+# extract.py scans the BooksData folder itself. This file adds metadata and
+# include/exclude decisions per PDF, keyed by file name. A PDF dropped into
+# BooksData without an entry here is still processed, with defaults, and
+# `uv run extract.py --list` flags it as "unregistered".
+#
+# Fields (all optional except `file`):
+#   id          short id used in output file names (default: slug of file name)
+#   title       human title
+#   doc_type    practice_guide | advisory | handbook | guideline | textbook |
+#               bulletin | soil_manual | research_report | policy | unrelated
+#   region      where the advice applies, e.g. "Tamil Nadu", "India"
+#   season      kharif | rabi | "" (all)
+#   year        edition year
+#   language    en | hi | ...
+#   include     false = skip entirely
+#   crop        set for single-crop books: the whole book becomes one crop file
+#               (a key from CROPS in extract.py)
+#   ocr         "auto" (OCR only image regions) | "force" (OCR every page;
+#               needed for legacy-font Hindi whose text layer is garbage)
+#   ocr_lang    EasyOCR language codes, e.g. ["en"], ["hi", "en"]
+#   page_range  [first, last] pages to convert (1-based, inclusive)
+#   publisher, rights_note, url, note
+
+# ---------------------------------------------------------------------------
+# Crop practice guides and advisories: main knowledge-graph sources
+# ---------------------------------------------------------------------------
+[[source]]
+file = "AGRICULTURE.pdf"
+id = "tnau_agriculture"
+title = "Crop Production Guide: Agriculture 2020"
+doc_type = "practice_guide"
+region = "Tamil Nadu"
+year = "2020"
+publisher = "Directorate of Agriculture, Tamil Nadu and Tamil Nadu Agricultural University"
+rights_note = "State extension publication; portal footer says All Rights Reserved. Attribute TNAU."
+url = "https://agritech.tnau.ac.in/pdf/AGRICULTURE.pdf"
+note = "Page 7 (Tamil preface) uses a legacy font; it is not crop content."
+
+[[source]]
+file = "ICAR En-Kharif Agro-Advisories for Farmers 2025.pdf"
+id = "icar_kharif_advisory_2025"
+title = "ICAR Kharif Agro-Advisories for Farmers 2025"
+doc_type = "advisory"
+region = "India (state-wise sections)"
+season = "kharif"
+year = "2025"
+publisher = "Indian Council of Agricultural Research"
+rights_note = "May be used/shared freely for non-commercial purposes with proper acknowledgement."
+
+[[source]]
+file = "Rabi-Agro-Advisory-2021-22_0.pdf"
+id = "icar_rabi_advisory_2021"
+title = "ICAR Rabi Agro-Advisory 2021-22"
+doc_type = "advisory"
+region = "India (ATARI zone-wise sections)"
+season = "rabi"
+year = "2021-22"
+publisher = "Indian Council of Agricultural Research"
+page_range = [1, 440]
+note = "Pages 441-755 are the Hindi version of the same advisory, with text converted to outlines; skipped."
+
+[[source]]
+file = "RabiCrops.pdf"
+id = "hp_rabi_crops_2020"
+title = "Krishak Sansadhan Pustika: Rabi crops, Himachal Pradesh (revised 2020)"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+season = "rabi"
+year = "2020"
+language = "hi"
+ocr = "force"
+ocr_lang = ["hi", "en"]
+note = "Hindi in a legacy (non-Unicode) font; the text layer is garbage, so every page is OCRed."
+
+[[source]]
+file = "Package of Practices - Millet Chena.pdf"
+id = "hpkv_millet_chena"
+title = "Package of Practices: Chena (proso millet)"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = "proso_millet"
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+
+[[source]]
+file = "Package of Practices - Millet Kangni.pdf"
+id = "hpkv_millet_kangni"
+title = "Package of Practices: Kangni (foxtail millet)"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = "foxtail_millet"
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+
+[[source]]
+file = "Package of Practices - Millet Ragi.pdf"
+id = "hpkv_millet_ragi"
+title = "Package of Practices: Ragi (finger millet)"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = "finger_millet"
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+
+[[source]]
+file = "Package of Practices - Millet Kodra.pdf"
+id = "hpkv_millet_kodra"
+title = "Package of Practices: Kodra"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = ""
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+note = "TODO: confirm which millet this is (check the botanical name in the OCR output), then set `crop`."
+
+[[source]]
+file = "Package of Practices - Millet Sawaan.pdf"
+id = "hpkv_millet_sawaan"
+title = "Package of Practices: Sawaan"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = ""
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+note = "TODO: confirm the crop (likely barnyard millet; check the botanical name), then set `crop`."
+
+[[source]]
+file = "Package of Practices - Millet Swank.pdf"
+id = "hpkv_millet_swank"
+title = "Package of Practices: Swank"
+doc_type = "practice_guide"
+region = "Himachal Pradesh"
+year = "2023"
+language = "hi"
+crop = ""
+ocr_lang = ["hi", "en"]
+publisher = "CSK Himachal Pradesh Krishi Vishvavidyalaya, Palampur"
+note = "TODO: confirm the crop (check the botanical name in the OCR output), then set `crop`."
+
+[[source]]
+file = "Handbook-on-Pesticide-Uses-in-Pulses-Book.pdf"
+id = "pulses_pesticide_handbook"
+title = "Handbook on Pesticide Uses in Pulses"
+doc_type = "handbook"
+region = "India"
+note = "Image-only PDF; OCR runs automatically. Verify the publisher from the OCR output."
+
+[[source]]
+file = "INTEGRATED PLANT NUTRITION MANAGEMENT SYSTEM 12 JAN 24.pdf"
+id = "inm_ipns_2024"
+title = "Integrated Plant Nutrition System / Integrated Nutrient Management Practices"
+doc_type = "guideline"
+region = "India"
+year = "2024"
+publisher = "INM Division"
+
+# ---------------------------------------------------------------------------
+# Textbooks and bulletins: explanations and background, not doses
+# ---------------------------------------------------------------------------
+[[source]]
+file = "Field-Crop-Kharif.pdf"
+id = "icar_ecourse_kharif"
+title = "Field Crops (Kharif) - ICAR e-course"
+doc_type = "textbook"
+region = "India"
+season = "kharif"
+publisher = "ICAR e-course (TNAU/SAU consortium); re-hosted by agrimoon.com"
+rights_note = "Attribute ICAR/TNAU, not the mirror. Textbook: use for explanations, not doses."
+url = "https://agrimoon.com/wp-content/uploads/Field-Crop-Kharif.pdf"
+
+[[source]]
+file = "FIELD-CROPS-RABI-with-Multiple-choice-questions.pdf"
+id = "icar_ecourse_rabi"
+title = "Field Crops (Rabi) - ICAR e-course"
+doc_type = "textbook"
+region = "India"
+season = "rabi"
+publisher = "ICAR e-course (TNAU/SAU consortium); re-hosted by agrimoon.com"
+rights_note = "Attribute ICAR/TNAU, not the mirror. Textbook: use for explanations, not doses."
+url = "https://agrimoon.com/wp-content/uploads/FIELD-CROPS-RABI-with-Multiple-choice-questions.pdf"
+
+[[source]]
+file = "principles-of-agronomy-agricultural-meteorology-signed.pdf"
+id = "icar_ecourse_agronomy"
+title = "Principles of Agronomy and Agricultural Meteorology - ICAR e-course"
+doc_type = "textbook"
+region = "India"
+
+[[source]]
+file = "pulse_based_cropping_system.pdf"
+id = "pulse_based_cropping_system"
+title = "Pulse-based cropping systems"
+doc_type = "bulletin"
+region = "India"
+
+[[source]]
+file = "pulses_in_cropping_systems.pdf"
+id = "pulses_in_cropping_systems"
+title = "Pulses in cropping systems"
+doc_type = "bulletin"
+region = "India"
+
+[[source]]
+file = "Microbial-technologies-for-Grain-Legumes-Book.pdf"
+id = "microbial_tech_grain_legumes"
+title = "Microbial technologies for grain legumes"
+doc_type = "textbook"
+region = "India"
+note = "Image-only PDF; OCR runs automatically."
+
+# ---------------------------------------------------------------------------
+# Soil testing: for interpreting Soil Health Card values (not split by crop)
+# ---------------------------------------------------------------------------
+[[source]]
+file = "Methods Manual Soil Testing In India - Department of Agriculture & Cooperation.pdf"
+id = "dac_soil_testing_manual"
+title = "Methods Manual: Soil Testing in India"
+doc_type = "soil_manual"
+region = "India"
+publisher = "Department of Agriculture & Cooperation"
+
+[[source]]
+file = "Book Methods manual (Soil Testing In India)001.pdf"
+include = false
+note = "Byte-identical duplicate of the DAC Methods Manual."
+
+[[source]]
+file = "Soil&WaterTestingMethods(AlaboratoryManual).pdf"
+id = "soil_water_testing_lab_manual"
+title = "Soil and Water Testing Methods: a laboratory manual"
+doc_type = "soil_manual"
+region = "India"
+
+# ---------------------------------------------------------------------------
+# Policy, administration, reports: kept out of the knowledge graph
+# ---------------------------------------------------------------------------
+[[source]]
+file = "Circular Of Implementation Of Soil Health Card.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Citizen Charter for Soil Testing and Issue of Soil Health Card.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Citizen Charter for Soil Testing and Issue of Soil Health Card (1).pdf"
+include = false
+note = "Byte-identical duplicate."
+
+[[source]]
+file = "DO letter regarding the transforming conventional static soil testing laboratories into loT-based facilities.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Guidelines & SOP for IoT Integration of Soil Test Equipment Manufacturers.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Guidelines _ SOP for IoT Integration of Soil Test Equipment -reg..pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Guidelines for Demonstrations Under Soil Health Card (SHC) Scheme.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Guidelines for implementation of Soil Health Card Scheme under Soil Health & Fertility of Rashtriya Krishi Vikas Yojana(RKVY) from the year 2023-24-Reg.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Village Level Soil Testing Labs.pdf"
+include = false
+note = "Byte-identical to the RKVY Soil Health Card guidelines PDF (misnamed)."
+
+[[source]]
+file = "Implementation of Soil Health Card (SHC) Scheme.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "List of mini soil labs validated by ICAR-reg..pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "National Mission for Sustainable Agriculture (NMSA)-Operational Guidelines.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "School Soil Health Programme-1000 Schools.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "SHC IoT Integration Flow.pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "Soil Health & Fertility Scheme under Rashtriya Krishi Vikas Yojana(RKVY).pdf"
+doc_type = "policy"
+include = false
+
+[[source]]
+file = "ICAR-Achievements-2021-22_02-11-22d.pdf"
+doc_type = "research_report"
+include = false
+
+[[source]]
+file = "Outreach-Programmes-of-ICAR-IIPR-2020-25.pdf"
+doc_type = "research_report"
+include = false
+
+[[source]]
+file = "pulses_research_atiipr.pdf"
+doc_type = "research_report"
+include = false
+note = "25 Years of Pulses Research at IIPR (1984-2009): institutional history."
+
+[[source]]
+file = "Indian-Agriculture-after-Independence.pdf"
+doc_type = "research_report"
+include = false
+
+[[source]]
+file = "genomic_research.pdf"
+doc_type = "research_report"
+include = false
+note = "ICAR research report in legacy-font Hindi."
+
+[[source]]
+file = "Web Application Security Audit Compliance.pdf"
+doc_type = "unrelated"
+include = false
+note = "Not agriculture content; consider removing from BooksData."
+
+[[source]]
+file = "Web Application Security Audit Compliance (1).pdf"
+doc_type = "unrelated"
+include = false
+note = "Not agriculture content; consider removing from BooksData."
+
+[[source]]
+file = "download.pdf"
+include = false
+note = "Scanned, 67 pages, no text layer: identify it before including."

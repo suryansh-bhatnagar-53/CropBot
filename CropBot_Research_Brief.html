@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CropBot Research Brief</title><style>
+:root{--bg:#fbfaf6;--fg:#1f2421;--muted:#5b625d;--accent:#3d6b21;--rule:#dcdcd2;--th:#eef1e6}
+@media (prefers-color-scheme: dark){:root{--bg:#171a18;--fg:#e6e8e3;--muted:#a3a9a4;--accent:#9ccc6e;--rule:#333a35;--th:#222a24}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.9rem;line-height:1.25;color:var(--accent);margin:.2em 0}
+h2{font-size:1.35rem;margin-top:2.2em;padding-top:.6em;border-top:1px solid var(--rule)}
+h3{font-size:1.08rem;margin-top:1.6em}
+a{color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:1em 0;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:6px 9px;vertical-align:top;text-align:left}
+th{background:var(--th)}
+code{font-size:.88em;background:var(--th);padding:1px 4px;border-radius:4px}
+li{margin:.2em 0}
+</style></head>
+<body><main><h1>CropBot: Research Brief for the CII Post-Harvest Hackathon</h1>
+<p>Oct 18, 2026 · @Shivaansh Gusain</p>
+<h2>TL;DR</h2>
+<p>CropBot should pitch as a <strong>independent post-harvest decision layer, built entirely in-house</strong>, not as another multilingual farm chatbot. We are in Track 4; the 7-minute pitch video is due 21 Oct 2026, and the Grand Finale is in New Delhi on 18 Dec 2026.</p>
+<ol>
+<li><strong>Our current core is already free elsewhere.</strong> Bharat-VISTAAR already offers cited crop Q&amp;A, IMD weather, raw mandi prices, Soil Health Card fertiliser advice, scheme status and pest photo diagnosis. It costs farmers nothing and works in 10 text languages plus a Hindi/English phone (IVR) line.</li>
+<li><strong>The post-harvest gap is real and unoccupied.</strong> None of about 40 products checked offers harvest/drying alerts tied to procurement moisture limits, neutral sell/store/pledge advice, mandi ranking by net price, or MSP procurement readiness.</li>
+<li><strong>What to build: a "Harvest-to-Sale Planner".</strong> It combines a harvest and drying window with a sell/store/warehouse-loan calculator, plus a best-mandi-by-net-price line and a procurement checklist.</li>
+<li><strong>Price information alone does not raise farmer prices</strong> in randomised studies. Storage plus credit does. Our advice must point to a liquidity route: warehouse-receipt loans, KCC interest subvention, or FPO pooling.</li>
+<li><strong>Uttarakhand is weak for the warehouse-loan feature.</strong> It has only 12 active registered warehouses and issued no electronic warehouse receipts (e-NWRs, the receipts banks lend against) in FY 2024-25. It is strong for harvest alerts, and for net-price mandi advice in plains mandis such as Dehradun and Haldwani; hill markets lack price data. Demo the loan calculator on an MP or Rajasthan market too.</li>
+<li><strong>Stop the Soil Health Card scraping.</strong> It violates the portal's terms. The proxy plan raises legal risk under the IT Act. Use official requests and farmer-entered card values instead.</li>
+<li><strong>Business model: shift from "FPOs pay SaaS" to post-harvest transaction fees plus co-funded pilots.</strong> The median FPO earns a 0.27% net margin.</li>
+<li><strong>The ask:</strong> a pilot partner (KVK, FPO or warehouse) plus about ₹19–20 lakh for a 12-month, 5,000-farmer pilot. The lean version without team stipends is about ₹11.3 lakh. Incubation and funding talks go through IIT Guwahati TIC, the hackathon's co-organiser.</li>
+</ol>
+<p>All figures were gathered between 11 and 17 Oct 2026. Before using any figure on a slide, check it against the "Verify before it goes on a slide" list at the end.</p>
+<p><strong>Acronyms used below:</strong></p>
+<ul>
+<li>FPO = Farmer Producer Organisation</li>
+<li>KVK = Krishi Vigyan Kendra (district farm extension centre)</li>
+<li>KCC = Kisan Credit Card (subsidised farm loan)</li>
+<li>MSP = Minimum Support Price</li>
+<li>FCI = Food Corporation of India</li>
+<li>WDRA = Warehousing Development and Regulatory Authority</li>
+<li>e-NWR = electronic Negotiable Warehouse Receipt (a receipt for stored crop that a bank can lend against)</li>
+<li>e-KUN = e-Kisan Upaj Nidhi (the government's warehouse-receipt loan portal)</li>
+<li>UCF = Uttarakhand Cooperative Federation</li>
+<li>IVR = phone menu line</li>
+<li>DPDP = Digital Personal Data Protection law</li>
+<li>CBBO = Cluster-Based Business Organisation (agencies that support FPOs)</li>
+</ul>
+<h2>The hackathon</h2>
+<p>The <a href="https://unstop.com/competitions/crp-cii-post-harvest-hackathon-cii-confederation-of-indian-industry-1700604">CII Post-Harvest Hackathon</a> is about reducing post-harvest losses. A mostly pre-harvest pitch will look off-brief.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organisers</td>
+<td>CII–FACE (Food and Agriculture Centre of Excellence) with IIT Guwahati Technology Incubation Centre</td>
+</tr>
+<tr>
+<td>Focus</td>
+<td>Post-harvest management, storage, logistics, processing, waste use, value generation</td>
+</tr>
+<tr>
+<td>Tracks</td>
+<td>1 Smart Food Loss Reduction · 2 Food Traceability &amp; Transparency · 3 Digital Market Ecosystem for Farmers · 4 AI-Powered Agriculture · 5 Waste Collection &amp; Value Generation · 6 Open Innovation</td>
+</tr>
+<tr>
+<td>Our track</td>
+<td>Track 4 (AI-Powered Agriculture), confirmed by email</td>
+</tr>
+<tr>
+<td>Judging</td>
+<td>Innovation, feasibility, scalability, relevance/impact; the pitch round adds "implementation approach"</td>
+</tr>
+<tr>
+<td>Past rounds</td>
+<td>Idea submission and concept pitch closed 31 Jul 2026; mentorship session 7 Aug 2026</td>
+</tr>
+<tr>
+<td>Grand Finale</td>
+<td>18 Dec 2026, New Delhi, before industry leaders</td>
+</tr>
+<tr>
+<td>Rewards</td>
+<td>CII certificates, mentorship, investor and policymaker access, <strong>pilot implementation through the CII industry network</strong>. No cash prize is listed.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Confirmed by email:</strong> we are in <strong>Track 4 (AI-Powered Agriculture)</strong>, and the 7-minute Zoom pitch video is due Oct 21, 2026. The scoring rubric is still not public; ask the organisers for it.</p>
+<p>Because the main reward is a pilot, our ask should name a pilot partner first and money second.</p>
+<h2>Where we stand today</h2>
+<p>The repo has Soil Health Card scrapers and a graph-extraction prototype. The scrapers and graph prototype sit in one initial commit, and there is no post-harvest code.</p>
+<h3>Code</h3>
+<ul>
+<li><strong>Soil Health Card scrapers</strong> (<code>state_retrival.py</code> → <code>village_retrival.py</code>, <code>data_scraper.py</code>). These walk the soilhealth4.dac.gov.in GraphQL API from state to village. The data is only village-level counts of High/Medium/Low N, P and K. It is not a farmer's own soil values, so it cannot drive the fertiliser-dose formulas in the crop guides.</li>
+<li><strong>Graph prototype</strong> (<code>Graph_Rag_try.py</code>):</li>
+<li>Uses llama3.2 with an unconstrained <code>LLMGraphTransformer</code> on 10 chunks, which gives an inconsistent graph.</li>
+<li>Re-splits Docling's chunks with a second text splitter, which cuts tables in half.</li>
+<li>Imports from the unmaintained <code>langchain_experimental</code>.</li>
+<li>Has the Neo4j password hardcoded, so it is now in git history; rotate it and move it to an environment variable.</li>
+<li><strong>Source book in the repo:</strong> the TNAU Crop Production Guide 2020 (460 pages, Tamil Nadu only). Variety tables are transposed and multi-column. Page 7 uses a legacy Tamil font that extracts as garbage.</li>
+</ul>
+<h3>Legal and data risks</h3>
+<ul>
+<li><strong>Soil Health Card scraping breaks the portal's terms of service.</strong> The terms forbid robots, impersonation and commercial reuse without permission. The notes propose a spoofed browser User-Agent and rotating residential proxies to evade the firewall. That deliberate evasion raises exposure under IT Act s.43(b). A dishonest or fraudulent act under s.43 becomes a criminal offence under s.66. This is not legal advice. <strong>Stop it.</strong> Instead:</li>
+<li>request data officially from MoA\&FW;</li>
+<li>use the data.gov.in datasets under the Government Open Data License (GODL);</li>
+<li>let farmers type in or photograph their own card.</li>
+<li><strong>Book licensing.</strong> ICAR Kharif 2025 is non-commercial only. The ICAR portal, PAU and TNAU require permission. The agrimoon and weebly PDFs are re-hosts of unclear origin. Storing extracted facts with citations is lower risk than serving copied text, but get legal confirmation before going commercial.</li>
+<li><strong>Personal data.</strong> India's DPDP Rules were notified on 13 Nov 2025, with most obligations from about May 2027. Phone numbers, locations and card photos need consent notices now.</li>
+</ul>
+<h3>Deck critique (12 slides)</h3>
+<ul>
+<li><strong>No numbers anywhere.</strong> There is no loss figure, farmer count, rupee impact, cost or funding figure.</li>
+<li><strong>"Hallucination-free" is an overclaim.</strong> Replace it with a measured error rate and a "cites its source or declines" rule.</li>
+<li><strong>The competition slide leaves out our real competitors.</strong> It omits Bharat-VISTAAR, Kisan e-Mitra and e-NAM.</li>
+<li><strong>The business model does not add up.</strong> 250 FPOs × \~650 members ≈ 160,000 farmers, not 500,000. FPO ability to pay is not shown.</li>
+<li><strong>No post-harvest content and no demo.</strong> Two slides are also numbered "02".</li>
+</ul>
+<h2>Competitors</h2>
+<p>Bharat-VISTAAR is free and broad but shallow: generic advice, raw prices, and no post-harvest decision support. Position CropBot as complementary to it.</p>
+<h3>Bharat-VISTAAR, checked against its public code</h3>
+<p>Its backend is open source (<a href="https://github.com/OpenAgriNet/bharat-oan-api">bharat-oan-api</a>, last commit 15 Oct 2026). That let us check what it actually does, not just what press releases claim.</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>What we found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Launch and budget</td>
+<td>Announced in Budget 2026-27 (₹150 cr). Phase 1 launched in Jaipur on 17 Feb 2026 (<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228842">PIB</a>).</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>IVR 155261 (works on feature phones), "Bharati" voice/text bot, web chat, Android app, embedded in PM-KISAN and PMFBY apps. <strong>No WhatsApp.</strong></td>
+</tr>
+<tr>
+<td>Languages</td>
+<td>IVR is still <strong>Hindi and English only</strong>. Text works in 10 languages (<a href="https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1497_GAaTNq.docx?source=lsapps">Lok Sabha USQ 1497, 28 Jul 2026</a>).</td>
+</tr>
+<tr>
+<td>Personalisation</td>
+<td>The code receives only the query, language and GPS coordinates. It uses no Farmer ID, land record, crop sown or plot data. Soil Health Card fertiliser advice works only by looking up the farmer's registered mobile number. NITI's claim of land-record personalisation is not in the public code; production may differ.</td>
+</tr>
+<tr>
+<td>Knowledge and model</td>
+<td>Document search over ICAR crop guides, IMD Mausamgram, Agmarknet prices, and pest image diagnosis (NPSS, the national pest surveillance system). Azure GPT-4.1 by default, Bhashini for speech. Answers carry "Source:" lines. No knowledge graph found.</td>
+</tr>
+<tr>
+<td>Post-harvest</td>
+<td>The mandi tool returns raw prices near a place, with no distance, transport or net-price logic. <strong>Zero tools for MSP, procurement, warehouse loans or moisture.</strong> Post-harvest suggestion buttons exist but are switched off.</td>
+</tr>
+<tr>
+<td>Usage</td>
+<td>3 lakh+ farmers and 72 lakh+ queries (Parliament, Jul 2026). The app has 10K+ installs and a 3.7 rating, and has not been updated since 18 Feb 2026.</td>
+</tr>
+<tr>
+<td>Critiques</td>
+<td>Barely promoted; unclear accountability for wrong advice; no published accuracy evaluation (<a href="https://thesecretariat.in/article/ai-in-agriculture-bharat-vistaar-faces-triple-test-of-credibility-market-risk-accountability">The Secretariat</a>, <a href="https://cstep.in/?p=240771">CSTEP</a>).</td>
+</tr>
+<tr>
+<td>Open to partners</td>
+<td>OpenAgriNet lets outside services join VISTAAR's network through the Beckn protocol (<a href="https://docs.openagrinet.global/llms.txt">docs</a>). We are not using this; CropBot stays fully independent.</td>
+</tr>
+</tbody>
+</table>
+<h3>Capability matrix</h3>
+<p>Y = yes, P = partial, N = no or not found.</p>
+<table>
+<thead>
+<tr>
+<th>Player</th>
+<th>WhatsApp</th>
+<th>Farm-level personalisation</th>
+<th>Mandi prices</th>
+<th>Sell/store advice</th>
+<th>Warehouse-loan link</th>
+<th>Harvest/drying alerts</th>
+<th>Business model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bharat-VISTAAR</td>
+<td>N</td>
+<td>N (GPS only)</td>
+<td>Raw</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>Free, government</td>
+</tr>
+<tr>
+<td>MahaVISTAAR (Maharashtra)</td>
+<td>N (requested)</td>
+<td>Y (AgriStack + memory)</td>
+<td>Y (stale per reviews)</td>
+<td>N</td>
+<td>P (warehouse locator)</td>
+<td>N</td>
+<td>Free, state</td>
+</tr>
+<tr>
+<td>Kisan e-Mitra</td>
+<td>N</td>
+<td>Account only</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>Free; schemes only</td>
+</tr>
+<tr>
+<td>e-NAM / Agmarknet</td>
+<td>N</td>
+<td>N</td>
+<td>Y</td>
+<td>N</td>
+<td>P (e-NWR trade)</td>
+<td>N</td>
+<td>Free; prices and trading</td>
+</tr>
+<tr>
+<td>Farmer.Chat (Digital Green)</td>
+<td>Earlier; now app/web</td>
+<td>P</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>Free; grant-funded</td>
+</tr>
+<tr>
+<td>Plantix / AgroStar</td>
+<td>N</td>
+<td>Low</td>
+<td>AgroStar only</td>
+<td>N</td>
+<td>N</td>
+<td>N</td>
+<td>Input sales; biased advice</td>
+</tr>
+<tr>
+<td>DeHaat / ITC MAARS</td>
+<td>?</td>
+<td>Y / P</td>
+<td>Y</td>
+<td>N (they buy the crop)</td>
+<td>N</td>
+<td>N</td>
+<td>Inputs + buying produce</td>
+</tr>
+<tr>
+<td>Arya.ag / StarAgri</td>
+<td>N</td>
+<td>Own stock only</td>
+<td>P</td>
+<td>Conflicted</td>
+<td>Y (own lending)</td>
+<td>N</td>
+<td>Storage fees + interest</td>
+</tr>
+<tr>
+<td><strong>CropBot (planned)</strong></td>
+<td>Planned</td>
+<td>Y</td>
+<td>Net of costs</td>
+<td><strong>Y</strong></td>
+<td><strong>Navigator</strong></td>
+<td><strong>Y</strong></td>
+<td>Free for farmers</td>
+</tr>
+</tbody>
+</table>
+<p>Other notes:</p>
+<ul>
+<li><strong>No Uttarakhand state AI farm advisor exists.</strong></li>
+<li><strong>BharatAgri shut down in Nov 2025.</strong> It could not raise funding against high acquisition costs and low repeat use.</li>
+<li><strong>A Digital Green fine-tuning study built on Farmer.Chat found harvest timing was the weakest topic</strong> (44.6% average F1) (<a href="https://arxiv.org/html/2603.03294v1">arXiv</a>).</li>
+<li><strong>ICAR-IIOR's Oilseeds Kisaan Mitra</strong> is a free WhatsApp bot with ICAR content, but it covers oilseeds only.</li>
+</ul>
+<h3>Do not pitch these as unique</h3>
+<p>All of these are already free from the government: cited crop Q&amp;A, weather, Soil Health Card advice, raw mandi prices, scheme information, and pest photo diagnosis. Government WhatsApp advice exists only for oilseeds (ICAR-IIOR), so WhatsApp is a channel advantage for us, but not the headline.</p>
+<h2>Post-harvest strategy</h2>
+<p>Build one <strong>Harvest-to-Sale Planner</strong> that carries on from our pre-harvest advice. We already know the farmer's crop, sowing date and location, so we can plan the harvest and the sale.</p>
+<h3>Why this, backed by evidence</h3>
+<ul>
+<li><strong>The problem is large.</strong> Post-harvest losses are about <strong>₹1.53 lakh crore a year</strong> (<a href="https://icrier.org/pdf/Policy_Brief_20.pdf">NABCONS 2022 via ICRIER</a>). Loss rates by crop group:</li>
+<li>cereals 3.89–5.92%</li>
+<li>pulses up to 6.74%</li>
+<li>fruits 6.02–15.05%</li>
+<li>vegetables 4.87–11.61%</li>
+<li><strong>Most farm losses happen at harvest, not in storage.</strong> For paddy: harvesting 1.42%, threshing 0.97%, drying 0.33%, against farm storage 0.40%. Cereal farm-storage loss is only about 0.3–0.4%.</li>
+<li><strong>Price information alone does not raise farmer prices.</strong> Two randomised studies found no average effect:</li>
+<li>Reuters Market Light SMS in Maharashtra (<a href="https://ideas.repec.org/a/oup/wbecrv/v26y2012i3p383-414.html">Fafchamps &amp; Minten 2012</a>);</li>
+<li>price information for West Bengal potato farmers (<a href="https://people.bu.edu/dilipm/wkpap/MitraMookherjeeToreroVisariaAug2016_Paper.pdf">Mitra et al. 2018</a>).</li>
+<li><strong>Liquidity is what lets farmers wait.</strong> Harvest loans in Kenya let farmers store and sell later, for roughly 28–29% return (<a href="https://www.nber.org/papers/w24476">Burke et al., QJE 2019</a>).</li>
+<li><strong>India's warehouse-loan system is underused by smallholders.</strong></li>
+<li>e-Kisan Upaj Nidhi had only <strong>62 farmer applicants and ₹25.44 lakh disbursed</strong> as of 13 Jul 2025 (<a href="https://eparlib.sansad.in/bitstream/123456789/2997246/1/AU671_uUZM4D.pdf">Lok Sabha AU671</a>).</li>
+<li>The average warehouse receipt is about 23 tonnes, far above one smallholder's harvest.</li>
+<li>Support exists: KCC interest subvention covers 6 months post-harvest for small and marginal farmers storing in registered warehouses. A ₹1,000 cr credit guarantee scheme charges farmers a 0.4% fee (<a href="https://wdra.gov.in/documents/d/wdra/wdra_englsih-an_24-25-final-to-print-compressed">WDRA AR 2024-25</a>).</li>
+</ul>
+<h3>Features, ranked</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Feature</th>
+<th>What it does</th>
+<th>Hard for VISTAAR to copy?</th>
+<th>Ready by 18 Dec?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Harvest and drying window</td>
+<td>Sowing date + crop duration + rain forecast → "harvest by X, dry below 17% (paddy) / 12% (wheat, ragi)". These are FCI procurement limits: for wheat, the older RMS spec buys 12–14% at a discount and rejects grain above 14% (verify the 2026-27 notice; demo on paddy first).</td>
+<td>Medium: VISTAAR stores no crop or sowing date per farmer</td>
+<td>Yes. Rule-based; most demo-able</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sell / store / pledge calculator</td>
+<td>Seasonal price range from mandi history, minus storage fee, interest (after subvention), quality loss and transport. Then nearest registered warehouse and loan route (the e-Kisan Upaj Nidhi portal, a bank, or FPO pooling).</td>
+<td>High: a government bot advising "hold your crop" raises liability and herding concerns</td>
+<td>Medium. Backtest first</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Best mandi by net price</td>
+<td>Modal price minus transport, mandi fee and commission, with price-date freshness</td>
+<td>Low: the easiest for VISTAAR to copy</td>
+<td>Yes. data.gov.in API</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MSP / procurement readiness</td>
+<td>Registration deadlines, nearest centre, moisture and quality self-check, MSP vs net market price</td>
+<td>Medium: fragmented per state and season</td>
+<td>Yes, for 1–2 states and 2 crops</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Storage coach</td>
+<td>Moisture, hermetic bags, pest-safe storage</td>
+<td>Low: it is content</td>
+<td>Yes, but only for soybean, pulses and perishables</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Skip for now:</strong> FPO buyer-matching (needs real FPOs and buyers; e-NAM, ONDC and DeHaat already do it) and crop-residue connectors. Put both on the roadmap slide.</p>
+<h3>Limits we must state openly</h3>
+<ul>
+<li><strong>Hill markets have almost no price data.</strong> On 16 Oct 2026 the live feed returned Uttarakhand prices only from plains mandis. Chamoli had 37 records in a year. There were none for mandua, rajma or jhangora.</li>
+<li>The sell/store feature therefore covers <strong>plains crops</strong>: wheat, paddy, potato, tomato, and apple at Dehradun and Haldwani.</li>
+<li>Hill millets use the fixed UCF price (mandua ₹52.05/kg, 250 centres; <em>unverified</em>). That fits feature 4.</li>
+<li><strong>Forecasts are uncertain.</strong> Published Indian price forecasts are typically off by 9–15% on average (mean absolute percentage error). That is about as large as the price rise a farmer gains by storing, so a single-number forecast could point the wrong way. Always show a range and a confidence level, never a single number.</li>
+<li><strong>Uttarakhand has very few warehouses</strong> (12 active registered ones as of 31 Mar 2025, and no e-NWRs). Backtest and demo feature 2 on an MP or Rajasthan market as well.</li>
+</ul>
+<h2>Knowledge graph and tech stack</h2>
+<p>Store facts as typed text with stable IDs, and use multilingual embeddings only to find them. Stay on Neo4j for now. Self-host Sarvam-30B on our GX10 (the team's ASUS Ascent GX10 workstation: NVIDIA GB10, 128 GB memory), with Sarvam's API as fallback.</p>
+<h3>"Embeddings, not words": keep the instinct, change the design</h3>
+<ul>
+<li><strong>Embeddings are right for search across languages.</strong> BGE-M3 and Qwen3-Embedding match a Hindi question to an English passage without translating the knowledge base.</li>
+<li><strong>Embeddings are wrong for storing facts.</strong> In one benchmark (EmbedNum-1K), 13 embedding models matched numbers at roughly chance accuracy. Doses like "120:40:40 kg NPK/ha", variety codes (ADT 53 vs CO 51) and "do not spray" negations get blurred. You also cannot cite a vector or correct one fact in it.</li>
+<li><strong>Our notes said embeddings save compute; that is half right.</strong> The LLM reads text, so the text must be stored anyway. But a text graph built by an LLM costs more to index than plain vector search. Parsing tables with code cuts most of that cost.</li>
+<li><strong>Every serious graph-RAG system stores text entities and adds embeddings on top.</strong> That includes Microsoft GraphRAG, LightRAG, HippoRAG 2 and Neo4j GraphRAG.</li>
+</ul>
+<p><strong>Design:</strong></p>
+<ol>
+<li>Canonical English facts with language-neutral IDs. AGROVOC has Indian labels only in Hindi and Telugu, so we build most local-language labels ourselves.</li>
+<li>Every number is a typed field: value, unit, basis (per ha, per kg seed), original text, and source page.</li>
+<li>An alias layer: dhaan / nel / paddy all point to rice.</li>
+<li>A vector layer with dense plus sparse matching, so exact tokens like "ADT 53" still match.</li>
+<li>Every fact carries applicability: state, agro-climatic zone, season, irrigated or rainfed, and purpose. The TNAU book gives rice NPK of 150:50:50 in one section and 150:50:60/80 for seed production.</li>
+<li>Conflicts between books stay as separate claims. Filter them by the farmer's location and never average them.</li>
+</ol>
+<h3>Docling</h3>
+<ul>
+<li><strong>Our notes called Docling a "2 GB model"; that is really the install size.</strong> The models themselves are small: layout 172 MB, table model 146–213 MB, Granite-Docling 515 MB. Our <code>.venv</code> is 5.4 GB.</li>
+<li><strong>Speed:</strong> about 8 pages/s on a GPU without OCR, so a 460-page book takes minutes.</li>
+<li><strong>Tables are the hard part.</strong> Rotate the transposed variety tables and stitch page-split tables in code. Validate each table against the rendered page.</li>
+<li><strong>Store data in layers:</strong></li>
+<li>L0: the original PDF;</li>
+<li>L1: Docling's lossless JSON export;</li>
+<li>L2: per-crop JSON validated with Pydantic;</li>
+<li>L3: the graph and embeddings, built from L2.</li>
+</ul>
+<p>The database then becomes a rebuildable index.
+- <strong>OCR for Tamil and Hindi needs explicit setup.</strong> Our environment currently falls back to a Chinese/English OCR model.</p>
+<h3>Graph database</h3>
+<ul>
+<li><strong>Do not build on Kuzu.</strong> Its repo was archived on 10 Oct 2025 after Apple bought the company. <strong>LadybugDB</strong> is the active fork (MIT licence); its LangChain adapter has a single maintainer.</li>
+<li><strong>The "128× faster than Neo4j" claim from our notes has no source.</strong> The closest public benchmark, run on one laptop, showed 0.54× to 374× depending on the query.</li>
+<li><strong>Database speed doesn't matter at our scale</strong> (tens of thousands of chunks). The LLM takes seconds; the database takes milliseconds.</li>
+<li><strong>Stay on Neo4j Community.</strong> It runs from a tarball with no Docker needed, has vector and full-text indexes, and has maintained LangChain support. From version 2026.08 it defaults to 1-bit vector compression; set it to scalar or none.</li>
+</ul>
+<h3>LLM and voice</h3>
+<ul>
+<li><strong>Sarvam-30B</strong> is 32B total parameters with 2.4B active, Apache 2.0. Stored at 8-bit precision (FP8, about 32 GB), it fits easily in the GX10's memory. Estimated 45–60 tokens/s for one user; benchmark it yourself.</li>
+<li>vLLM support was merged upstream on 7 Mar 2026, but the Hugging Face model card still describes a patch.</li>
+<li><strong>It is Sarvam-105B, not "104B".</strong></li>
+<li><strong>The hosted API now lists sarvam-105b</strong> at ₹15 input / ₹60 output per 1M tokens (<a href="https://docs.sarvam.ai/api/pricing">pricing</a>).</li>
+<li><strong>Voice costs more than the LLM.</strong> Speech-to-text is ₹30 per audio hour and text-to-speech ₹3 per 1,000 characters (Bulbul v3). That is about ₹2 per voice query, against ₹0.06 for the LLM.</li>
+<li><strong>Language coverage differs.</strong> The hosted chat model and TTS cover about 11 languages; speech-to-text covers 22. Test a low-resource language before claiming "22 languages".</li>
+<li><strong>Free alternatives:</strong> AI4Bharat IndicTrans2 (translation, MIT) and IndicConformer (speech-to-text, MIT) can be self-hosted.</li>
+</ul>
+<h2>Data sources and licensing</h2>
+<p>Most live data we need is free for a hackathon. Several sources become paid or permission-only once we are a commercial startup.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Gives us</th>
+<th>Access</th>
+<th>Commercial use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://open-meteo.com/en/terms">Open-Meteo</a></td>
+<td>Forecast (16 days), ERA5 history from 1940, evapotranspiration, soil moisture, seasonal and ensemble forecasts</td>
+<td>Free API, under 10,000 calls/day</td>
+<td><strong>Non-commercial only on the free tier.</strong> Needs a paid plan or a self-hosted copy (AGPL). CC BY attribution.</td>
+</tr>
+<tr>
+<td><a href="https://api.imd.gov.in/public/api_reference.html">IMD API</a></td>
+<td>District warnings (days 1–5), nowcast, district rainfall departure, city forecast, station data</td>
+<td>IP whitelisting via the nodal officer named in IMD's API document</td>
+<td><strong>Free for non-commercial use only</strong> (IMD RTI reply, 11 Sep 2025; linked in Sources). Ask in writing about startup terms.</td>
+</tr>
+<tr>
+<td>NASA POWER, IMD Pune 0.25° rainfall grids</td>
+<td>Climatology and rainfall normals</td>
+<td>Free</td>
+<td>CC BY (NASA); IMD grids have no stated licence</td>
+</tr>
+<tr>
+<td><a href="https://www.data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi">data.gov.in mandi prices</a></td>
+<td>Daily prices per mandi; a variety-wise history dataset</td>
+<td>Free API key</td>
+<td>GODL (commercial use allowed with attribution). History sampled only from Nov 2025, so confirm depth.</td>
+</tr>
+<tr>
+<td>Agmarknet 2.0 portal</td>
+<td>Prices, 4,367 mandis</td>
+<td>No public API</td>
+<td>Scraping is legally grey; use data.gov.in</td>
+</tr>
+<tr>
+<td>e-NAM</td>
+<td>1,656 mandis, prices, e-NWR trading</td>
+<td>No public developer API</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>WDRA warehouses, e-NWR</td>
+<td>7,660 active warehouses (30 Jun 2026; counts differ by date)</td>
+<td>Website and mWDRA app only</td>
+<td>Curate by hand</td>
+</tr>
+<tr>
+<td>MSP and procurement specs</td>
+<td>MSP rates; FCI moisture limits (paddy 17% and ragi 12% for KMS 2026-27; wheat 12% per an older RMS spec, to verify)</td>
+<td>PIB / DFPD PDFs</td>
+<td>Public; enter manually each season</td>
+</tr>
+<tr>
+<td>Soil Health Card</td>
+<td>Farmer card values</td>
+<td>Ask the farmer, or an official data request</td>
+<td>Portal terms forbid bots and commercial reuse</td>
+</tr>
+<tr>
+<td>Crop guides (TNAU, ICAR, PAU, HPKV)</td>
+<td>Practices, varieties, doses</td>
+<td>PDFs</td>
+<td>Mostly non-commercial or permission-required; ask ICAR's DKMA and individual universities</td>
+</tr>
+</tbody>
+</table>
+<h3>Weather notes</h3>
+<ul>
+<li><strong>Always pass <code>timezone=Asia/Kolkata</code>.</strong> Open-Meteo returns daily values in GMT by default.</li>
+<li><strong>Weather models disagree, especially in the hills.</strong> In Dehradun, models differed on one day's maximum temperature by 3.6 °C. Hill districts need altitude correction.</li>
+<li><strong>IMD forecasts take priority.</strong> Open-Meteo has no Indian models, so IMD district warnings always win when the two disagree.</li>
+<li><strong>Weather stays out of the graph.</strong> It is a cached live tool. The graph holds rules such as "don't spray if rain is due within 24 h".</li>
+<li><strong>IMD closed its 199 district agromet units on 1 Mar 2024,</strong> so block-level farm advisories may no longer exist.</li>
+</ul>
+<h3>Source priority for the knowledge base</h3>
+<ol>
+<li>Current-season state agricultural university package of practices, and ICAR state advisories.</li>
+<li>ICAR crop-institute bulletins and KVK district guides.</li>
+<li>National handbooks, for principles.</li>
+<li>Textbooks, for explanations only, never for doses or dates.</li>
+</ol>
+<p>For Uttarakhand: request the GBPUAT Pantnagar and VPKAS Almora guides directly, since we found none online.</p>
+<h2>Business model, costs and funding</h2>
+<p>Stay free for farmers. Earn from post-harvest transactions and co-funded pilots, not FPO software subscriptions. A 12-month, one-district pilot costs about ₹19–20 lakh.</p>
+<h3>Why "FPOs pay SaaS" is weak</h3>
+<ul>
+<li><strong>Most FPOs cannot pay.</strong> The median Farmer Producer Company makes a 0.27% net margin, and only 43–49% keep operating after support ends (<a href="https://tci.cornell.edu/wp-content/uploads/2026/02/TCI-BIRD-The-State-of-FPOs-in-India-2026.pdf">TCI-BIRD 2026</a>). A ₹50 lakh-turnover FPO earns about ₹13,500 a year in profit, so a ₹50,000 fee is out of reach. Only about 1,135 scheme FPOs turn over more than ₹1 crore.</li>
+<li><strong>No precedent for states buying this.</strong> We found no public example of a state paying a startup per farmer for an advisory chatbot. Government agri-AI here is open public infrastructure, philanthropy-funded, or tendered.</li>
+<li><strong>Farmers won't pay for advice.</strong> In the Avaaj Otalo trial, average willingness to pay was about ₹107 for 9 months. BharatAgri's paid advisory shut down in Nov 2025.</li>
+</ul>
+<h3>A model with better evidence</h3>
+<ul>
+<li><strong>Referral or origination fees from post-harvest services:</strong> registered warehouses, warehouse-receipt lenders, and FPO aggregation. Arya.ag, which combines storage, warehouse-receipt finance and trading, reported ₹447 cr net revenue and ₹43 cr profit before tax in FY25 (company-reported). That is evidence that storage-plus-finance can be profitable.</li>
+<li><strong>A success fee from larger FPOs,</strong> set below the extra price they demonstrably earn. Sell through FPO support agencies (CBBOs) and FPO lenders.</li>
+<li><strong>Co-funded pilots</strong> with a KVK or university plus a philanthropic or state partner.</li>
+<li><strong>Keep input-selling out.</strong> Plantix, a free diagnosis app, ended up owned by a pesticide trader. Our "no selling pressure" stance is a strength.</li>
+</ul>
+<h3>Costs</h3>
+<p>The pilot budget assumes 500 → 1,500 → 3,000 → 5,000 farmers by quarter, 8 queries per farmer per month, and 30% voice queries.</p>
+<table>
+<thead>
+<tr>
+<th>Line item (12 months)</th>
+<th>₹</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Speech-to-text and text-to-speech</td>
+<td>1,41,600</td>
+</tr>
+<tr>
+<td>LLM (GX10 power + API fallback)</td>
+<td>15,000</td>
+</tr>
+<tr>
+<td>WhatsApp messages + platform fee</td>
+<td>80,300</td>
+</tr>
+<tr>
+<td>Cloud hosting, Open-Meteo plan, broadband/UPS</td>
+<td>94,000</td>
+</tr>
+<tr>
+<td>Agronomist validator, 1 FTE</td>
+<td>3,60,000</td>
+</tr>
+<tr>
+<td>Team stipends, 4 × ₹15k/month</td>
+<td>7,20,000</td>
+</tr>
+<tr>
+<td>Field operations (KVK/FPO demos, travel)</td>
+<td>2,40,000</td>
+</tr>
+<tr>
+<td>Baseline/endline impact survey</td>
+<td>60,000</td>
+</tr>
+<tr>
+<td>Legal, DPDP compliance, incorporation</td>
+<td>40,000</td>
+</tr>
+<tr>
+<td>10% contingency</td>
+<td>1,75,090</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>≈ 19,26,000</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>About 56% of the budget is staff (agronomist + stipends), about 72% with field work and the survey;</strong> technology is about ₹3.3 lakh (₹3.6 lakh with contingency).</li>
+<li><strong>Lean version</strong> without stipends: about ₹11.3 lakh.</li>
+<li><strong>The GX10 (about ₹4.5 lakh) is in-kind,</strong> not part of the ask.</li>
+<li><strong>At the deck's Year-3 target of 500,000 farmers (not yet backed by a growth plan),</strong> the optimised cost is about <strong>₹55 per farmer per year</strong>. That assumes 5 queries per farmer per month, short spoken replies (about ₹0.65 per voice query) and a 10-person team. It is below the \~$0.94 per user per year average of Precision Development (PxD), a large farmer-advisory non-profit. It supports the line "personalised voice advice at public-extension cost".</li>
+<li><strong>Self-hosting the LLM saves little at scale.</strong> The GX10 breaks even with the API at about 2 lakh queries per month. Its value is zero marginal cost in Year 1, data sovereignty and offline demos. The real savings are in shorter voice replies.</li>
+<li><strong>WhatsApp:</strong> from 1 Oct 2026 only the first 1,000 service messages per number per month are free, then about ₹0.13 each. Re-verify on Meta's rate card.</li>
+</ul>
+<h3>Incubation and funding</h3>
+<p>Funding is not a separate problem for us right now. IIT Guwahati's Technology Incubation Centre (IITG-TIC) co-organises the hackathon, so incubation and funding conversations go through them and the CII network. The budget above is the ask we state in the pitch.</p>
+<h2>The 7-minute pitch (video due 21 Oct)</h2>
+<p>Show the solution and the evidence, not the implementation. Spend about 10% of the time on technology and let a live demo carry it.</p>
+<p><strong>For the 21 Oct video:</strong> there is no time to build the post-harvest features first. Demo what works today (the PWA advisory) plus a scripted mock-up of the Harvest-to-Sale Planner, clearly labelled as a prototype. On the Evidence slide, show targets and how we will measure them, not results.</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Section</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00–0:30</td>
+<td>Hook</td>
+<td>One real Uttarakhand farmer: rain at harvest, or a forced sale at harvest. One number.</td>
+</tr>
+<tr>
+<td>0:30–1:15</td>
+<td>Problem</td>
+<td>₹1.53 lakh crore lost a year; losses happen mostly at harvest; farmers sell at harvest because they need cash.</td>
+</tr>
+<tr>
+<td>1:15–2:45</td>
+<td><strong>Live demo</strong> (longest section)</td>
+<td>A Hindi voice question: "Rain in 3 days, should I harvest my paddy, how do I dry it, sell or store?" Show the harvest window, the moisture target, the sell/store/loan comparison in ₹ per quintal, and the cited source. Show the loan comparison on an MP or Rajasthan market, since Uttarakhand has only 12 registered warehouses.</td>
+</tr>
+<tr>
+<td>2:45–3:30</td>
+<td>How it works</td>
+<td>One diagram: knowledge graph, live data, model on our own hardware, "cite or decline" rule, agronomist review.</td>
+</tr>
+<tr>
+<td>3:30–4:15</td>
+<td>Evidence</td>
+<td>Backtest result (₹ per quintal, hit rate), accuracy on 100–200 agronomist-checked questions vs a plain-LLM baseline (all pending: see Actions), farmers tested, letters of intent.</td>
+</tr>
+<tr>
+<td>4:15–4:50</td>
+<td>Landscape</td>
+<td>VISTAAR, Kisan e-Mitra, e-NAM, Farmer.Chat, Plantix, and "do nothing" (the input dealer). CropBot as the independent post-harvest layer.</td>
+</tr>
+<tr>
+<td>4:50–5:45</td>
+<td>Model and costs</td>
+<td>Free for farmers; transaction fees and co-funded pilots; ₹55 per farmer per year at scale.</td>
+</tr>
+<tr>
+<td>5:45–6:20</td>
+<td>Impact and roadmap</td>
+<td>A district target with a conservative formula (farmers × produce value × loss reduction × adoption) and a comparison group.</td>
+</tr>
+<tr>
+<td>6:20–7:00</td>
+<td>Team and ask</td>
+<td>A pilot partner plus ₹19–20 lakh in milestone instalments. One-line vision.</td>
+</tr>
+</tbody>
+</table>
+<h3>Rules for what we say</h3>
+<ul>
+<li><strong>Never disparage Bharat-VISTAAR.</strong> Say CropBot is complementary: VISTAAR answers general questions, while CropBot, built entirely in-house, handles the post-harvest decision.</li>
+<li><strong>Don't claim VISTAAR lacks location or Soil Health Card features</strong> unless we have tested it ourselves by calling 155261.</li>
+<li><strong>Don't present Soil Health Card or IMD integrations as live</strong> if they are not. Say "access requested" only after we have actually sent the requests.</li>
+<li><strong>Replace "hallucination-free"</strong> with a measured error rate.</li>
+<li><strong>Claim the district target, not ₹1.5 lakh crore.</strong> Mobile advisory has raised yields by about 4–6% on average in studies, so don't promise more.</li>
+<li><strong>Keep the competition table honest.</strong> Include VISTAAR, Kisan e-Mitra, e-NAM, Farmer.Chat, Plantix and the input dealer.</li>
+</ul>
+<h2>Next steps to 18 Dec</h2>
+<p>The pitch video is due 21 Oct 2026, three days away; the finale is on 18 Dec, about 9 weeks away. Evidence beats features: a backtest, 15–30 farmers and one letter of intent will matter more than extra code.</p>
+<h3>Actions</h3>
+<ul>
+<li>☐ By 21 Oct · Akhil + team: rebuild the deck to the pitch structure above; record, review and submit the 7-minute video</li>
+<li>☐ This week · Suryansh: stop the Soil Health Card scraper; send official data requests (MoA&amp;FW, and the IMD whitelisting form)</li>
+<li>☐ This week · whole team: contact KVK Dehradun, a UCF centre or an FPO for the farmer test</li>
+<li>☐ By 8 Nov · Suryansh: confirm how far data.gov.in price history goes back; if it starts in Nov 2025, find older series</li>
+<li>☐ By 8 Nov · Sandeep: build the harvest-and-drying window (feature 1) on Open-Meteo plus FCI moisture limits, starting with paddy</li>
+<li>☐ By 22 Nov · Sandeep + Suryansh: build the sell/store calculator (feature 2); backtest wheat, paddy, potato and tomato against "sell at harvest" (all crops) and "sell at MSP" (wheat and paddy only)</li>
+<li>☐ By 22 Nov · Suryansh: build best mandi by net price (feature 3) on the data.gov.in API</li>
+<li>☐ By 22 Nov · Shivaansh: build MSP/procurement readiness (feature 4) for Uttarakhand wheat, paddy and UCF mandua</li>
+<li>☐ By 22 Nov · Sandeep: backtest feature 1: how often did rain fall inside the computed harvest window in past seasons?</li>
+<li>☐ By 29 Nov · Shivaansh: build an evaluation set of 100–200 farmer questions with agronomist-checked answers; measure accuracy against a plain-LLM baseline</li>
+<li>☐ By 29 Nov · whole team: run 15–30 farmers through KVK Dehradun or a UCF collection centre</li>
+<li>☐ By 29 Nov · whole team: get 1–3 letters of intent (FPO, warehouse, KVK)</li>
+<li>☐ By 29 Nov · Akhil: call 155261 and try the VISTAAR app with our own test questions</li>
+</ul>
+<h3>Open questions for the team</h3>
+<ol>
+<li>Answered: Track 4 is confirmed, and the 7-minute video is due 21 Oct 2026.</li>
+<li>Who can reach KVK Dehradun, a UCF centre or an FPO this month?</li>
+<li>Plains crops or hill crops first? The sell/store feature only works where price data exists.</li>
+<li>Have the Soil Health Card and IMD access requests actually been sent?</li>
+</ol>
+<h3>Verify before it goes on a slide</h3>
+<ul>
+<li>The RMS 2026-27 wheat moisture limit, and the Uttarakhand procurement portal and rules</li>
+<li>Whether production VISTAAR uses AgriStack data that its public code does not show</li>
+<li>Warehouse counts, which conflict by date (6,166 / 10,727 / 7,660), so always cite the date</li>
+<li>The KCC interest-subvention loan limit (₹3 lakh or ₹5 lakh)</li>
+<li>Meta's live INR rate card and the 1 Oct 2026 service-message rule</li>
+<li>Current prices for Open-Meteo plans and the GX10</li>
+<li>Our own Sarvam-30B benchmark on the GX10</li>
+<li>The UCF mandua price and the hill-market data gaps</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li><a href="https://unstop.com/competitions/crp-cii-post-harvest-hackathon-cii-confederation-of-indian-industry-1700604">CII Post-Harvest Hackathon (Unstop)</a></li>
+<li><a href="https://github.com/OpenAgriNet/bharat-oan-api">Bharat-VISTAAR backend code</a> · <a href="https://docs.openagrinet.global/llms.txt">OpenAgriNet docs</a> · <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228842">PIB launch</a> · <a href="https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1497_GAaTNq.docx?source=lsapps">Lok Sabha USQ 1497</a> · <a href="https://frontiertech.niti.gov.in/story/how-bharat-vistaar-is-connecting-140m-farmers-to-smarter-agriculture/">NITI Frontier Tech</a></li>
+<li><a href="https://thesecretariat.in/article/ai-in-agriculture-bharat-vistaar-faces-triple-test-of-credibility-market-risk-accountability">The Secretariat</a> · <a href="https://cstep.in/?p=240771">CSTEP</a> · <a href="https://www.worldbank.org/en/news/feature/2026/08/27/small-ai-transforms-farming-in-india">MahaVISTAAR (World Bank)</a></li>
+<li><a href="https://web.archive.org/web/20260512064941/https://mofpi.gov.in/sites/default/files/study_report_of_post_harvest_losses.pdf">NABCONS loss study (archived)</a> · <a href="https://icrier.org/pdf/Policy_Brief_20.pdf">ICRIER Policy Brief 20</a></li>
+<li><a href="https://wdra.gov.in/documents/d/wdra/wdra_englsih-an_24-25-final-to-print-compressed">WDRA Annual Report 2024-25</a> · <a href="https://wdra.gov.in/documents/d/wdra/wdra-bulletin-april-26-to-june-26-1">WDRA bulletin Apr–Jun 2026</a> · <a href="https://eparlib.sansad.in/bitstream/123456789/2997246/1/AU671_uUZM4D.pdf">e-KUN, Lok Sabha AU671</a></li>
+<li><a href="https://www.foododisha.in/Download/uniform-specification-of-paddy-rice-and-coarse-grains.pdf">DFPD KMS 2026-27 specifications</a> · <a href="https://www.data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi">data.gov.in mandi prices</a></li>
+<li><a href="https://ideas.repec.org/a/oup/wbecrv/v26y2012i3p383-414.html">Fafchamps &amp; Minten 2012</a> · <a href="https://people.bu.edu/dilipm/wkpap/MitraMookherjeeToreroVisariaAug2016_Paper.pdf">Mitra et al. 2018</a> · <a href="https://www.nber.org/papers/w24476">Burke et al. 2019</a> · <a href="https://arxiv.org/html/2603.03294v1">Farmer.Chat accuracy paper</a></li>
+<li><a href="https://tci.cornell.edu/wp-content/uploads/2026/02/TCI-BIRD-The-State-of-FPOs-in-India-2026.pdf">TCI-BIRD State of FPOs 2026</a> · <a href="https://prsindia.org/files/budget/budget_parliament/2026/DfG_Analysis_2026-27-Agriculture.pdf">PRS budget analysis</a> · <a href="https://precisiondev.org/wp-content/uploads/2025/05/2024-PxD-Annual-Report_270525.pdf">PxD 2024 report</a> · <a href="https://entrackr.com/fintrackr/aryaag-reports-rs-447-cr-revenue-in-fy25-profits-spike-70-9048421">Arya.ag FY25</a> · <a href="https://thefern.org/2024/10/this-app-set-out-to-fight-pesticides-once-vc-stepped-in-the-app-helped-sell-them">Plantix (FERN)</a></li>
+<li><a href="https://docs.sarvam.ai/api/pricing">Sarvam pricing</a> · <a href="https://huggingface.co/sarvamai/sarvam-30b">Sarvam-30B model card</a> · <a href="https://github.com/kuzudb/kuzu">Kuzu repo (archived)</a> · <a href="https://github.com/LadybugDB/ladybug">LadybugDB</a></li>
+<li><a href="https://open-meteo.com/en/terms">Open-Meteo terms</a> · <a href="https://api.imd.gov.in/public/api_reference.html">IMD API reference</a></li>
+<li><a href="https://startuputtarakhand.uk.gov.in/attachments/16831085833.pdf">Uttarakhand Startup Policy</a> · <a href="https://agristartup.gov.in/LetterAndCircular/OperationalGuidelineRKVY.pdf">RKVY guidelines</a> · <a href="https://www.startupindia.gov.in/content/dam/startupindia/homebanners/Startup-Schemes-Playbook-June-2026.pdf">Startup India playbook 2026</a></li>
+</ul>
+<p>IMD access: <a href="https://internal.imd.gov.in/section/rti/rticases/20260112_rti_211.pdf">RTI reply on non-commercial use</a> · <a href="https://city.imd.gov.in/citywx/api_request.php">IP whitelisting request form</a>.</p></main></body></html>

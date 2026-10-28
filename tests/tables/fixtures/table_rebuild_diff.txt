@@ -1,0 +1,83 @@
+FLAG #/tables/7 p.16: ruled cells with no Docling row or column; their words follow Docling's boxes into [(1, 0)]
+
+#/tables/8 p.17 r0 c1  -> col 2 span 1
+  before: Ponni, ADT (R) 46, TRY 1, TNAU Rice
+  after : Ponni, ADT (R) 46, TRY 1, TNAU Rice Hybrid CO 4
+
+#/tables/8 p.17 r1 c2
+  before: Hybrid CO 4 Anna (R) 4, PMK (R) 3
+  after : Anna (R) 4, PMK (R) 3
+
+#/tables/32 p.34 r3 c1
+  before: (i) Old
+  after : (i) Old delta
+
+#/tables/32 p.34 r3 c2
+  before: delta 35
+  after : 35
+
+#/tables/32 p.34 r4 c1
+  before: (ii)
+  after : (ii) New delta
+
+#/tables/32 p.34 r4 c2
+  before: New delta 35
+  after : 35
+
+#/tables/32 p.34 r6 c1
+  before: (i)
+  after : (i) General
+
+#/tables/32 p.34 r6 c2
+  before: General 30
+  after : 30
+
+#/tables/32 p.34 r7 c1
+  before: (ii)
+  after : (ii) Annamalai block
+
+#/tables/32 p.34 r7 c2
+  before: Annamalai block 30
+  after : 30
+
+#/tables/57 p.66 r3 c1
+  before: \u2022 Avoid excessive use of nitrogen \u2022 Control irrigation by intermittent draining \u2022 Set up light traps during night or yellow pan traps during day time \u2022 Drain water before use of insecticides \u2022 Direct spray towards the base of the plants. \u2022 Spray any one of the following insecticides per ha: Acephate 75 % SP 666-1000 g Acephate 95 % SG 590 g Acetamiprid 20% SP 50-100 g Azadirachtin 0.03% 1000 ml Neem oil 3% 15 lit Buprofezin 25% SC 800 ml Carbosulfan 25% EC 800-1000 ml Clothianidin 50% WG 20-24 g Chlorantraniliprole 18.5% SC 150 g Chlorantraniliprole 0.4% G 10 kg Chlorpyriphos 1.5% DP 25 kg Chlorpyriphos 20% EC 1250 ml Dinotefuran 20% SG 150-200g Fenobucarb 50% EC 500-1500 ml Fipronil 5% SC 1000-1500 ml Fipronil 0.3% GR 16.67-25 kg Imidacloprid 70% WG 30-35 kg Imidacloprid 17.8 SL 100-125 ml
+  after : \u2022 Avoid excessive use of nitrogen \u2022 Control irrigation by intermittent draining \u2022 Set up light traps during night or yellow pan traps during day time \u2022 Drain water before use of insecticides \u2022 Direct spray towards the base of the plants. \u2022 Spray any one of the following insecticides per ha: Acephate 75 % SP 666-1000 g Acephate 95 % SG 590 g Acetamiprid 20% SP 50-100 g Azadirachtin 0.03% 1000 ml Neem oil 3% 15 lit Buprofezin 25% SC 800 ml Carbosulfan 25% EC 800-1000 ml Clothianidin 50% WG 20-24 g Chlorantraniliprole 18.5% SC 150 g Chlorantraniliprole 0.4% G 10 kg Chlorpyriphos 1.5% DP 25 kg Chlorpyriphos 20% EC 1250 ml Dinotefuran 20% SG 150-200g Fenobucarb 50% EC 500-1500 ml Fipronil 5% SC 1000-1500 ml Fipronil 0.3% GR 16.67-25 kg Imidacloprid 70% WG 30-35 kg Imidacloprid 17.8 SL 100-125 ml Pymetrozine 50% WG 300g
+
+#/tables/57 p.66 r4 c1
+  before: Pymetrozine 50% WG 300g \u2022 Spray any one of the following insecticides per ha: Phosphamidon 40% SL 1000 ml Azadirachtin 0.03% 1000 ml Buprofezin 25% SC 800 ml Carbosulfan 25% EC 800-1000 ml Chlorantraniliprole 18.5% SC 150 g Chlorantraniliprole 0.4% G 10 kg
+  after : \u2022 Spray any one of the following insecticides per ha: Phosphamidon 40% SL 1000 ml Azadirachtin 0.03% 1000 ml Buprofezin 25% SC 800 ml Carbosulfan 25% EC 800-1000 ml Chlorantraniliprole 18.5% SC 150 g Chlorantraniliprole 0.4% G 10 kg
+
+#/tables/60 p.69 r2 c0
+  before: Seedling dip with Pseudomonas fluorescens \x99 Fungicides and
+  after : Seedling dip with Pseudomonas fluorescens
+
+#/tables/60 p.69 r2 c1
+  before: \u2022 Stagnate water to a depth of 2.5cm over an area of 25m 2 in the main field \u2022 Sprinkle 2.5 kg of the talc based formulation of P. fluorescens and mix with stagnated water \u2022 The seedlings pulled out from the nursery are to be soaked for 30 min. in the stagnated water and then transplanted biocontrol agents are incompatible
+  after : \u2022 Stagnate water to a depth of 2.5cm over an area of 25m 2 in the main field \u2022 Sprinkle 2.5 kg of the talc based formulation of P. fluorescens and mix with stagnated water \u2022 The seedlings pulled out from the nursery are to be soaked for 30 min. in the stagnated water and then transplanted
+
+#/tables/60 p.69 r3 c0
+  before: \x99 Biocontrol agents are compatible with biofertilizers \x99 Biofertilizers and biocontrol agents can be mixed together for seed soaking
+  after : \x99 Biocontrol agents are compatible with biofertilizers \x99 Biofertilizers and biocontrol agents can be mixed together for seed soaking \x99 Fungicides and biocontrol agents are incompatible
+
+#/tables/61 p.70 r1 c1
+  before: 1. Cultural methods \u2022 Remove collateral weed hosts from bunds and channels \u2022 Use only disease free seedlings \u2022 Avoid excess nitrogen \u2022 Apply N in three split doses (50% as basal, 25% at tillering phase and 25% at panicle initiation stage) \u2022 Use resistant varieties like CO 47, CO 52 and TNAU rice hybrid CO 4 and moderately resistant varieties like CO 50 and CO 51 in endemic areas 2. Chemical method \u2022 Spray carbendazim 50WP @ 500 g/ha or tricyclozole 75 WP @ 500 g/ha or metominostrobin 20 SC @ 500 ml/ha or Azoxystrobin 25 SC @ 500 ml/ha after observing initial infection of the disease CIB Recommendation \u2022 Spray isoprothiolane 40 % EC @ 750 ml/ha or kasugamycin 3% S.L @ 1000 -1500 ml/ha or kasugamycin 5% + copper oxychloride 45% WP @ 700gm/ha or picoxystrobin 22.52% SC @ 600 ml/ha or tebuconazole 25% WG @ 750 gm/ha or mancozeb 75 % WP @ 1.5 - 2.0 kg/ha or aureofungin 46.15% SP @ 1% after observing initial infection of the disease and repeat after 15 days, if required. 3. Biological control \u2022 Treat the seeds with Pseudomonas fluorescens TNAU liquid formulation @ 10 ml/kg of seeds \u2022 Seedling root dipping with P. fluorescens TNAU liquid formulation @ 500 ml for one hectare seedlings \u2022 Soil application with P. fluorescens TNAU liquid formulation @ 500 ml/ha
+  after : 1. Cultural methods \u2022 Remove collateral weed hosts from bunds and channels \u2022 Use only disease free seedlings \u2022 Avoid excess nitrogen \u2022 Apply N in three split doses (50% as basal, 25% at tillering phase and 25% at panicle initiation stage) \u2022 Use resistant varieties like CO 47, CO 52 and TNAU rice hybrid CO 4 and moderately resistant varieties like CO 50 and CO 51 in endemic areas 2. Chemical method \u2022 Spray carbendazim 50WP @ 500 g/ha or tricyclozole 75 WP @ 500 g/ha or metominostrobin 20 SC @ 500 ml/ha or Azoxystrobin 25 SC @ 500 ml/ha after observing initial infection of the disease CIB Recommendation \u2022 Spray isoprothiolane 40 % EC @ 750 ml/ha or kasugamycin 3% S.L @ 1000 -1500 ml/ha or kasugamycin 5% + copper oxychloride 45% WP @ 700gm/ha or picoxystrobin 22.52% SC @ 600 ml/ha or tebuconazole 25% WG @ 750 gm/ha or mancozeb 75 % WP @ 1.5 - 2.0 kg/ha or aureofungin 46.15% SP @ 1% after observing initial infection of the disease and repeat after 15 days, if required. 3. Biological control \u2022 Treat the seeds with Pseudomonas fluorescens TNAU liquid formulation @ 10 ml/kg of seeds \u2022 Seedling root dipping with P. fluorescens TNAU liquid formulation @ 500 ml for one hectare seedlings \u2022 Soil application with P. fluorescens TNAU liquid formulation @ 500 ml/ha \u2022 Foliar spray with P. fluorescens TNAU liquid formulation @ 5 ml/l
+
+#/tables/61 p.70 r2 c1
+  before: \u2022 Foliar spray with P. fluorescens TNAU liquid formulation @ 5 ml/l \u2022 Spray metominostrobin @ 500 ml/ha after observing initial infection of the disease CIB Recommendation \u2022 Spray propineb 70% WP @ 1500 - 2000 gm/ha or propineb 54.2% + tricyclazole15 % WP @ 1250 gm/ha or carbendazim 5% GR @ 12.5 kg/ha r combined infection of blast and brown spot \u2022 Spray propineb 54.2% + tricyclazole 15 % WP @ 1250 gm/ha after
+  after : \u2022 Spray metominostrobin @ 500 ml/ha after observing initial infection of the disease CIB Recommendation \u2022 Spray propineb 70% WP @ 1500 - 2000 gm/ha or propineb 54.2% + tricyclazole15 % WP @ 1250 gm/ha or carbendazim 5% GR @ 12.5 kg/ha r combined infection of blast and brown spot \u2022 Spray propineb 54.2% + tricyclazole 15 % WP @ 1250 gm/ha after
+FLAG #/tables/61 p.70: words the text layer has but no Docling cell read (left out, as before): -
+
+#/tables/62 p.71 r1 c1
+  before: Botanicals \u2022 Spray neem oil 3% or Ipomoea leaf powder extract @ 25 kg/ha or Prosopis leaf powder extract @ 25 kg/ha. First spray at boot leaf stage and second at 15 days later Chemical method \u2022 Spray carbendazim @ 500 g/ha or metominostrobin @ 500 ml/ha or hexaconazole 75% WG @ 100 mg/ lit. First spray at the time of disease appearance and second spray at 15 days later Biological control \u2022 Treat the seeds with Pseudomonas fluorescens TNAU liquid formulation @ 10 ml/kg of seeds \u2022 Seedling root dipping with P. fluorescens TNAU liquid formulation @ 500 ml for one hectare seedlings \u2022 Soil application with P. fluorescens TNAU liquid formulation @ 500ml/ha
+  after : Botanicals \u2022 Spray neem oil 3% or Ipomoea leaf powder extract @ 25 kg/ha or Prosopis leaf powder extract @ 25 kg/ha. First spray at boot leaf stage and second at 15 days later Chemical method \u2022 Spray carbendazim @ 500 g/ha or metominostrobin @ 500 ml/ha or hexaconazole 75% WG @ 100 mg/ lit. First spray at the time of disease appearance and second spray at 15 days later Biological control \u2022 Treat the seeds with Pseudomonas fluorescens TNAU liquid formulation @ 10 ml/kg of seeds \u2022 Seedling root dipping with P. fluorescens TNAU liquid formulation @ 500 ml for one hectare seedlings \u2022 Soil application with P. fluorescens TNAU liquid formulation @ 500ml/ha \u2022 Foliar spray with P. fluorescens TNAU liquid formulation @ 5ml/l
+
+#/tables/62 p.71 r2 c1
+  before: \u2022 Foliar spray with P. fluorescens TNAU liquid formulation @ 5ml/l Cultural method \u2022 Apply neem cake @ 150 kg/ha to soil Using botanical \u2022 Foliar spray with neem oil 3% @ 15 l/ha starting from disease appearance Chemical method \u2022 Spray carbendazim 50 WP @ 500 g/ha or azoxystrobin @ 500 ml/ha or hexaconazole 75% WG @ 100 mg/l. First spray at the time of disease appearance and second spray at 15 days later. CIB Recommendation \u2022 Spray azoxystrobin 11% + tebuconazole 18.3% w/w SC @ 750 ml/ha or azoxystrobin 7.1% + propiconazole 11.9 % W/W SE @ 500 ml/ha or flusilazole 40% EC @ 300 ml/ha or iprodione 50 % W.P @ 2.25 kg/ha or pencycuron 22.9 % SC @ 600-750 ml/ha or propiconazole 25% E.C @ 500 ml/ha or thifluzamide 24 % SC @ 375 ml/ha or carbendazim 25 % + flusilazole 12.5% SE @ 800-960 ml/ha after observing initial infection of the disease For combined infection of blast and sheath blight \u2022 Spray hexaconazole 4% + carbendazim 16% SC @ 750 gm/ha or hexaconazole 5% EC @ 1000 ml/ha or iprodione 25% + carbendazim 25% WP@ 500 gm/ha or carpropamid 27.8% SC @ 100 ml/ha or iprobenphos 48 % EC @ 200 ml/ha or kresoxim-methyl 44.3% SC @ 500 gm/ha or tebuconazole 25.9% E.C. @ 750 ml/ha or tricyclazole 45% + hexaconazole 10% WG @ 500 gm/ha or carbendazim 1.92% + mancozeb 10.08% GR @ 12.5 kg/ha after observing initial infection of
+  after : Cultural method \u2022 Apply neem cake @ 150 kg/ha to soil Using botanical \u2022 Foliar spray with neem oil 3% @ 15 l/ha starting from disease appearance Chemical method \u2022 Spray carbendazim 50 WP @ 500 g/ha or azoxystrobin @ 500 ml/ha or hexaconazole 75% WG @ 100 mg/l. First spray at the time of disease appearance and second spray at 15 days later. CIB Recommendation \u2022 Spray azoxystrobin 11% + tebuconazole 18.3% w/w SC @ 750 ml/ha or azoxystrobin 7.1% + propiconazole 11.9 % W/W SE @ 500 ml/ha or flusilazole 40% EC @ 300 ml/ha or iprodione 50 % W.P @ 2.25 kg/ha or pencycuron 22.9 % SC @ 600-750 ml/ha or propiconazole 25% E.C @ 500 ml/ha or thifluzamide 24 % SC @ 375 ml/ha or carbendazim 25 % + flusilazole 12.5% SE @ 800-960 ml/ha after observing initial infection of the disease For combined infection of blast and sheath blight \u2022 Spray hexaconazole 4% + carbendazim 16% SC @ 750 gm/ha or hexaconazole 5% EC @ 1000 ml/ha or iprodione 25% + carbendazim 25% WP@ 500 gm/ha or carpropamid 27.8% SC @ 100 ml/ha or iprobenphos 48 % EC @ 200 ml/ha or kresoxim-methyl 44.3% SC @ 500 gm/ha or tebuconazole 25.9% E.C. @ 750 ml/ha or tricyclazole 45% + hexaconazole 10% WG @ 500 gm/ha or carbendazim 1.92% + mancozeb 10.08% GR @ 12.5 kg/ha after observing initial infection of
+FLAG #/tables/62 p.71: ruled cells with no Docling row or column; their words follow Docling's boxes into [(0, 1), (2, 1)]
+FLAG #/tables/63 p.72: ruled cells with no Docling row or column; their words follow Docling's boxes into [(0, 1), (1, 1)]
+FLAG #/tables/63 p.72: words the text layer has but no Docling cell read (left out, as before): oryzicola
+
+parts 66; changed cells 19

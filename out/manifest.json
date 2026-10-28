@@ -1,0 +1,2016 @@
+{
+  "generated_on": "2026-10-19",
+  "extracted_with": "docling (TableFormer accurate, OCR on)",
+  "sources": [
+    {
+      "id": "icar_kharif",
+      "title": "Field Crops (Kharif) - ICAR e-course",
+      "url": "https://agrimoon.com/wp-content/uploads/Field-Crop-Kharif.pdf",
+      "publisher": "ICAR e-course (TNAU/SAU consortium, NAIP); mirrored by agrimoon.com",
+      "rights_note": "Free ICAR e-course teaching material; attribute ICAR/TNAU, not the mirror"
+    },
+    {
+      "id": "icar_rabi",
+      "title": "Field Crops (Rabi) - ICAR e-course",
+      "url": "https://agrimoon.com/wp-content/uploads/FIELD-CROPS-RABI-with-Multiple-choice-questions.pdf",
+      "publisher": "ICAR e-course (TNAU/SAU consortium, NAIP); mirrored by agrimoon.com",
+      "rights_note": "Free ICAR e-course teaching material; attribute ICAR/TNAU, not the mirror"
+    },
+    {
+      "id": "tnau_agriculture",
+      "title": "Agriculture - TNAU production guide",
+      "url": "https://agritech.tnau.ac.in/pdf/AGRICULTURE.pdf",
+      "publisher": "Tamil Nadu Agricultural University (agritech extension portal)",
+      "rights_note": "State agricultural university extension publication, free farmer education"
+    },
+    {
+      "id": "tnau_horticulture",
+      "title": "Horticulture - TNAU production guide",
+      "url": "https://agritech.tnau.ac.in/pdf/HORTICULTURE.pdf",
+      "publisher": "Tamil Nadu Agricultural University (agritech extension portal)",
+      "rights_note": "State agricultural university extension publication, free farmer education"
+    }
+  ],
+  "files": [
+    {
+      "file": "wheat_icar_kharif.md",
+      "crop": "wheat",
+      "source": "icar_kharif",
+      "page_range": "5-39",
+      "main_sections": 3,
+      "mentions": 27,
+      "sha256": "9f84fd057c3bf06d7d18095357307995ce5ea87d5e8f5f6734438a25765f05b4",
+      "qa_status": "clean"
+    },
+    {
+      "file": "maize_icar_kharif.md",
+      "crop": "maize",
+      "source": "icar_kharif",
+      "page_range": "6-98",
+      "main_sections": 3,
+      "mentions": 13,
+      "sha256": "b756f1936c0d764af20c9f4ff50440185302c1e929173ee89dd1d7b65adf0c7f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sorghum_icar_kharif.md",
+      "crop": "sorghum",
+      "source": "icar_kharif",
+      "page_range": "6-97",
+      "main_sections": 4,
+      "mentions": 19,
+      "sha256": "24bf2ae26524f6e035bd4c22c5fe879adbe8e94cc37426074bbd9e49ef519630",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pearl_millet_icar_kharif.md",
+      "crop": "pearl_millet",
+      "source": "icar_kharif",
+      "page_range": "7-101",
+      "main_sections": 4,
+      "mentions": 11,
+      "sha256": "9c61dd1e4ceec7257b8da9b570076b43e77e69b9f7059d5cde21c80b034c56e3",
+      "qa_status": "clean"
+    },
+    {
+      "file": "rice_icar_kharif.md",
+      "crop": "rice",
+      "source": "icar_kharif",
+      "page_range": "11-77",
+      "main_sections": 4,
+      "mentions": 40,
+      "sha256": "991b0b6f5a45d6393760b0ad7c9833ec6754f07543e50337d3bcba4c757cf10c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carnation_icar_kharif.md",
+      "crop": "carnation",
+      "source": "icar_kharif",
+      "page_range": "14-44",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "2fc15837fc1fba38e0eba8343c5ce61d7d72434e2f5e76b8bcf5253a3bbd612a",
+      "qa_status": "clean"
+    },
+    {
+      "file": "banana_icar_kharif.md",
+      "crop": "banana",
+      "source": "icar_kharif",
+      "page_range": "15-27",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "eeefb9cce8cfc0d347a206866d140435b473859dfe2fe07f4d852bbaadd991cf",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fieldpea_icar_kharif.md",
+      "crop": "fieldpea",
+      "source": "icar_kharif",
+      "page_range": "26-81",
+      "main_sections": 3,
+      "mentions": 7,
+      "sha256": "72c59f9660d9c2b0590fa54f7172013290bce5bbd9c630bab89fc0e4dda86597",
+      "qa_status": "clean"
+    },
+    {
+      "file": "barley_icar_kharif.md",
+      "crop": "barley",
+      "source": "icar_kharif",
+      "page_range": "37-38",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "8c3d950e2e4aebd1c5842cd2d21f6fb0969c0fe124597ab904fce607435f9a11",
+      "qa_status": "clean"
+    },
+    {
+      "file": "oats_icar_kharif.md",
+      "crop": "oats",
+      "source": "icar_kharif",
+      "page_range": "39-41",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "d2221f507add8257c3502ed25026c07335cd7df7fbb3fb2544d2c4e25bf225bf",
+      "qa_status": "clean"
+    },
+    {
+      "file": "triticale_icar_kharif.md",
+      "crop": "triticale",
+      "source": "icar_kharif",
+      "page_range": "41-43",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "ab245ea690fa0426af7e2b0650cbc487c5e7a0f791a6c717b09b0bdbb832a191",
+      "qa_status": "clean"
+    },
+    {
+      "file": "finger_millet_icar_kharif.md",
+      "crop": "finger_millet",
+      "source": "icar_kharif",
+      "page_range": "58-61",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "17ccc3d9711ab391b6cd704b4a8613ca36fccc2c09d4432f78cd03ca213ae531",
+      "qa_status": "clean"
+    },
+    {
+      "file": "small_millets_icar_kharif.md",
+      "crop": "small_millets",
+      "source": "icar_kharif",
+      "page_range": "61-65",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "c41c83dd28ece516d7a26775d2b9477d57651aa4fd28a5c67a6dc9a63287b0ff",
+      "qa_status": "clean"
+    },
+    {
+      "file": "foxtail_millet_icar_kharif.md",
+      "crop": "foxtail_millet",
+      "source": "icar_kharif",
+      "page_range": "62-63",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "e9c739eef5338341620a95668218d2268746c9adc26c5225b470386a0d8c8d6e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pigeonpea_icar_kharif.md",
+      "crop": "pigeonpea",
+      "source": "icar_kharif",
+      "page_range": "65-69",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "5a9462ab70d7b46250238a589c368dee3d448fe90a7f4bd4239341279ac3d619",
+      "qa_status": "clean"
+    },
+    {
+      "file": "urdbean_icar_kharif.md",
+      "crop": "urdbean",
+      "source": "icar_kharif",
+      "page_range": "69-87",
+      "main_sections": 2,
+      "mentions": 16,
+      "sha256": "d8bda9c06702e412aed71be4afdbab7ac27e2223922ce7f0af9e53d7adadf505",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mungbean_icar_kharif.md",
+      "crop": "mungbean",
+      "source": "icar_kharif",
+      "page_range": "72-75",
+      "main_sections": 1,
+      "mentions": 15,
+      "sha256": "723382c81fb5812492ece0bbb77b72241c49d3c2c916d9fe51a21c12b572d2d8",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cowpea_icar_kharif.md",
+      "crop": "cowpea",
+      "source": "icar_kharif",
+      "page_range": "77-102",
+      "main_sections": 2,
+      "mentions": 12,
+      "sha256": "2821bb0f317c7b1b0cc765c186c3f6e47664f0bb4ddcf7b1fa2fdd709fbdd047",
+      "qa_status": "clean"
+    },
+    {
+      "file": "frenchbean_icar_kharif.md",
+      "crop": "frenchbean",
+      "source": "icar_kharif",
+      "page_range": "79-86",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "a2c382b3cc0115721451d1b8bc12ad9fec3b2c13c7946a5ea68974ee784b1390",
+      "qa_status": "clean"
+    },
+    {
+      "file": "chickpea_icar_kharif.md",
+      "crop": "chickpea",
+      "source": "icar_kharif",
+      "page_range": "79-80",
+      "main_sections": 1,
+      "mentions": 14,
+      "sha256": "73301890954afdb0d5e816c94fffd7cfaf6a10e7ba7432cc6912a7c90835b46b",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lentil_icar_kharif.md",
+      "crop": "lentil",
+      "source": "icar_kharif",
+      "page_range": "81-82",
+      "main_sections": 1,
+      "mentions": 8,
+      "sha256": "2069fb1b7c9a1ec973e71455926f3557f0b99c17629ca6143fd34ef2133d78a2",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lathyrus_icar_kharif.md",
+      "crop": "lathyrus",
+      "source": "icar_kharif",
+      "page_range": "82-103",
+      "main_sections": 2,
+      "mentions": 6,
+      "sha256": "fb633ef14e03fa5d4261310c3c326884ae64f6486fd630d1c1304bece4749480",
+      "qa_status": "clean"
+    },
+    {
+      "file": "watermelon_icar_kharif.md",
+      "crop": "watermelon",
+      "source": "icar_kharif",
+      "page_range": "87-95",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "3776a1808ff10e971b626fd6614e98dd5f34bf51e01b16e9ac492c94d85ac33c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "horsegram_icar_kharif.md",
+      "crop": "horsegram",
+      "source": "icar_kharif",
+      "page_range": "87-88",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "3d23928d273cc7eb28e97b4f3d345b5817c8248c5cb435c31ea80f1fe653ace4",
+      "qa_status": "clean"
+    },
+    {
+      "file": "dolichos_bean_icar_kharif.md",
+      "crop": "dolichos_bean",
+      "source": "icar_kharif",
+      "page_range": "88-91",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "b5678bb76d4e867b0140c42989cd40f660b2fcfd252e3ed7de4bd299922d8daa",
+      "qa_status": "clean"
+    },
+    {
+      "file": "soybean_icar_kharif.md",
+      "crop": "soybean",
+      "source": "icar_kharif",
+      "page_range": "89-89",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "7371b2127ef031074ef5b04657e77bd6c91c3d3afedb00258bb389570ad8ca53",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sweet_potato_icar_kharif.md",
+      "crop": "sweet_potato",
+      "source": "icar_kharif",
+      "page_range": "95-96",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "69c34102fe29e2cd7be6c9ac61af50ee61e0679ff9911c39c751605fae661bf2",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lucerne_icar_kharif.md",
+      "crop": "lucerne",
+      "source": "icar_kharif",
+      "page_range": "101-102",
+      "main_sections": 1,
+      "mentions": 8,
+      "sha256": "9f5256a2eca7fe7dbe1144296d9d1c0a55b130274cac7e3fcf5c51837c9b7b32",
+      "qa_status": "clean"
+    },
+    {
+      "file": "berseem_icar_kharif.md",
+      "crop": "berseem",
+      "source": "icar_kharif",
+      "page_range": "103-113",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "821a6855650cc028669aeba8826de580b454776404fc505e1bcdad402096048f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "wheat_icar_rabi.md",
+      "crop": "wheat",
+      "source": "icar_rabi",
+      "page_range": "6-35",
+      "main_sections": 2,
+      "mentions": 29,
+      "sha256": "8c43248a7d8c3902560ea2661861a3b2a7623232a563a99e37a2fc32c46b2763",
+      "qa_status": "clean"
+    },
+    {
+      "file": "barley_icar_rabi.md",
+      "crop": "barley",
+      "source": "icar_rabi",
+      "page_range": "26-29",
+      "main_sections": 1,
+      "mentions": 21,
+      "sha256": "4566a282c0619edf7e33ef22c64e79b766c6231be909186a738bd1e53e1b9ae1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carnation_icar_rabi.md",
+      "crop": "carnation",
+      "source": "icar_rabi",
+      "page_range": "29-127",
+      "main_sections": 3,
+      "mentions": 0,
+      "sha256": "7dcb13efda491b5bc530f179f9eb7718dbd44e4a605404578a0b6ad4f51f1fea",
+      "qa_status": "clean"
+    },
+    {
+      "file": "triticale_icar_rabi.md",
+      "crop": "triticale",
+      "source": "icar_rabi",
+      "page_range": "32-33",
+      "main_sections": 1,
+      "mentions": 11,
+      "sha256": "633a5d8718f0090ffd7bac6fa5eaf4d027aa51e65646d6f9ff7c120480327733",
+      "qa_status": "clean"
+    },
+    {
+      "file": "chickpea_icar_rabi.md",
+      "crop": "chickpea",
+      "source": "icar_rabi",
+      "page_range": "36-38",
+      "main_sections": 1,
+      "mentions": 19,
+      "sha256": "8cdfa3b34f7889c2d08176571f3b4c60919eefbb766706b4ea01cc224b3d4f88",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fieldpea_icar_rabi.md",
+      "crop": "fieldpea",
+      "source": "icar_rabi",
+      "page_range": "38-163",
+      "main_sections": 5,
+      "mentions": 5,
+      "sha256": "38f5e30a7607eff65316f1996878a2a0e1fff9355fd740d03a7ce6f076d918e0",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lentil_icar_rabi.md",
+      "crop": "lentil",
+      "source": "icar_rabi",
+      "page_range": "41-44",
+      "main_sections": 1,
+      "mentions": 3,
+      "sha256": "508853276c357c438a3f4e6f46a986566770d5c389dcd9aa8506e00840e2a143",
+      "qa_status": "clean"
+    },
+    {
+      "file": "frenchbean_icar_rabi.md",
+      "crop": "frenchbean",
+      "source": "icar_rabi",
+      "page_range": "49-54",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "1057b2523b96469d4fe80cd68cc2bcd6219ce8b1378cbc92e3a02c29e9795fd6",
+      "qa_status": "clean"
+    },
+    {
+      "file": "groundnut_icar_rabi.md",
+      "crop": "groundnut",
+      "source": "icar_rabi",
+      "page_range": "54-54",
+      "main_sections": 1,
+      "mentions": 10,
+      "sha256": "673f12f9b7c099378caf93917e8e6ba508a9592d314fbcea6d83fcd24856b67e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sesame_icar_rabi.md",
+      "crop": "sesame",
+      "source": "icar_rabi",
+      "page_range": "54-54",
+      "main_sections": 1,
+      "mentions": 10,
+      "sha256": "1f3041962ccf237dc5084cee3f9586f855d21e1c95d9dfb382a8662487211297",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mustard_icar_rabi.md",
+      "crop": "mustard",
+      "source": "icar_rabi",
+      "page_range": "54-62",
+      "main_sections": 2,
+      "mentions": 28,
+      "sha256": "b64d8b8c7a6d1d7c5e167bab8803726d35ede81dcaeeeda3689ea87111defe83",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sunflower_icar_rabi.md",
+      "crop": "sunflower",
+      "source": "icar_rabi",
+      "page_range": "54-71",
+      "main_sections": 2,
+      "mentions": 23,
+      "sha256": "057c8272f430a6d8d00055fee4bad37ec975d315287b55c1e29a5c51539a4242",
+      "qa_status": "clean"
+    },
+    {
+      "file": "safflower_icar_rabi.md",
+      "crop": "safflower",
+      "source": "icar_rabi",
+      "page_range": "55-83",
+      "main_sections": 2,
+      "mentions": 6,
+      "sha256": "d41bcf6afe310e32e72899b6bb4cf7ba3ce89896ed1b49e87d537db534b7c0c8",
+      "qa_status": "clean"
+    },
+    {
+      "file": "castor_icar_rabi.md",
+      "crop": "castor",
+      "source": "icar_rabi",
+      "page_range": "55-55",
+      "main_sections": 1,
+      "mentions": 6,
+      "sha256": "756f07936718d10dd093c689fb5f510b9292433f44628f619f0f94e266fd73fa",
+      "qa_status": "clean"
+    },
+    {
+      "file": "niger_icar_rabi.md",
+      "crop": "niger",
+      "source": "icar_rabi",
+      "page_range": "55-55",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "02a2d6b9cb292758b1e2bf07c7f9380c918b8561e0e14539f5691c341173bf0f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "linseed_icar_rabi.md",
+      "crop": "linseed",
+      "source": "icar_rabi",
+      "page_range": "55-87",
+      "main_sections": 2,
+      "mentions": 7,
+      "sha256": "736a9118017462ccb2b4cfa84289ff55c6f0cc96f11752bcf2e0041a33999721",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sugarcane_icar_rabi.md",
+      "crop": "sugarcane",
+      "source": "icar_rabi",
+      "page_range": "87-113",
+      "main_sections": 2,
+      "mentions": 10,
+      "sha256": "7b347203c2c4edf39dd3849baefe60b461b9b3dc0668583834c9af4ddcb60d06",
+      "qa_status": "clean"
+    },
+    {
+      "file": "banana_icar_rabi.md",
+      "crop": "banana",
+      "source": "icar_rabi",
+      "page_range": "97-161",
+      "main_sections": 5,
+      "mentions": 2,
+      "sha256": "855228436f2e7be0583edb2e6185407a1d3745ca77700f579563e56528d8f798",
+      "qa_status": "clean"
+    },
+    {
+      "file": "beetroot_icar_rabi.md",
+      "crop": "beetroot",
+      "source": "icar_rabi",
+      "page_range": "113-114",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "dca52220f385a2baad71dcacca37034a6dad450905c8bd9a6640bf1ce71bbc1d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mint_icar_rabi.md",
+      "crop": "mint",
+      "source": "icar_rabi",
+      "page_range": "121-122",
+      "main_sections": 3,
+      "mentions": 21,
+      "sha256": "16b1aa1f066ce03ada7685e53e960800f856fee3e51628c7ceaaa0ddcd0ffc08",
+      "qa_status": "clean"
+    },
+    {
+      "file": "black_pepper_icar_rabi.md",
+      "crop": "black_pepper",
+      "source": "icar_rabi",
+      "page_range": "121-122",
+      "main_sections": 2,
+      "mentions": 9,
+      "sha256": "6d16a3af4c345822620f0d540be50a35b1f8b62ed8dcfe56383a0dcb79f210c9",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lemongrass_icar_rabi.md",
+      "crop": "lemongrass",
+      "source": "icar_rabi",
+      "page_range": "127-142",
+      "main_sections": 3,
+      "mentions": 3,
+      "sha256": "2d39f54efca915154e129e6a81cf4dcaf138e9c1c43289e0ed05f56ead9311b1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "finger_millet_icar_rabi.md",
+      "crop": "finger_millet",
+      "source": "icar_rabi",
+      "page_range": "132-132",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "2f48d88cf8896a37bcc81ff1c4c9633efd4d886775f2399e17dbbe5997802cb1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "isabgol_icar_rabi.md",
+      "crop": "isabgol",
+      "source": "icar_rabi",
+      "page_range": "142-143",
+      "main_sections": 1,
+      "mentions": 10,
+      "sha256": "cc53e4c70dd78e543a031dd47efcdbe4753512677a27a73b8c9071985e6dad45",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tapioca_icar_rabi.md",
+      "crop": "tapioca",
+      "source": "icar_rabi",
+      "page_range": "146-146",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "c8adfe42e3e77f1ae99efd595eb19c382ab03b4ddee5e92d7a21ddf8e1282e92",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sweet_potato_icar_rabi.md",
+      "crop": "sweet_potato",
+      "source": "icar_rabi",
+      "page_range": "147-149",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "f39aee5a825594ad75369d58deb27746da9c7daa55b0229e89931c673dcee864",
+      "qa_status": "clean"
+    },
+    {
+      "file": "periwinkle_icar_rabi.md",
+      "crop": "periwinkle",
+      "source": "icar_rabi",
+      "page_range": "149-149",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "aeaf98eae98cb60c47550d4586797e7d21691604afb5e979505756e5fee36b74",
+      "qa_status": "clean"
+    },
+    {
+      "file": "potato_icar_rabi.md",
+      "crop": "potato",
+      "source": "icar_rabi",
+      "page_range": "149-151",
+      "main_sections": 1,
+      "mentions": 26,
+      "sha256": "f6b7fe0d87e10eec55d4593acd329c001a00f8e2bf9dbbcfd0fc8100b22f99c5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "citrus_icar_rabi.md",
+      "crop": "citrus",
+      "source": "icar_rabi",
+      "page_range": "153-159",
+      "main_sections": 1,
+      "mentions": 12,
+      "sha256": "420ef269123f316f11931619e9a0a2e6ba58893ad593de6874567f23fac8f9f9",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tobacco_icar_rabi.md",
+      "crop": "tobacco",
+      "source": "icar_rabi",
+      "page_range": "159-170",
+      "main_sections": 2,
+      "mentions": 37,
+      "sha256": "fa50744a1d48abecdcb74d31202a55f989032eaea0ea78d3fa93b9b21b269679",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carrot_icar_rabi.md",
+      "crop": "carrot",
+      "source": "icar_rabi",
+      "page_range": "170-170",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "cc0258443a4936be68a76a613c5de4d1b9d977485b4f99ef48f1fb5621c55508",
+      "qa_status": "clean"
+    },
+    {
+      "file": "napier_icar_rabi.md",
+      "crop": "napier",
+      "source": "icar_rabi",
+      "page_range": "170-172",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "65273e58a2d707467c24f957133484f690e3f763d7f94113aab98df61b815b6e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lucerne_icar_rabi.md",
+      "crop": "lucerne",
+      "source": "icar_rabi",
+      "page_range": "172-186",
+      "main_sections": 2,
+      "mentions": 5,
+      "sha256": "b0b1862c6848ef0f88b9227f0ffbd5e74f9736c9bcebce0f734a2ec96f7d988d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cowpea_icar_rabi.md",
+      "crop": "cowpea",
+      "source": "icar_rabi",
+      "page_range": "174-175",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "607fc7419098bd86ebec05c3e7ebdb581fa9d754faf0b560afa9f41944654ffa",
+      "qa_status": "clean"
+    },
+    {
+      "file": "berseem_icar_rabi.md",
+      "crop": "berseem",
+      "source": "icar_rabi",
+      "page_range": "176-182",
+      "main_sections": 1,
+      "mentions": 3,
+      "sha256": "090de7dfe1a2fb0f928157f90a3bc9a00da2e7a46642eba2467ed7bf8a326e7b",
+      "qa_status": "clean"
+    },
+    {
+      "file": "oats_icar_rabi.md",
+      "crop": "oats",
+      "source": "icar_rabi",
+      "page_range": "186-196",
+      "main_sections": 1,
+      "mentions": 3,
+      "sha256": "7b7114774b47f8b35071076a9562e3c611b471c2a44dc0c92eb00d6382bf8cf7",
+      "qa_status": "clean"
+    },
+    {
+      "file": "rice_tnau_agriculture.md",
+      "crop": "rice",
+      "source": "tnau_agriculture",
+      "page_range": "13-456",
+      "main_sections": 13,
+      "mentions": 80,
+      "sha256": "be339536befa464e221f3a04aca3e819b0221d91b75191ce42ebbfda94316dfc",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carnation_tnau_agriculture.md",
+      "crop": "carnation",
+      "source": "tnau_agriculture",
+      "page_range": "31-320",
+      "main_sections": 4,
+      "mentions": 0,
+      "sha256": "3d6ac49e5b3dd10ddc06cfa509b1d19605daec9c93c0625e6384d2198431872d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "banana_tnau_agriculture.md",
+      "crop": "banana",
+      "source": "tnau_agriculture",
+      "page_range": "32-399",
+      "main_sections": 15,
+      "mentions": 7,
+      "sha256": "af4d1bf289a08c01f146aab781bd96c4960b7e6784fde9001ec1e9f633b9e258",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fieldpea_tnau_agriculture.md",
+      "crop": "fieldpea",
+      "source": "tnau_agriculture",
+      "page_range": "41-327",
+      "main_sections": 22,
+      "mentions": 3,
+      "sha256": "d6fa1a9360a8f1abf8568e209cf4188d24e9637ac67ace7218d0df3b04dde14c",
+      "qa_status": "flagged (2)"
+    },
+    {
+      "file": "sorghum_tnau_agriculture.md",
+      "crop": "sorghum",
+      "source": "tnau_agriculture",
+      "page_range": "77-457",
+      "main_sections": 6,
+      "mentions": 64,
+      "sha256": "3a579630718b4f7de5c7a1874f05174c1e3e962b3d3c5f89bfa119a6343d5015",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pearl_millet_tnau_agriculture.md",
+      "crop": "pearl_millet",
+      "source": "tnau_agriculture",
+      "page_range": "93-103",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "eef47d087ca0764f3c9182fd72b17b31fcaf7015c82951da9ad3535a50bb1672",
+      "qa_status": "clean"
+    },
+    {
+      "file": "finger_millet_tnau_agriculture.md",
+      "crop": "finger_millet",
+      "source": "tnau_agriculture",
+      "page_range": "104-438",
+      "main_sections": 5,
+      "mentions": 14,
+      "sha256": "80582bbb53157a8773c04e236e08d2bb29a5fc7fc611c49575eaddb2cc5377a4",
+      "qa_status": "clean"
+    },
+    {
+      "file": "maize_tnau_agriculture.md",
+      "crop": "maize",
+      "source": "tnau_agriculture",
+      "page_range": "115-333",
+      "main_sections": 3,
+      "mentions": 17,
+      "sha256": "7f04645a3669310bf262040ff4a8b15684dff0d5cae08a62abc07d0278f620ac",
+      "qa_status": "flagged (1)"
+    },
+    {
+      "file": "small_millets_tnau_agriculture.md",
+      "crop": "small_millets",
+      "source": "tnau_agriculture",
+      "page_range": "129-134",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "0323d4552d51d7f0ee10b8e41d162e1a3ce08e315be485d8ea189dff81feb131",
+      "qa_status": "clean"
+    },
+    {
+      "file": "wheat_tnau_agriculture.md",
+      "crop": "wheat",
+      "source": "tnau_agriculture",
+      "page_range": "134-137",
+      "main_sections": 1,
+      "mentions": 3,
+      "sha256": "d1e0a9ed7d5306e388323ba4f7b164b513ae21ce950fb5c780ee43a60c009c46",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pigeonpea_tnau_agriculture.md",
+      "crop": "pigeonpea",
+      "source": "tnau_agriculture",
+      "page_range": "137-145",
+      "main_sections": 2,
+      "mentions": 50,
+      "sha256": "7dafbcdc4cede98a65c2b29918253e48d1c01d75f0cab632344e53f0489537df",
+      "qa_status": "clean"
+    },
+    {
+      "file": "urdbean_tnau_agriculture.md",
+      "crop": "urdbean",
+      "source": "tnau_agriculture",
+      "page_range": "146-192",
+      "main_sections": 3,
+      "mentions": 29,
+      "sha256": "4ff18e07a2d898d00b9e80285b603471cb156dbf72d2cc000e92254e43edb6bc",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mungbean_tnau_agriculture.md",
+      "crop": "mungbean",
+      "source": "tnau_agriculture",
+      "page_range": "156-164",
+      "main_sections": 2,
+      "mentions": 21,
+      "sha256": "f1b7afa710507726feb4496309b15bb93a80ce2b524b0cca789d3e46955ca22d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cowpea_tnau_agriculture.md",
+      "crop": "cowpea",
+      "source": "tnau_agriculture",
+      "page_range": "165-351",
+      "main_sections": 3,
+      "mentions": 28,
+      "sha256": "9c987e262220f510527f30c611f7dfecaa5117efafd76028121e8a8cfb63b1fd",
+      "qa_status": "clean"
+    },
+    {
+      "file": "horsegram_tnau_agriculture.md",
+      "crop": "horsegram",
+      "source": "tnau_agriculture",
+      "page_range": "170-172",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "5ebf75933de2094bcdae0a2dd9c46f05cd4f8ccc37fd88ec161294278d159d3c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "chickpea_tnau_agriculture.md",
+      "crop": "chickpea",
+      "source": "tnau_agriculture",
+      "page_range": "173-178",
+      "main_sections": 2,
+      "mentions": 14,
+      "sha256": "0b39768b7e66e7f508b8ac9079814b25b479f4ad70a7c3d473e10d7aaef69bfd",
+      "qa_status": "flagged (1)"
+    },
+    {
+      "file": "soybean_tnau_agriculture.md",
+      "crop": "soybean",
+      "source": "tnau_agriculture",
+      "page_range": "185-458",
+      "main_sections": 3,
+      "mentions": 12,
+      "sha256": "04befbbcdc1133e2b521afdcb10241e5795afeb7c0b392d0611f9415f8cf9aee",
+      "qa_status": "clean"
+    },
+    {
+      "file": "groundnut_tnau_agriculture.md",
+      "crop": "groundnut",
+      "source": "tnau_agriculture",
+      "page_range": "192-433",
+      "main_sections": 2,
+      "mentions": 25,
+      "sha256": "726bdc44dc09c19d1251c2834ce86bd94849f61c4cae33f38219dfb3f843aeac",
+      "qa_status": "clean"
+    },
+    {
+      "file": "citrus_tnau_agriculture.md",
+      "crop": "citrus",
+      "source": "tnau_agriculture",
+      "page_range": "208-208",
+      "main_sections": 1,
+      "mentions": 32,
+      "sha256": "12ccc69334e9d2c3282f0d19e8e91e072c9e0b1ff8954a8afcace20d47c8745f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sesame_tnau_agriculture.md",
+      "crop": "sesame",
+      "source": "tnau_agriculture",
+      "page_range": "209-216",
+      "main_sections": 2,
+      "mentions": 11,
+      "sha256": "043995941646fd971fa97c12421e7a0bd9bbdd50c74a965666b8596b937972d0",
+      "qa_status": "clean"
+    },
+    {
+      "file": "castor_tnau_agriculture.md",
+      "crop": "castor",
+      "source": "tnau_agriculture",
+      "page_range": "217-438",
+      "main_sections": 2,
+      "mentions": 8,
+      "sha256": "a2be687d85c83ac1be6e9524dcd6ffa2df53dc4830c614f8fa3113956c2f5635",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sunflower_tnau_agriculture.md",
+      "crop": "sunflower",
+      "source": "tnau_agriculture",
+      "page_range": "227-234",
+      "main_sections": 1,
+      "mentions": 38,
+      "sha256": "10a573c7aedf25133f4fb21409ce410c7620cd74a7c9c1e1430d3919ea288c60",
+      "qa_status": "clean"
+    },
+    {
+      "file": "safflower_tnau_agriculture.md",
+      "crop": "safflower",
+      "source": "tnau_agriculture",
+      "page_range": "235-238",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "016187f2479721009f7b5e29794855ffc0cacadc2b0a484a90f8bbf41192d6a0",
+      "qa_status": "clean"
+    },
+    {
+      "file": "coconut_tnau_agriculture.md",
+      "crop": "coconut",
+      "source": "tnau_agriculture",
+      "page_range": "238-446",
+      "main_sections": 4,
+      "mentions": 13,
+      "sha256": "8f4b7599a15205758ee1aed286fefceedddfbaa3d1e54a4bdc62522d016c542e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "oilpalm_tnau_agriculture.md",
+      "crop": "oilpalm",
+      "source": "tnau_agriculture",
+      "page_range": "250-259",
+      "main_sections": 2,
+      "mentions": 13,
+      "sha256": "08081e398dc6a60f598650b1237c379881007b2e2f6f1116ac014c7c36f923cb",
+      "qa_status": "clean"
+    },
+    {
+      "file": "niger_tnau_agriculture.md",
+      "crop": "niger",
+      "source": "tnau_agriculture",
+      "page_range": "260-264",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "ae6215c207c83b98c1839e50db37264ef53cba2eed2a705ecd17f08ad92a1893",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cotton_tnau_agriculture.md",
+      "crop": "cotton",
+      "source": "tnau_agriculture",
+      "page_range": "264-435",
+      "main_sections": 3,
+      "mentions": 52,
+      "sha256": "5bfc7c4ea45a1e72e6695c68c2018536349428d4524251673809ffaeded87549",
+      "qa_status": "flagged (1)"
+    },
+    {
+      "file": "jute_tnau_agriculture.md",
+      "crop": "jute",
+      "source": "tnau_agriculture",
+      "page_range": "296-296",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "78ec39dd97f44959ea5002f857ecbdff34beb3f687dbef092722095c31cd204a",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sugarcane_tnau_agriculture.md",
+      "crop": "sugarcane",
+      "source": "tnau_agriculture",
+      "page_range": "297-459",
+      "main_sections": 7,
+      "mentions": 21,
+      "sha256": "35a3cb814d740786fc3d909b76ab82259b008a23a97ef659ed73c2be620bbf32",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lathyrus_tnau_agriculture.md",
+      "crop": "lathyrus",
+      "source": "tnau_agriculture",
+      "page_range": "334-338",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "9c1419aee5ea57b957d80768362c8aa8a20e05c6dbda36a3a84a9bb1a61b8b48",
+      "qa_status": "clean"
+    },
+    {
+      "file": "napier_tnau_agriculture.md",
+      "crop": "napier",
+      "source": "tnau_agriculture",
+      "page_range": "338-339",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "4b7f6ba09bf39f48208a6ff1d121cd50474841ba8956075c01c36acaa771c414",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lucerne_tnau_agriculture.md",
+      "crop": "lucerne",
+      "source": "tnau_agriculture",
+      "page_range": "340-344",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "3df499126f94f2eebd5ab89b65a54365a8fab0b89fefce5c172b5dd3a987a4e0",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mushroom_tnau_agriculture.md",
+      "crop": "mushroom",
+      "source": "tnau_agriculture",
+      "page_range": "352-404",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "d282d2b0a5d1cdf09cbb40fc91b93816a66d6fc8827270ed4c25ef84299ee466",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sweet_potato_tnau_agriculture.md",
+      "crop": "sweet_potato",
+      "source": "tnau_agriculture",
+      "page_range": "405-432",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "e631152e497748b12b29bb32ebbce8365034be2017ad5b2ce18e66f5776c05cf",
+      "qa_status": "clean"
+    },
+    {
+      "file": "turmeric_tnau_agriculture.md",
+      "crop": "turmeric",
+      "source": "tnau_agriculture",
+      "page_range": "440-440",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "2b1131af91858c16f06674fff50dfc418f7bc6c954b612ac57e0447605aa4a62",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carrot_tnau_agriculture.md",
+      "crop": "carrot",
+      "source": "tnau_agriculture",
+      "page_range": "441-442",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "b7148ea486cdea9c7a653cb6e29a5141554229c97386ae9d57adb2e5158052c2",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tapioca_tnau_agriculture.md",
+      "crop": "tapioca",
+      "source": "tnau_agriculture",
+      "page_range": "443-444",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "e8d0f211fd3ef17d67329965f5cc1e05d720dbdf606ace5b8d786e209c29f3d8",
+      "qa_status": "clean"
+    },
+    {
+      "file": "palmyrah_tnau_agriculture.md",
+      "crop": "palmyrah",
+      "source": "tnau_agriculture",
+      "page_range": "445-445",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "d07fa11042e9db45bdd3b1ab43ab500f6e62030c381427ea9110154cfffd738c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "arecanut_tnau_agriculture.md",
+      "crop": "arecanut",
+      "source": "tnau_agriculture",
+      "page_range": "445-447",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "7255c9985fb4dc7b47fc948029fc188b67dc26dab3e1a9be2e8e401fb59e5bcf",
+      "qa_status": "clean"
+    },
+    {
+      "file": "onion_tnau_agriculture.md",
+      "crop": "onion",
+      "source": "tnau_agriculture",
+      "page_range": "447-449",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "64696362567825da5203fce937d1ed69c54e427ab768b998cc4c9c0716e10bfd",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tamarind_tnau_agriculture.md",
+      "crop": "tamarind",
+      "source": "tnau_agriculture",
+      "page_range": "449-456",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "86f83969f8b8e060f4d259d745cb98b6a7a1102282caa2d4b364c53208a7abd9",
+      "qa_status": "clean"
+    },
+    {
+      "file": "banana_tnau_horticulture.md",
+      "crop": "banana",
+      "source": "tnau_horticulture",
+      "page_range": "1-442",
+      "main_sections": 34,
+      "mentions": 18,
+      "sha256": "d6675894005e9d961fd6b025281acaf0fd94d84a5471b6c64d4fb8955192348e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mango_tnau_horticulture.md",
+      "crop": "mango",
+      "source": "tnau_horticulture",
+      "page_range": "15-20",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "e0e04fe8ef40cdb33c2fbd8dd3ff505f0898df27dc93324c0c715e003262404c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lentil_tnau_horticulture.md",
+      "crop": "lentil",
+      "source": "tnau_horticulture",
+      "page_range": "21-21",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "4fdbf20565044e3608259c25279a9b6a7ec254c2cecba41f9f91f9d97d50c18b",
+      "qa_status": "clean"
+    },
+    {
+      "file": "citrus_tnau_horticulture.md",
+      "crop": "citrus",
+      "source": "tnau_horticulture",
+      "page_range": "29-333",
+      "main_sections": 7,
+      "mentions": 43,
+      "sha256": "8a23481f8a715b6c8f0b079078e4fb1a1754e81cb6061201e2252192ddab41e5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "grapes_tnau_horticulture.md",
+      "crop": "grapes",
+      "source": "tnau_horticulture",
+      "page_range": "34-41",
+      "main_sections": 2,
+      "mentions": 4,
+      "sha256": "a9f9ce911fa67398bc11ff91d30346cdc8add48e528a729d35c1318d5156515f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "clusterbean_tnau_horticulture.md",
+      "crop": "clusterbean",
+      "source": "tnau_horticulture",
+      "page_range": "38-327",
+      "main_sections": 3,
+      "mentions": 2,
+      "sha256": "43f0f17f4f9a3ee349b54a95d237c0b60e44ddd543b1169073a143dcdda28f7e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "guava_tnau_horticulture.md",
+      "crop": "guava",
+      "source": "tnau_horticulture",
+      "page_range": "42-345",
+      "main_sections": 3,
+      "mentions": 7,
+      "sha256": "7b97c32edf41eef9c5a8dd6908b4673c2f55c6ced03c56428711cd3db541fadf",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tea_tnau_horticulture.md",
+      "crop": "tea",
+      "source": "tnau_horticulture",
+      "page_range": "43-386",
+      "main_sections": 6,
+      "mentions": 1,
+      "sha256": "a3de22ddcab895c832e3d1e789c49d8d3c0ff69f13cf14e136343ae524e7401d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pineapple_tnau_horticulture.md",
+      "crop": "pineapple",
+      "source": "tnau_horticulture",
+      "page_range": "44-442",
+      "main_sections": 3,
+      "mentions": 5,
+      "sha256": "ad6f1d525448a9afb23467c768f7bab65653b1895e3c1e26add2ac8be8023c8f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sapota_tnau_horticulture.md",
+      "crop": "sapota",
+      "source": "tnau_horticulture",
+      "page_range": "45-441",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "bd3c2deffaf8ed242499a26afc75c0fbb4bd3c27167e9416eacc9e7431bc2074",
+      "qa_status": "clean"
+    },
+    {
+      "file": "papaya_tnau_horticulture.md",
+      "crop": "papaya",
+      "source": "tnau_horticulture",
+      "page_range": "47-334",
+      "main_sections": 3,
+      "mentions": 1,
+      "sha256": "7ece237bc81d56157de8642e3f7dd35adb8cce795c6285f3b0fc0878c7b42f49",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pomegranate_tnau_horticulture.md",
+      "crop": "pomegranate",
+      "source": "tnau_horticulture",
+      "page_range": "50-52",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "a08ee751579f052de29371485f03e8a4b8584466c06ff6ef249f258377b6907d",
+      "qa_status": "flagged (1)"
+    },
+    {
+      "file": "jackfruit_tnau_horticulture.md",
+      "crop": "jackfruit",
+      "source": "tnau_horticulture",
+      "page_range": "53-372",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "7407c966a8f40851011238e1e50c0cb6a0312eb9ad2bf313ac5162284c6ce45e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "ber_tnau_horticulture.md",
+      "crop": "ber",
+      "source": "tnau_horticulture",
+      "page_range": "54-55",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "aec330b7d9b586622d1da0955b19240277d9918709fb11ba5114c6968ed36d5e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "aonla_tnau_horticulture.md",
+      "crop": "aonla",
+      "source": "tnau_horticulture",
+      "page_range": "55-406",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "9e67e019688c4b1035562ce3f8eb75d589552d11ec5ca7150b1ec64b583d5fed",
+      "qa_status": "clean"
+    },
+    {
+      "file": "apple_tnau_horticulture.md",
+      "crop": "apple",
+      "source": "tnau_horticulture",
+      "page_range": "57-346",
+      "main_sections": 2,
+      "mentions": 4,
+      "sha256": "825a6312303e6de7ccc3a694f2a67da80a6b27e9c3677d782e684ae6ab8b3bdc",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pear_tnau_horticulture.md",
+      "crop": "pear",
+      "source": "tnau_horticulture",
+      "page_range": "59-59",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "e543919a0f74e95ac77879ae1df3754c105d80821e8a2dc6dc59034143d0aa91",
+      "qa_status": "clean"
+    },
+    {
+      "file": "plum_tnau_horticulture.md",
+      "crop": "plum",
+      "source": "tnau_horticulture",
+      "page_range": "60-60",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "59614fd2022bcedd36b03f9cffa6950b7df8be46d5f972b8221a30c2f1742f27",
+      "qa_status": "clean"
+    },
+    {
+      "file": "peach_tnau_horticulture.md",
+      "crop": "peach",
+      "source": "tnau_horticulture",
+      "page_range": "61-71",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "9318140efbc0a8076d26d71e3b50ae081bc1d275fa227031879d27a388db5363",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carnation_tnau_horticulture.md",
+      "crop": "carnation",
+      "source": "tnau_horticulture",
+      "page_range": "71-285",
+      "main_sections": 6,
+      "mentions": 0,
+      "sha256": "98159e2ca0f6471a257f6fbad94025d69ece5610e4ecee4088dd5719ed728418",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tomato_tnau_horticulture.md",
+      "crop": "tomato",
+      "source": "tnau_horticulture",
+      "page_range": "73-391",
+      "main_sections": 2,
+      "mentions": 14,
+      "sha256": "1dc2862be057ed761a636be1b1ffddcbefd02475207f67a1e294a5edd3678c55",
+      "qa_status": "clean"
+    },
+    {
+      "file": "brinjal_tnau_horticulture.md",
+      "crop": "brinjal",
+      "source": "tnau_horticulture",
+      "page_range": "77-409",
+      "main_sections": 7,
+      "mentions": 1,
+      "sha256": "18dabf8f9f124c32c71d287ac405c6ee0c98fa22eea5e4f51079a25c753a9a68",
+      "qa_status": "clean"
+    },
+    {
+      "file": "bhendi_tnau_horticulture.md",
+      "crop": "bhendi",
+      "source": "tnau_horticulture",
+      "page_range": "83-409",
+      "main_sections": 5,
+      "mentions": 6,
+      "sha256": "0fa9f5f383af35122612fa055bd2c117f03f93bc4c0380c7ce829b388c07226f",
+      "qa_status": "flagged (4)"
+    },
+    {
+      "file": "capsicum_tnau_horticulture.md",
+      "crop": "capsicum",
+      "source": "tnau_horticulture",
+      "page_range": "87-318",
+      "main_sections": 3,
+      "mentions": 3,
+      "sha256": "74908d5a0469b9523d0e4de456198bb78f55981e66df6732550c8fd9ebb7165f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "chilli_tnau_horticulture.md",
+      "crop": "chilli",
+      "source": "tnau_horticulture",
+      "page_range": "88-413",
+      "main_sections": 3,
+      "mentions": 9,
+      "sha256": "71db474a05156f2807c349187e069a8458853bffe52eab18371512c9b7a84633",
+      "qa_status": "clean"
+    },
+    {
+      "file": "pumpkin_tnau_horticulture.md",
+      "crop": "pumpkin",
+      "source": "tnau_horticulture",
+      "page_range": "96-322",
+      "main_sections": 3,
+      "mentions": 10,
+      "sha256": "335c168b87b48e1cd37daca4424fb0f26c3a893b90c3a29d7f11da24ff0b3442",
+      "qa_status": "clean"
+    },
+    {
+      "file": "snake_gourd_tnau_horticulture.md",
+      "crop": "snake_gourd",
+      "source": "tnau_horticulture",
+      "page_range": "98-323",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "ed0a5541103ccee909ba3e12d48ce92bc352b692a18b7c98c3ce05ad92e161d7",
+      "qa_status": "clean"
+    },
+    {
+      "file": "ridge_gourd_tnau_horticulture.md",
+      "crop": "ridge_gourd",
+      "source": "tnau_horticulture",
+      "page_range": "100-104",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "58613a15b1401e50b6f5cac341cc2c2954631acc90fa96ff6a946378bee73746",
+      "qa_status": "clean"
+    },
+    {
+      "file": "bottle_gourd_tnau_horticulture.md",
+      "crop": "bottle_gourd",
+      "source": "tnau_horticulture",
+      "page_range": "104-324",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "ae5bcd88455bf1a7add403a2cc114de88ee1ca8bfead624fac87bd75263038c2",
+      "qa_status": "clean"
+    },
+    {
+      "file": "bitter_gourd_tnau_horticulture.md",
+      "crop": "bitter_gourd",
+      "source": "tnau_horticulture",
+      "page_range": "106-324",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "720a192391c4a542f04d726a1113169b2f7f82d9b63661b7210f8689539fe200",
+      "qa_status": "clean"
+    },
+    {
+      "file": "ash_gourd_tnau_horticulture.md",
+      "crop": "ash_gourd",
+      "source": "tnau_horticulture",
+      "page_range": "109-325",
+      "main_sections": 3,
+      "mentions": 0,
+      "sha256": "590933e25721a95e4edce178be078b14a64173c0d7527558ab4adb221ce78b7a",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cucumber_tnau_horticulture.md",
+      "crop": "cucumber",
+      "source": "tnau_horticulture",
+      "page_range": "112-347",
+      "main_sections": 3,
+      "mentions": 1,
+      "sha256": "f6676be44c3e334fbaea24fea2ed585c6b95d050ab451bb47b7ce56edf0381ce",
+      "qa_status": "clean"
+    },
+    {
+      "file": "muskmelon_tnau_horticulture.md",
+      "crop": "muskmelon",
+      "source": "tnau_horticulture",
+      "page_range": "117-117",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "51d09ae25228d64e3c2fffb2874875eda5e11e9b8fa686e3799d0766d9e273b5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cowpea_tnau_horticulture.md",
+      "crop": "cowpea",
+      "source": "tnau_horticulture",
+      "page_range": "122-328",
+      "main_sections": 2,
+      "mentions": 9,
+      "sha256": "c4aa84d715ada8b8ad365a2b20e3406d2019123b4acddaf8430ed6392ff77751",
+      "qa_status": "clean"
+    },
+    {
+      "file": "frenchbean_tnau_horticulture.md",
+      "crop": "frenchbean",
+      "source": "tnau_horticulture",
+      "page_range": "125-127",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "72e15fc391806a5c2ee59283af2e800ecc9101816c9e90654f58247fa308b856",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fababean_tnau_horticulture.md",
+      "crop": "fababean",
+      "source": "tnau_horticulture",
+      "page_range": "127-128",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "5d71ac1249d2812438b0626dfc695388f16a224b207d549b2e3d7ffb0c62bc0f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fieldpea_tnau_horticulture.md",
+      "crop": "fieldpea",
+      "source": "tnau_horticulture",
+      "page_range": "128-374",
+      "main_sections": 8,
+      "mentions": 3,
+      "sha256": "e01c08bcbf9eaa755167ee544e3ddb3220ad692c1565fd18ca69b4937f5d0b54",
+      "qa_status": "clean"
+    },
+    {
+      "file": "drumstick_tnau_horticulture.md",
+      "crop": "drumstick",
+      "source": "tnau_horticulture",
+      "page_range": "129-329",
+      "main_sections": 2,
+      "mentions": 6,
+      "sha256": "5119b7374443cdc5c1a90430264d4feb85addd449f6e9f33771eeaa37f8aecd5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "maize_tnau_horticulture.md",
+      "crop": "maize",
+      "source": "tnau_horticulture",
+      "page_range": "131-133",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "50b8b98f4d3e89694d1297029a69559a541ac1ff92e703b97d01e94f7780d59d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cabbage_tnau_horticulture.md",
+      "crop": "cabbage",
+      "source": "tnau_horticulture",
+      "page_range": "133-410",
+      "main_sections": 3,
+      "mentions": 2,
+      "sha256": "58645ce7e4dcbf3324b9603d2a7bdf745010a0cc065ee12e2a08840e3381e7b4",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tobacco_tnau_horticulture.md",
+      "crop": "tobacco",
+      "source": "tnau_horticulture",
+      "page_range": "136-142",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "395ccaa7ff23094094d49abf911eb6415d8c39624dde00ca9de22284b0ea9ad1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "carrot_tnau_horticulture.md",
+      "crop": "carrot",
+      "source": "tnau_horticulture",
+      "page_range": "142-397",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "72fd18ad3771d2afa42d44748f065648ae54292388b30290b1ce6a2960858270",
+      "qa_status": "clean"
+    },
+    {
+      "file": "radish_tnau_horticulture.md",
+      "crop": "radish",
+      "source": "tnau_horticulture",
+      "page_range": "144-144",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "b6dc3f91b8d1955a1ca9781c2467ed8dbd56c4847b526deb4dc447d4c4e26216",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mustard_tnau_horticulture.md",
+      "crop": "mustard",
+      "source": "tnau_horticulture",
+      "page_range": "144-145",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "35900f151bd3759d070b39c1dff7051bf529b1ae458ce0fee86bce457066b0ec",
+      "qa_status": "clean"
+    },
+    {
+      "file": "beetroot_tnau_horticulture.md",
+      "crop": "beetroot",
+      "source": "tnau_horticulture",
+      "page_range": "146-411",
+      "main_sections": 3,
+      "mentions": 2,
+      "sha256": "be3c6f5aa8f14ed150c3e5df5898e8c083db1a4a7e0dcd7561b2e660bb70b0e1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "potato_tnau_horticulture.md",
+      "crop": "potato",
+      "source": "tnau_horticulture",
+      "page_range": "148-411",
+      "main_sections": 6,
+      "mentions": 7,
+      "sha256": "2b86028590be755e7a458e493872b6ca90664c8b8bcd3f37522ebcec184ec6f3",
+      "qa_status": "clean"
+    },
+    {
+      "file": "sweet_potato_tnau_horticulture.md",
+      "crop": "sweet_potato",
+      "source": "tnau_horticulture",
+      "page_range": "152-152",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "4bae66301b7986470c07e62d94d58ade20dc0de051f9b8cadb6b0c76d4441546",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tapioca_tnau_horticulture.md",
+      "crop": "tapioca",
+      "source": "tnau_horticulture",
+      "page_range": "153-412",
+      "main_sections": 4,
+      "mentions": 6,
+      "sha256": "e2a490cde65c8d3270736af28cd9b08e0e5f7bcef6435752228d6f068b6e538c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "colocasia_tnau_horticulture.md",
+      "crop": "colocasia",
+      "source": "tnau_horticulture",
+      "page_range": "159-160",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "f0bc90342b6ef39da108a39e42f81b87a4f3f2e1484856d9d2e023e01a61188f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "onion_tnau_horticulture.md",
+      "crop": "onion",
+      "source": "tnau_horticulture",
+      "page_range": "164-408",
+      "main_sections": 6,
+      "mentions": 3,
+      "sha256": "aedec787291e8dfddbb40832ee5861eccca4b5c1fa0fc3fd709356214f97df8e",
+      "qa_status": "clean"
+    },
+    {
+      "file": "amaranthus_tnau_horticulture.md",
+      "crop": "amaranthus",
+      "source": "tnau_horticulture",
+      "page_range": "170-331",
+      "main_sections": 3,
+      "mentions": 1,
+      "sha256": "3a95ac43c12be0ab61ef7431ffc5a84aa04e05e85f0c4384fe67e51dfb1c9cdd",
+      "qa_status": "clean"
+    },
+    {
+      "file": "curry_leaf_tnau_horticulture.md",
+      "crop": "curry_leaf",
+      "source": "tnau_horticulture",
+      "page_range": "172-172",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "a17d92326b53bba710c668509941645fa0d0410f6af00fa0c57b86dc9871fc18",
+      "qa_status": "clean"
+    },
+    {
+      "file": "black_pepper_tnau_horticulture.md",
+      "crop": "black_pepper",
+      "source": "tnau_horticulture",
+      "page_range": "179-389",
+      "main_sections": 4,
+      "mentions": 7,
+      "sha256": "118afbc7128e7b19e40ef2d5626dd0d057cb80b9392b0007d6973a49a71b389c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cardamom_tnau_horticulture.md",
+      "crop": "cardamom",
+      "source": "tnau_horticulture",
+      "page_range": "182-184",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "c601cc705c2b178e04db1bdd238569a5fafd9bfa13734d8c133e6992c99f5040",
+      "qa_status": "clean"
+    },
+    {
+      "file": "turmeric_tnau_horticulture.md",
+      "crop": "turmeric",
+      "source": "tnau_horticulture",
+      "page_range": "185-413",
+      "main_sections": 4,
+      "mentions": 5,
+      "sha256": "aaee6fafaeaea1397a57ece08011b7f6f58b49e08e5bcf9a598c37d3e09924af",
+      "qa_status": "clean"
+    },
+    {
+      "file": "ginger_tnau_horticulture.md",
+      "crop": "ginger",
+      "source": "tnau_horticulture",
+      "page_range": "188-191",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "5c1b7db8e0e30719c8bc077abb87a959c8959f856e3fb88466f90b6822c5deee",
+      "qa_status": "clean"
+    },
+    {
+      "file": "nutmeg_tnau_horticulture.md",
+      "crop": "nutmeg",
+      "source": "tnau_horticulture",
+      "page_range": "192-193",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "df24861a40f26c02d426254c5fddef9fe206fc68df1381ffc24e6ec9c6552413",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cinnamon_tnau_horticulture.md",
+      "crop": "cinnamon",
+      "source": "tnau_horticulture",
+      "page_range": "194-195",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "38d714a4a3f1e3c871a078c981f8db0c23888b0e1b298edfba7c96ec73eeeee5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tamarind_tnau_horticulture.md",
+      "crop": "tamarind",
+      "source": "tnau_horticulture",
+      "page_range": "196-198",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "88abdbec628677eb31019b0f747f0b76775cd8914e6e36d74fe7b120d3ecf726",
+      "qa_status": "clean"
+    },
+    {
+      "file": "niger_tnau_horticulture.md",
+      "crop": "niger",
+      "source": "tnau_horticulture",
+      "page_range": "198-199",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "a5853241d14e31448cdc09bfb767345b8508caf9f5dfb466944c076aee488a83",
+      "qa_status": "clean"
+    },
+    {
+      "file": "coriander_tnau_horticulture.md",
+      "crop": "coriander",
+      "source": "tnau_horticulture",
+      "page_range": "199-374",
+      "main_sections": 3,
+      "mentions": 3,
+      "sha256": "9a22474844dfd52a151de2ac214f303902c2b11c52bde895a90f276e87c23f7b",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fenugreek_tnau_horticulture.md",
+      "crop": "fenugreek",
+      "source": "tnau_horticulture",
+      "page_range": "201-201",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "4ae886ad1299258119fef52b64689408f5077aa13f9b1ab19ebccf6adb163581",
+      "qa_status": "clean"
+    },
+    {
+      "file": "fennel_tnau_horticulture.md",
+      "crop": "fennel",
+      "source": "tnau_horticulture",
+      "page_range": "202-204",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "fc23f8d7aaa6e7d29cc3e9712d1b15c21a393010488a165f6d1699f67635283c",
+      "qa_status": "clean"
+    },
+    {
+      "file": "vanilla_tnau_horticulture.md",
+      "crop": "vanilla",
+      "source": "tnau_horticulture",
+      "page_range": "204-205",
+      "main_sections": 1,
+      "mentions": 2,
+      "sha256": "6f1a72318de235de02931297f90d42a1696c54535d34eda33ebe00682dfaab3b",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cashew_tnau_horticulture.md",
+      "crop": "cashew",
+      "source": "tnau_horticulture",
+      "page_range": "215-216",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "e93786aa6fb035da049f3191b830de44533fab81022b87a048cc27208b95ee0a",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cocoa_tnau_horticulture.md",
+      "crop": "cocoa",
+      "source": "tnau_horticulture",
+      "page_range": "217-220",
+      "main_sections": 2,
+      "mentions": 6,
+      "sha256": "6eae48af7d0de9ae93c833bc8d2e097b3c96d386e6f3789ccfa7e07d86610eb6",
+      "qa_status": "clean"
+    },
+    {
+      "file": "coconut_tnau_horticulture.md",
+      "crop": "coconut",
+      "source": "tnau_horticulture",
+      "page_range": "226-401",
+      "main_sections": 5,
+      "mentions": 16,
+      "sha256": "8a34d4697ee7a2600c9b55dfce3f0219a102a15388e919f2780d6c6223d2087d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "arecanut_tnau_horticulture.md",
+      "crop": "arecanut",
+      "source": "tnau_horticulture",
+      "page_range": "237-405",
+      "main_sections": 4,
+      "mentions": 7,
+      "sha256": "d60c208952ca1aa059b0cc649b3a9052d7631359cffefbb431cd1b6762543f48",
+      "qa_status": "clean"
+    },
+    {
+      "file": "oilpalm_tnau_horticulture.md",
+      "crop": "oilpalm",
+      "source": "tnau_horticulture",
+      "page_range": "239-257",
+      "main_sections": 3,
+      "mentions": 0,
+      "sha256": "c1c2ecd2247fef4c224ac6a8c015e5f7abf43d8f1b850a4a13ba37c0e90d78cb",
+      "qa_status": "clean"
+    },
+    {
+      "file": "palmyrah_tnau_horticulture.md",
+      "crop": "palmyrah",
+      "source": "tnau_horticulture",
+      "page_range": "242-399",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "f5bb39a2978dd7f50f6dec917e45a49324c567bf52ded6cf7f9cc43c5d2920de",
+      "qa_status": "clean"
+    },
+    {
+      "file": "betelvine_tnau_horticulture.md",
+      "crop": "betelvine",
+      "source": "tnau_horticulture",
+      "page_range": "244-249",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "1c4f3aec6f37f273291630030abffc107ca4921d72674b9add59a02ba7c1fcd0",
+      "qa_status": "clean"
+    },
+    {
+      "file": "senna_tnau_horticulture.md",
+      "crop": "senna",
+      "source": "tnau_horticulture",
+      "page_range": "250-334",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "64814b7235d0c70787a81eedaaeb8b2f2896ddaf83084fe48ac3c71d68559cde",
+      "qa_status": "clean"
+    },
+    {
+      "file": "periwinkle_tnau_horticulture.md",
+      "crop": "periwinkle",
+      "source": "tnau_horticulture",
+      "page_range": "251-335",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "9c144693a8b04917a5605d7c50dd7c612cf13ba42357cc83127171645e637e36",
+      "qa_status": "clean"
+    },
+    {
+      "file": "lemongrass_tnau_horticulture.md",
+      "crop": "lemongrass",
+      "source": "tnau_horticulture",
+      "page_range": "253-254",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "80c77fc595ed4cb423bfdd250dba14338b19eb8b6312bdccb0e55270a3800cb8",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mint_tnau_horticulture.md",
+      "crop": "mint",
+      "source": "tnau_horticulture",
+      "page_range": "258-258",
+      "main_sections": 1,
+      "mentions": 4,
+      "sha256": "93610212ae12e22bba17157ec3a6cc7f69ab8b00c2bbc5f85bab20f5c49b2647",
+      "qa_status": "clean"
+    },
+    {
+      "file": "rose_tnau_horticulture.md",
+      "crop": "rose",
+      "source": "tnau_horticulture",
+      "page_range": "262-441",
+      "main_sections": 4,
+      "mentions": 15,
+      "sha256": "4b45e128e2b7b1670f35e00bd61ec2e7cecc540e46550990224b9dbe47155d46",
+      "qa_status": "clean"
+    },
+    {
+      "file": "crossandra_tnau_horticulture.md",
+      "crop": "crossandra",
+      "source": "tnau_horticulture",
+      "page_range": "268-273",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "80c64b8cdca26f31508cbc49e9c6421b0cf80b3821c07524e4587c8bb35dbf18",
+      "qa_status": "clean"
+    },
+    {
+      "file": "tuberose_tnau_horticulture.md",
+      "crop": "tuberose",
+      "source": "tnau_horticulture",
+      "page_range": "273-276",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "4c96d2f6f310c78d95342e88f5e95c64617b02b30c00819c82c10e4d640b110d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "chrysanthemum_tnau_horticulture.md",
+      "crop": "chrysanthemum",
+      "source": "tnau_horticulture",
+      "page_range": "281-428",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "206f0d7ab1e5ae8aa2071c22cb1b09d4af378da4f8cf88a8b2209f0d69d2a9a5",
+      "qa_status": "clean"
+    },
+    {
+      "file": "anthurium_tnau_horticulture.md",
+      "crop": "anthurium",
+      "source": "tnau_horticulture",
+      "page_range": "285-286",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "0e91005e4038de26dcffaf924f87fa86241a4b0ae64bd5068e79e0f5a4e5da21",
+      "qa_status": "clean"
+    },
+    {
+      "file": "orchid_tnau_horticulture.md",
+      "crop": "orchid",
+      "source": "tnau_horticulture",
+      "page_range": "287-289",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "fd2cf681d662a894b6371f5bf0c649099332f2c818819140c6783bf60af88894",
+      "qa_status": "clean"
+    },
+    {
+      "file": "gladiolus_tnau_horticulture.md",
+      "crop": "gladiolus",
+      "source": "tnau_horticulture",
+      "page_range": "289-290",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "9241176209f7609bb01889b36f8139c8a4fb0932a5b3fd3080b86c5b01a0921d",
+      "qa_status": "clean"
+    },
+    {
+      "file": "gerbera_tnau_horticulture.md",
+      "crop": "gerbera",
+      "source": "tnau_horticulture",
+      "page_range": "291-292",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "ed35dbddb37694cb85e18b572648d482d7238317b774bb57d2b813cd5332d8c4",
+      "qa_status": "clean"
+    },
+    {
+      "file": "china_aster_tnau_horticulture.md",
+      "crop": "china_aster",
+      "source": "tnau_horticulture",
+      "page_range": "293-343",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "6b2bdf03fa85ee843e717a4c18b345a8dc833e377006a758050e7c36d4947fba",
+      "qa_status": "clean"
+    },
+    {
+      "file": "palak_tnau_horticulture.md",
+      "crop": "palak",
+      "source": "tnau_horticulture",
+      "page_range": "331-331",
+      "main_sections": 1,
+      "mentions": 0,
+      "sha256": "c7e954e06c78507d765b095fb679c9206fa91964ca89ad77133df2b4c6a8c6f1",
+      "qa_status": "clean"
+    },
+    {
+      "file": "ashwagandha_tnau_horticulture.md",
+      "crop": "ashwagandha",
+      "source": "tnau_horticulture",
+      "page_range": "335-414",
+      "main_sections": 2,
+      "mentions": 2,
+      "sha256": "479ae75426434b1306e2657871e9c22605657c7b8659e0f351012b7f1a14ce2f",
+      "qa_status": "clean"
+    },
+    {
+      "file": "marigold_tnau_horticulture.md",
+      "crop": "marigold",
+      "source": "tnau_horticulture",
+      "page_range": "336-336",
+      "main_sections": 1,
+      "mentions": 5,
+      "sha256": "57ff1ad5bed82c173e3f4dd3e7b613a23c46e713ccbb9022c66d3f63cc38ac01",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mungbean_tnau_horticulture.md",
+      "crop": "mungbean",
+      "source": "tnau_horticulture",
+      "page_range": "344-374",
+      "main_sections": 2,
+      "mentions": 1,
+      "sha256": "f4c46cc3549afff768e6d3d70b7bd29d23646f71de6023bc4ad19f8a9aee3a90",
+      "qa_status": "clean"
+    },
+    {
+      "file": "mushroom_tnau_horticulture.md",
+      "crop": "mushroom",
+      "source": "tnau_horticulture",
+      "page_range": "349-389",
+      "main_sections": 2,
+      "mentions": 0,
+      "sha256": "261abfab5302bd69169f083d492c47cb8aeb0d6188b8e58df3653db545b42488",
+      "qa_status": "clean"
+    },
+    {
+      "file": "cauliflower_tnau_horticulture.md",
+      "crop": "cauliflower",
+      "source": "tnau_horticulture",
+      "page_range": "374-374",
+      "main_sections": 1,
+      "mentions": 7,
+      "sha256": "ac918421bd9f74b71186f58560906fdbd45cf18ae3c8c11858cade7d0832ee13",
+      "qa_status": "clean"
+    },
+    {
+      "file": "garlic_tnau_horticulture.md",
+      "crop": "garlic",
+      "source": "tnau_horticulture",
+      "page_range": "374-374",
+      "main_sections": 1,
+      "mentions": 1,
+      "sha256": "fead6c40715de0ece0e4446640a129a903efc7ba7b4368a17a7e8c3d7b4ba365",
+      "qa_status": "clean"
+    },
+    {
+      "file": "coffee_tnau_horticulture.md",
+      "crop": "coffee",
+      "source": "tnau_horticulture",
+      "page_range": "375-390",
+      "main_sections": 2,
+      "mentions": 10,
+      "sha256": "43f739665f7d673f33bda291efa5784bc86d1d6f51aef31e7d70444be659dc1c",
+      "qa_status": "clean"
+    }
+  ]
+}

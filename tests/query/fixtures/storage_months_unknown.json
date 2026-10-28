@@ -1,0 +1,6 @@
+{"question": "Q17 (seed): How should I store seed? (storage period not given)",
+ "template": "storage",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:seed"},
+ "expect": {"scope": "local", "asks": ["storage_months"],
+            "visible": ["gunny or cloth bags", "polylined gunny bag", "700 gauge polythene bag"],
+            "hidden": ["Treat the seeds with carbendazim"]}}

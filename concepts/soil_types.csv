@@ -1,0 +1,10 @@
+id,name_en,review_status,source
+soil:clay,Clay,approved,docs/schema_v1.1.md
+soil:sandy,Sandy,approved,docs/schema_v1.1.md
+soil:loam,Loam,approved,docs/schema_v1.1.md
+soil:red,Red,approved,docs/schema_v1.1.md
+soil:black,Black,approved,docs/schema_v1.1.md
+soil:alluvial,Alluvial,approved,docs/schema_v1.1.md
+soil:saline,Saline,approved,docs/schema_v1.1.md
+soil:sodic,Sodic,approved,docs/schema_v1.1.md
+soil:acidic,Acidic,approved,docs/schema_v1.1.md

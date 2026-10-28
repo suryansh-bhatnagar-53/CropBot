@@ -1,0 +1,224 @@
+1. Core API Configuration
+Every single request you make to this server requires these exact base settings.
+
+Endpoint URL: https://soilhealth4.dac.gov.in/graphql
+
+HTTP Method: POST
+
+Required Headers:
+
+JSON
+{
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+(Note: Without the User-Agent, the government's firewall will likely block the request).
+
+2. The Primary Data Query (For Chatbot Live-Fetch)
+This is the main payload your chatbot will use to actually get the soil numbers.
+
+Operation Name: GetNutrientDashboardForPortal
+
+Required Variables: state, district, block, village, cycle, scheme, count
+
+GraphQL Query String:
+
+GraphQL
+query GetNutrientDashboardForPortal($state: ID, $district: ID, $block: ID, $village: ID, $cycle: String, $count: Boolean, $scheme: String) {
+  getNutrientDashboardForPortal(
+    state: $state
+    district: $district
+    block: $block
+    village: $village
+    cycle: $cycle
+    count: $count
+    scheme: $scheme
+  )
+}
+3. The Geographic Mapping Queries
+If you ever need to rebuild your map or look up specific geographic IDs dynamically, these are the queries you use to traverse the hierarchy.
+
+A. Get All States
+
+Operation Name: GetState
+
+Variables: {} (Empty dictionary)
+
+GraphQL Query:
+
+GraphQL
+query GetState($getStateId: String, $code: String) {
+  getState(id: $getStateId, code: $code)
+}
+B. Get Districts by State
+
+Operation Name: GetdistrictAndSubdistrictBystate
+
+Variables: {"state": "<STATE_ID>"}
+
+GraphQL Query:
+
+GraphQL
+query GetdistrictAndSubdistrictBystate($getdistrictAndSubdistrictBystateId: String, $name: String, $state: ID, $subdistrict: Boolean, $code: String, $aspirationaldistrict: Boolean) {
+  getdistrictAndSubdistrictBystate(
+    id: $getdistrictAndSubdistrictBystateId
+    name: $name
+    state: $state
+    subdistrict: $subdistrict
+    code: $code
+    aspirationaldistrict: $aspirationaldistrict
+  )
+}
+C. Get Blocks by District  
+
+Operation Name: GetBlocks
+
+Variables: {"state": "<STATE_ID>", "district": "<DISTRICT_ID>"}
+
+GraphQL Query:  
+
+GraphQL
+query GetBlocks($getBlocksId: String, $name: String, $code: String, $state: ID, $district: ID, $subdistrict: ID, $aspirationalblock: Boolean) {
+  getBlocks(
+    id: $getBlocksId
+    name: $name
+    code: $code
+    state: $state
+    district: $district
+    subdistrict: $subdistrict
+    aspirationalblock: $aspirationalblock
+  )
+}
+D. Get Villages by Block  
+
+Operation Name: GetVillageBydistrict
+
+Variables: {"state": "<STATE_ID>", "district": "<DISTRICT_ID>", "block": "<BLOCK_ID>"}
+
+GraphQL Query:  
+
+GraphQL
+query GetVillageBydistrict($getVillageBydistrictId: String, $name: String, $state: String, $district: ID, $subdistrict: String, $block: String, $code: String) {
+  getVillageBydistrict(
+    id: $getVillageBydistrictId
+    name: $name
+    state: $state
+    district: $district
+    subdistrict: $subdistrict
+    block: $block
+    code: $code
+  )
+}
+4. Key Constants
+When firing the data queries, you will need to pass these constants into your variables payload:
+
+Target Scheme ID: "660f941a5c8405ca8375c7c6" (This represents the specific Soil Health Card RK... scheme you selected).
+
+Current Cycle: "2026-27" (Update this list if you are fetching historical data like "2025-26").
+
+Count Flag: False (Must be passed as a boolean in the data query variables).
+
+5. Architectural Golden Rules
+Do not forget these rules when moving to production, or your chatbot's server will get IP-banned.
+
+Rate Limiting: NEVER fire concurrent API requests to this endpoint. If looping, implement a strict time.sleep(2) between requests.
+
+The "Lazy Cache" Pattern: Your chatbot should always query your internal local database first. Only trigger the external requests.post() to the government server if the data does not already exist in your local cache.
+
+Timeouts: Always wrap your requests.post() in a try/except block with a timeout=10 parameter. Government servers go offline frequently; your bot should handle this gracefully without crashing.
+
+
+1. The GraphQL Introspection Trick (The Holy Grail)
+Because this is a GraphQL API, the developers might have accidentally left "Introspection" turned on. Introspection is a feature that allows you to ask the API, "What else can you do?" If you send this exact query to the server, and it doesn't block you, the server will literally send you its entire internal dictionary, revealing every single hidden feature, query, and data point it has:
+
+GraphQL
+query {
+  __schema {
+    types {
+      name
+      fields {
+        name
+      }
+    }
+  }
+}
+If it works, it's a goldmine. If it returns an error, the developers secured it properly.
+
+2. NIC Infrastructure and Web Application Firewalls (WAF)
+Most .gov.in websites are hosted on infrastructure managed by the National Informatics Centre (NIC). Their firewalls are notorious for being hyper-sensitive to bot traffic.
+
+The "User-Agent" is not enough: If your chatbot gets popular, the WAF will notice thousands of requests coming from your single server IP address and permanently blacklist it.
+
+The Fix: If you experience random 403 Forbidden or Connection Reset errors in production, you will need to route your Python requests through a rotating proxy service so the government firewall thinks the requests are coming from different residential internet connections.
+
+3. Data Cleanliness (The "0" vs "Null" Trap)
+Government data entry is famously inconsistent. As your chatbot parses the JSON responses, watch out for missing keys.
+
+Sometimes, a village might not have any Phosphorus data. Instead of returning {"High": 0, "Medium": 0, "Low": 0}, the API might just leave the "p" key out entirely, or return null.
+
+Always use Python's .get("key", default_value) method (like we did in the Level 5 script) rather than direct bracket notation ["key"]. If you use brackets and the data is missing, your chatbot will instantly crash with a KeyError.
+
+4. The Official Open Data Alternative
+Before you commit to maintaining this scraper forever, periodically check data.gov.in (India's Open Government Data platform). The Department of Agriculture frequently uploads massive Excel/CSV dumps of Soil Health Card data there. If they ever publish an official, live API key for this dataset on that platform, you should immediately switch your chatbot to use that instead—it is legal, officially supported, and won't require proxy servers.
+
+
+https://metnet.imd.gov.in/phps/links.php
+https://mausam.imd.gov.in/imd_latest/contents/imd-dwr-network.php
+https://www.scribd.com/document/353757370/IMD-Stations
+https://www.data.gov.in/ministrydepartment/India%20Meteorological%20Department%20(IMD)
+https://wis2box.imd.gov.in/oapi/collections/stations/items?f=html
+https://weather.indianapi.in/india/cities
+https://metnet.imd.gov.in/Welcome_to_Intra-IMD/welcome.php
+https://metnet.imd.gov.in/docs/imdnews/ANNUAL_REPORT2025English.pdf
+
+
+
+For your crop chatbot, you can bypass the complex IMD registration by using **open-source APIs** for forecasts and **direct PDF links** for annual reports. Web scraping IMD’s dynamic pages is difficult due to their legacy format; downloading their static reports is more reliable.
+
+### 1. Open Source Forecast API (No Key Required)
+The best option for immediate integration without registration is **Open-Meteo**. It aggregates data from global models (including those covering India) and requires **no API key**.
+
+*   **Why it fits**: It provides **soil temperature** (critical for sowing), **soil moisture**, and **evapotranspiration** alongside standard weather data.
+*   **Usage**: Simply construct a URL with latitude and longitude.
+    *   **Endpoint**: `https://api.open-meteo.com/v1/forecast`
+    *   **Example Request** (for Nashik, Maharashtra):
+        ```http
+        GET https://api.open-meteo.com/v1/forecast?latitude=19.99&longitude=73.78&hourly=temperature_2m,soil_temperature_0_to_7cm,soil_moisture_0_to_1cm,precipitation_probability&forecast_days=7
+        ```
+    *   **Limits**: Free for up to **10,000 calls per day** (non-commercial). For commercial use, you can self-host their open-source code.
+
+### 2. Annual Reports & Climate Data (Direct Downloads)
+Instead of scraping, directly ingest these official PDFs into your chatbot’s knowledge base. They contain the factual climate trends, temperature anomalies, and rainfall statistics you need.
+
+*   **IMD Annual Report 2025**: Covers organizational achievements and agromet services.
+    *   **Download**: [IMD Annual Report 2025 (PDF)](https://metnet.imd.gov.in/docs/imdnews/ANNUAL_REPORT2025English.pdf)
+*   **Statement on Climate of India (2025)**: The definitive source for annual temperature/rainfall anomalies (e.g., "2025 was the 8th warmest year").
+    *   **Download**: Look for the "Annual Climate Statement" in the [IMD Press Releases](https://internal.imd.gov.in/press_release/) or directly via the [Climate Reports](https://imdpune.gov.in/climate/Climate_Reports.html) page.
+*   **State-Specific Climate Reports**: IMD now publishes district-wise climate books (e.g., "Climate of Karnataka", "Climate of Maharashtra").
+    *   **Search**: Visit the [IMD Climate Reports Page](https://imdpune.gov.in/climate/Climate_Reports.html) and select your target state. These are goldmines for local crop advice.
+
+### 3. Historical Data for Training (Gridded Data)
+If your chatbot needs to analyze historical patterns (e.g., "How did 2023 rainfall compare to 2010?"), use **IMD Gridded Data**.
+
+*   **Source**: The **IMD Gridded Data Archive** offers free daily rainfall and temperature data (0.25° resolution) from 1901–present.
+*   **Access Method**:
+    1.  **Manual**: Visit the [Gridded Data Download Page](https://imdpune.gov.in/Clim_Pred_LRF_New/Grided_Data_Download.html).
+    2.  **Programmatic (Python)**: Use the **`imdlib`** library to download and convert binary data to CSV/GeoTIFF automatically.
+        ```bash
+        pip install imdlib
+        ```
+        ```python
+        import imdlib
+        # Example: Download rainfall data for 2020-2025
+        data = imdlib.open_data('rain', 2020, 2025, 'yearwise')
+        df = data.get_xarray().to_dataframe() # Converts to pandas DataFrame
+        ```
+
+### Summary Strategy for Your Chatbot
+1.  **Forecasts**: Use **Open-Meteo** (no key) for real-time soil/weather data.
+2.  **Facts/Trends**: Ingest the **IMD Annual Report 2025** and **State Climate Reports** (PDFs) into your vector database.
+3.  **Historical Analysis**: Use **`imdlib`** to fetch historical rainfall/temperature grids for training data.
+
+
+
+

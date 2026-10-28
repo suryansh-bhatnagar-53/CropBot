@@ -1,0 +1,8 @@
+{"question": "Q14: At what moisture should I thresh? (seed crop, duration not given)",
+ "template": "harvest_readiness",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:seed"},
+ "expect": {"scope": "local", "asks": ["duration_group"],
+            "visible": ["Thresh either manually or using mechanical threshers",
+                        {"quote": "20% for short and medium duration varieties", "duration_group": "short"},
+                        {"quote": "20% for short and medium duration varieties", "duration_group": "medium"},
+                        {"quote": "17% moisture for long duration varieties", "duration_group": "long"}]}}

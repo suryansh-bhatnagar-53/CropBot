@@ -1,0 +1,64 @@
+concept_id,text,lang,script,kind,review_status,source
+crop:rice,rice,en,Latn,canonical,needs_review,CROPS in extraction/extract.py
+crop:rice,paddy,en,Latn,alias,needs_review,CROPS in extraction/extract.py
+crop:wheat,wheat,en,Latn,canonical,needs_review,CROPS in extraction/extract.py
+pest:brown_planthopper,BPH,en,Latn,abbreviation,needs_review,"TNAU 2020 PDF pp. 63, 69"
+pest:white_backed_planthopper,WBPH,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 69
+pest:green_leafhopper,GLH,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 69
+pest:leaffolder,Leaf folder,en,Latn,alias,needs_review,TNAU 2020 PDF p. 69
+pest:hispa,spiny beetle,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 65, printed 'Hispa/ spiny beetle'"
+fertilizer:ssp,super phosphate,en,Latn,alias,needs_review,TNAU 2020 PDF p. 30
+fertilizer:znso4,ZnSO4,en,Latn,abbreviation,needs_review,"TNAU 2020 PDF pp. 30, 74"
+fertilizer:feso4,FeSO4,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 74
+organic_input:fym,FYM,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 30
+organic_input:silicate_solubilizing_bacteria,SSB,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 29
+organic_input:potash_bacteria,KRB,en,Latn,abbreviation,needs_review,TNAU 2020 PDF p. 29
+organic_input:azospirillum,Azsopirillum,en,Latn,alias,needs_review,book misspelling on PDF p. 29 (twice); keep only if typos should link (approved for seeding 2026-10-20)
+ai:carbendazim,Bavistin,en,Latn,alias,needs_review,"BRAND NAME. Bavistin is a trade name; the book (PDF p. 74) does not say it is carbendazim, that mapping is mine (approved for seeding 2026-10-20)"
+ai:chlorpyrifos,chlorpyriphos,en,Latn,alias,needs_review,"book spelling, PDF pp. 64-69 (approved for seeding 2026-10-20)"
+ai:tricyclazole,Tricyclozole,en,Latn,alias,needs_review,"book spelling, PDF p. 29 (approved for seeding 2026-10-20)"
+ai:bromadiolone,bromodialone,en,Latn,alias,needs_review,"book spelling, PDF p. 68 (approved for seeding 2026-10-20)"
+ai:etofenprox,ethopenprox,en,Latn,alias,needs_review,"book spelling, PDF p. 69 (approved for seeding 2026-10-20)"
+ai:methyl_parathion,methylparathion,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 69, printed as one word"
+ai:cartap_hydrochloride,Cartaphydrochloride,en,Latn,alias,needs_review,"book spelling without a space, PDF p. 65 (approved for seeding 2026-10-20)"
+soil:clay,clayey soils,en,Latn,alias,needs_review,TNAU 2020 PDF p. 30; whether 'clayey' means the clay soil type is your call (approved for seeding 2026-10-20)
+pest:hispa,Hispa/ spiny beetle,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 65, the book's name in the management table (approved 2026-10-20)"
+pest:earhead_bug,Earhead bug,en,Latn,alias,needs_review,"TNAU 2020 PDF pp. 64, 67, the book's spelling (approved 2026-10-20)"
+soil:saline,saline soil condition,en,Latn,alias,needs_review,TNAU 2020 PDF p. 74 sub-heading 'Recommendation for planting under saline soil condition' (approved 2026-10-20)
+soil:saline,saline / sodic soils,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 73; one phrase naming two soils, linked to both (approved 2026-10-20)"
+soil:sodic,saline / sodic soils,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 73; one phrase naming two soils, linked to both (approved 2026-10-20)"
+fertilizer:mop,KCl,en,Latn,alias,needs_review,TNAU 2020 PDF p. 73 '1% KCl solution'; identity follows the substance: KCl is muriate of potash (decision 2026-10-20)
+pest:rat,rodent,en,Latn,alias,needs_review,"TNAU 2020 IPM module, PDF p. 68: 'rodent' (proposed 2026-10-20)"
+input:common_salt,NaCl,en,Latn,alias,needs_review,TNAU 2020 PDF p. 39: '20% NaCl'
+input:nitric_acid,HNO3,en,Latn,alias,needs_review,TNAU 2020 PDF p. 73
+fertilizer:potassium_nitrate,KNO3,en,Latn,alias,needs_review,TNAU 2020 PDF p. 73
+input:light_trap,light traps,en,Latn,alias,needs_review,"TNAU 2020 PDF pp. 66-67, as printed"
+input:yellow_pan_trap,yellow pan traps,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 66, as printed"
+input:owl_perch,owl perches,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 68, as printed"
+input:owl_perch,bird (owl) perches,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 68, as printed"
+input:platygaster_oryzae_galls,Platygaster oryzae parasitised galls,en,Latn,alias,needs_review,"TNAU 2020 PDF p. 65, as printed"
+disease:tungro,tungro,en,Latn,canonical,needs_review,"TNAU Crop Production Guide 2020, PDF p. 64: 'in tungro endemic area'"
+variety:pr_113,PR-113 & 114,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by PR-113 and PR-114"
+variety:pr_114,PR-113 & 114,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by PR-113 and PR-114"
+variety:pant_dhan_10,"Pant Dhan- 10,12, 19, 24 & 26",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 10, 12, 19, 24 and 26"
+variety:pant_dhan_12,"Pant Dhan- 10,12, 19, 24 & 26",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 10, 12, 19, 24 and 26"
+variety:pant_dhan_19,"Pant Dhan- 10,12, 19, 24 & 26",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 10, 12, 19, 24 and 26"
+variety:pant_dhan_24,"Pant Dhan- 10,12, 19, 24 & 26",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 10, 12, 19, 24 and 26"
+variety:pant_dhan_26,"Pant Dhan- 10,12, 19, 24 & 26",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 10, 12, 19, 24 and 26"
+variety:pant_sugandha_dhan_15,"Pant Sugandha Dhan-15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Sugandha Dhan 15, 17 and 27"
+variety:pant_sugandha_dhan_17,"Pant Sugandha Dhan-15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Sugandha Dhan 15, 17 and 27"
+variety:pant_sugandha_dhan_27,"Pant Sugandha Dhan-15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Sugandha Dhan 15, 17 and 27"
+variety:pusa_basmati_1121,"Pusa Basmati 1121, 1509",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pusa Basmati 1121 and 1509"
+variety:pusa_basmati_1509,"Pusa Basmati 1121, 1509",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pusa Basmati 1121 and 1509"
+variety:pusa_basmati_1509,Pusa Bansmati 1509,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, Irrigated Hills row: the source's spelling ""Bansmati"""
+variety:pant_basmati_1,Pant Bansmati 1 and 2,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Basmati 1 and 2, the source's spelling ""Bansmati"""
+variety:pant_basmati_2,Pant Bansmati 1 and 2,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Basmati 1 and 2, the source's spelling ""Bansmati"""
+variety:pant_dhan_11,Pant Dhan 11 & 12,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 11 and 12"
+variety:pant_dhan_12,Pant Dhan 11 & 12,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: printed text shared by Pant Dhan 11 and 12"
+zone:uk_mid_hills,Irrigated Hills,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice Area cell; covers the mid and high hills sowing rows (decided 2026-10-24: both hill zones plus system:irrigated)"
+zone:uk_high_hills,Irrigated Hills,en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice Area cell; covers the mid and high hills sowing rows (decided 2026-10-24: both hill zones plus system:irrigated)"
+zone:uk_mid_hills,Mid hills (900 – 1500msl),en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice Sowing time column, as printed"
+zone:uk_high_hills,High Hills (1500 msl and above),en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice Sowing time column, as printed"
+variety:pant_sugandha_dhan_15,"Pant Sugandha Dhan- 15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: the shared printed text as converted (line-break hyphen then a space; approved 2026-10-24)"
+variety:pant_sugandha_dhan_17,"Pant Sugandha Dhan- 15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: the shared printed text as converted (line-break hyphen then a space; approved 2026-10-24)"
+variety:pant_sugandha_dhan_27,"Pant Sugandha Dhan- 15,17 & 27",en,Latn,alias,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1: the shared printed text as converted (line-break hyphen then a space; approved 2026-10-24)"

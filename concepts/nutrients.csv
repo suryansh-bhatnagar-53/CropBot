@@ -1,0 +1,8 @@
+id,name_en,symbol,review_status,source
+nutrient:n,Nitrogen,N,approved,docs/schema_v1.1.md
+nutrient:p2o5,Phosphorus as P2O5,P2O5,approved,docs/schema_v1.1.md
+nutrient:k2o,Potassium as K2O,K2O,approved,docs/schema_v1.1.md
+nutrient:s,Sulphur,S,approved,docs/schema_v1.1.md
+nutrient:zn,Zinc,Zn,approved,docs/schema_v1.1.md
+nutrient:fe,Iron,Fe,approved,docs/schema_v1.1.md
+nutrient:b,Boron,B,approved,docs/schema_v1.1.md

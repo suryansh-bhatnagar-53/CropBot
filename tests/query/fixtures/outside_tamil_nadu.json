@@ -1,0 +1,5 @@
+{"question": "Q15 from a farmer outside Tamil Nadu (state:test_other is a test placeholder, not an LGD code)",
+ "template": "drying_target",
+ "context": {"crop": "crop:rice", "state": "state:test_other", "purpose": "purpose:grain"},
+ "expect": {"scope": "fallback", "asks": [], "visible": ["Dry the grains to 12% moisture"],
+            "labels": {"Dry the grains to 12% moisture": ["not yet verified by an expert", "From a Tamil Nadu source"]}}}

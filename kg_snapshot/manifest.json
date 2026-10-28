@@ -1,0 +1,116 @@
+{
+ "counts": {
+  "labels": {
+   "AIGroup": 1,
+   "ActiveIngredient": 53,
+   "AgroClimaticZone": 10,
+   "Caution": 12,
+   "Concept": 242,
+   "Condition": 5,
+   "ControlMeasure": 44,
+   "Country": 1,
+   "Crop": 2,
+   "Disease": 1,
+   "DryingSpec": 3,
+   "Fertilizer": 7,
+   "HarvestRule": 5,
+   "Input": 17,
+   "IrrigationRule": 6,
+   "Label": 63,
+   "LocalSeason": 11,
+   "Nutrient": 7,
+   "NutrientDose": 13,
+   "OperationType": 18,
+   "OrganicInput": 7,
+   "Pest": 18,
+   "PestThreshold": 8,
+   "ProductionSystem": 9,
+   "Purpose": 4,
+   "QualitySpec": 18,
+   "Recommendation": 139,
+   "Season": 5,
+   "SeedRate": 4,
+   "SeedTreatment": 12,
+   "SoilType": 9,
+   "Source": 3,
+   "SourceSpan": 168,
+   "SowingWindow": 6,
+   "Spacing": 1,
+   "State": 2,
+   "Step": 205,
+   "StorageRule": 5,
+   "ThresholdClause": 17,
+   "Variety": 60,
+   "VarietyRecommendation": 2
+  },
+  "nodes": 842,
+  "relationships": 1280,
+  "types": {
+   "ABOUT": 7,
+   "APPLIES": 165,
+   "CONCERNS": 24,
+   "CONFLICTS_WITH": 1,
+   "EVIDENCED_BY": 177,
+   "FOR_CROP": 139,
+   "FOR_PEST": 8,
+   "FOR_PURPOSE": 24,
+   "HAS_CLAUSE": 17,
+   "HAS_STEP": 205,
+   "IN_COUNTRY": 2,
+   "IN_REGION": 140,
+   "IN_SOURCE": 168,
+   "LABEL_OF": 63,
+   "MEMBER_OF": 5,
+   "ON_SOIL": 6,
+   "RECOMMENDS": 24,
+   "TARGETS": 35,
+   "UNDER_SYSTEM": 5,
+   "VARIETY_OF": 60,
+   "WHEN": 5
+  }
+ },
+ "database": "neo4j",
+ "dump": {
+  "bytes": 345615,
+  "file": "neo4j.dump",
+  "sha256": "1a4fb14f0f3a75f53f5662abd15fe613c1facecd47794db5c6ecedbc356092ba",
+  "store_format": "block-block-1.1"
+ },
+ "exported_at": "2026-10-24T08:17:25+00:00",
+ "facts_by_source_and_status": {
+  "source:dfpd_uniform_spec_kms_2026_27": {
+   "approved": 18
+  },
+  "source:gbpuat_kharif_advisory_2020": {
+   "approved": 8
+  },
+  "source:tnau_agriculture_2020": {
+   "extracted": 12,
+   "needs_review": 101
+  }
+ },
+ "files": {
+  "nodes.jsonl": {
+   "bytes": 554424,
+   "sha256": "fce1df8c7c6cb8dc791dc98fdba7671c35b6aed671e36986c8b99db5cf4f3af8"
+  },
+  "relationships.jsonl": {
+   "bytes": 149930,
+   "sha256": "8d1c8103f86addbea165ece7f5b912a3ce021f5aa8c8c5ec46951fcb8922a62b"
+  }
+ },
+ "neo4j": {
+  "edition": "enterprise",
+  "name": "Neo4j Kernel",
+  "version": "2026.09.0"
+ },
+ "snapshot": {
+  "nodes": 842,
+  "relationships": 1280,
+  "sha256": "13c96aefbc1ee99265369282f5f0746446ef6a86795e24d319337855ff5c681d"
+ },
+ "source": {
+  "commit": "d320c2ed5b00621e4dee0b58e74392281598e318",
+  "dirty": true
+ }
+}

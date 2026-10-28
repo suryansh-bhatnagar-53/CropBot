@@ -1,0 +1,10 @@
+{"question": "Q1: Which paddy variety should I sow this season? (an irrigated farm in the mid hills, Uttarakhand)",
+ "template": "varieties_for",
+ "context": {"crop": "crop:rice", "state": "state:5", "zones": ["zone:uk_mid_hills"], "systems": ["system:irrigated"]},
+ "expect": {"scope": "local", "asks": [], "visible": ["VL Dhan-85, Vivek Dhan-82"],
+            "citations": {"VL Dhan-85, Vivek Dhan-82": {"pdf_page": 1, "printed_page": null, "status": "approved",
+                                                        "source_id": "source:gbpuat_kharif_advisory_2020"}},
+            "labels": {"VL Dhan-85, Vivek Dhan-82": []},
+            "varieties": {"VL Dhan-85, Vivek Dhan-82": [
+              "variety:govind", "variety:pant_dhan_11", "variety:pant_dhan_12", "variety:pusa_basmati_1509",
+              "variety:vivek_dhan_82", "variety:vl_65", "variety:vl_dhan_68", "variety:vl_dhan_85"]}}}

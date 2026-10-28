@@ -1,0 +1,2 @@
+id,name_en,pathogen,pathogen_type,review_status,source
+disease:tungro,Rice tungro,,virus,needs_review,"TNAU Crop Production Guide 2020, PDF p. 64 (printed 52): GLH threshold '2/hill in tungro endemic area' (schema v1.4 endemic_area); pathogen left empty and pathogen_type virus to be confirmed by the reviewer"

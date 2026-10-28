@@ -1,0 +1,4 @@
+id,name_en,country_id,review_status,source
+state:33,Tamil Nadu,country:in,approved,LGD state code confirmed by the team on lgdirectory.gov.in
+state:TODO,TODO pilot state,country:in,needs_review,TODO
+state:5,Uttarakhand,country:in,approved,"LGD state code 5 confirmed by the user on lgdirectory.gov.in (2026-10-24); name as printed in the title of the GBPUAT kharif advisory 2020, PDF p. 1: ""Advisory for Kharif Season in Uttarakhand"""

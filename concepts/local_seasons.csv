@@ -1,0 +1,12 @@
+id,name_en,state_id,start_month,end_month,maps_to,review_status,source
+season_local:kuruvai,Kuruvai,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:late_kuruvai,Late Kuruvai,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:samba,Samba,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:late_samba,Late Samba,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:thaladi,Thaladi,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:navarai,Navarai,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+season_local:sornavari,Sornavari,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 14"
+season_local:kar,Kar,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 15"
+season_local:early_kar,Early Kar,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 16"
+season_local:pishanam,Pishanam,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 16"
+season_local:late_pishanam,Late Pishanam,state:33,,,,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 16"

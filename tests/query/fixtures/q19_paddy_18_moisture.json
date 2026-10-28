@@ -1,0 +1,11 @@
+{"question": "Q19: Will the mandi accept my paddy at 18% moisture?",
+ "template": "quality_check",
+ "context": {"crop": "crop:rice", "state": "state:33", "commodity_form": "paddy", "quality": {"moisture": 18}},
+ "expect": {"scope": "local", "asks": [],
+            "verdict": {"result": "fail", "failed": ["moisture"]},
+            "checks": {"Moisture content | 17.0": "fail"},
+            "citations": {"Moisture content | 17.0": {"pdf_page": 6, "printed_page": null,
+                                                      "extraction_method": "manual_transcription",
+                                                      "transcription": "transcriptions/dfpd_uniform_spec_kms_2026_27/p006.md",
+                                                      "status": "approved"}},
+            "labels": {"Moisture content | 17.0": []}}}

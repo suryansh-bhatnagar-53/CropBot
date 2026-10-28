@@ -1,0 +1,8 @@
+id,name_en,kind,review_status,source
+organic_input:fym,Farmyard manure (FYM),fym,needs_review,"TNAU 2020 wet nursery, PDF p. 30, printed 'FYM'"
+organic_input:compost,Compost,compost,needs_review,"TNAU 2020 wet nursery, PDF p. 30"
+organic_input:azospirillum,Azospirillum,biofertilizer,needs_review,"TNAU 2020 seed treatment with biofertilizers, PDF p. 29"
+organic_input:phosphobacteria,Phosphobacteria,biofertilizer,needs_review,"TNAU 2020 seed treatment with biofertilizers, PDF p. 29"
+organic_input:azophos,Azophos,biofertilizer,needs_review,"TNAU 2020 seed treatment with biofertilizers, PDF p. 29"
+organic_input:silicate_solubilizing_bacteria,Silicate solubilizing bacteria (SSB),biofertilizer,needs_review,"TNAU 2020 carrier and liquid formulations, PDF p. 29"
+organic_input:potash_bacteria,Potash bacteria (KRB),biofertilizer,needs_review,"TNAU 2020 carrier and liquid formulations, PDF p. 29"

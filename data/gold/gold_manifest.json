@@ -1,0 +1,328 @@
+{
+  "workbook": "gold_set_annotations_final.xlsx",
+  "sha256": "e4214ccdcac7c28bda76a250f5bf0e18e60c4dbada699338374ce522f83afa27",
+  "sheets": {
+    "A": {
+      "file": "gold_A.jsonl",
+      "rows": 47,
+      "header": [
+        "fact_id",
+        "fact_type",
+        "pdf_page",
+        "printed_page",
+        "section",
+        "crop",
+        "purpose",
+        "where",
+        "condition",
+        "step",
+        "alternative",
+        "action",
+        "input",
+        "amount",
+        "unit",
+        "per",
+        "timing",
+        "other_values",
+        "quote",
+        "unsure"
+      ],
+      "empty_rows_skipped": []
+    },
+    "B": {
+      "file": "gold_B.jsonl",
+      "rows": 35,
+      "header": [
+        "fact_id",
+        "fact_type",
+        "pdf_page",
+        "printed_page",
+        "section",
+        "crop",
+        "purpose",
+        "where",
+        "condition",
+        "step",
+        "alternative",
+        "action",
+        "input",
+        "amount",
+        "unit",
+        "per",
+        "timing",
+        "other_values",
+        "quote",
+        "unsure"
+      ],
+      "empty_rows_skipped": []
+    },
+    "C": {
+      "file": "gold_C.jsonl",
+      "rows": 19,
+      "header": [
+        "fact_id",
+        "fact_type",
+        "pdf_page",
+        "printed_page",
+        "section",
+        "crop",
+        "purpose",
+        "where",
+        "condition",
+        "step",
+        "alternative",
+        "action",
+        "input",
+        "amount",
+        "unit",
+        "per",
+        "timing",
+        "other_values",
+        "quote",
+        "unsure"
+      ],
+      "empty_rows_skipped": []
+    },
+    "Changelog": {
+      "file": "gold_changelog.jsonl",
+      "rows": 139,
+      "header": [
+        "sheet",
+        "fact_id",
+        "field",
+        "before",
+        "after",
+        "why"
+      ],
+      "empty_rows_skipped": [
+        140
+      ]
+    }
+  },
+  "conversions": [
+    {
+      "sheet": "A",
+      "row": 10,
+      "fact_id": "A9",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "A",
+      "row": 11,
+      "fact_id": "A10",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 12,
+      "fact_id": "A11",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "A",
+      "row": 13,
+      "fact_id": "A12",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 14,
+      "fact_id": "A13",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 15,
+      "fact_id": "A14",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 16,
+      "fact_id": "A15",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 17,
+      "fact_id": "A16",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 18,
+      "fact_id": "A17",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 19,
+      "fact_id": "A18",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 20,
+      "fact_id": "A19",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 21,
+      "fact_id": "A20",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 22,
+      "fact_id": "A21",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 30,
+      "fact_id": "A29",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 32,
+      "fact_id": "A31",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "A",
+      "row": 33,
+      "fact_id": "A32",
+      "field": "step",
+      "from": "3",
+      "to": 3
+    },
+    {
+      "sheet": "A",
+      "row": 34,
+      "fact_id": "A33",
+      "field": "step",
+      "from": "4",
+      "to": 4
+    },
+    {
+      "sheet": "A",
+      "row": 35,
+      "fact_id": "A34",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 36,
+      "fact_id": "A35",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "A",
+      "row": 37,
+      "fact_id": "A36",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "A",
+      "row": 46,
+      "fact_id": "A45",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 47,
+      "fact_id": "A46",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "A",
+      "row": 48,
+      "fact_id": "A47",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "B",
+      "row": 4,
+      "fact_id": "B3",
+      "field": "step",
+      "from": "1",
+      "to": 1
+    },
+    {
+      "sheet": "B",
+      "row": 5,
+      "fact_id": "B3b",
+      "field": "step",
+      "from": "2",
+      "to": 2
+    },
+    {
+      "sheet": "B",
+      "row": 6,
+      "fact_id": "B4",
+      "field": "step",
+      "from": "3",
+      "to": 3
+    },
+    {
+      "sheet": "B",
+      "row": 7,
+      "fact_id": "B5",
+      "field": "step",
+      "from": "4",
+      "to": 4
+    },
+    {
+      "sheet": "B",
+      "row": 8,
+      "fact_id": "B6",
+      "field": "step",
+      "from": "5",
+      "to": 5
+    }
+  ]
+}

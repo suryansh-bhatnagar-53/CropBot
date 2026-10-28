@@ -1,0 +1,6 @@
+{"question": "Q19: Will the mandi accept my paddy?",
+ "template": "quality_check",
+ "context": {"crop": "crop:rice", "state": "state:33", "commodity_form": "paddy"},
+ "expect": {"scope": "local", "asks": ["grain_moisture_pct"],
+            "verdict": {"result": "unknown", "failed": [], "passed": []},
+            "checks": {"Moisture content | 17.0": "unknown"}}}

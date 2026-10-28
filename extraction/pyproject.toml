@@ -1,0 +1,26 @@
+[project]
+name = "cropbot-extraction"
+version = "0.1.0"
+description = "BooksData -> per-crop, per-book markdown for the CropBot knowledge graph"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "docling>=2.115.0",
+    "easyocr>=1.7.2",
+    "pypdf>=5.0",
+    "rapidfuzz>=3.9",
+    "requests>=2.32",
+    "torch>=2.9",
+    "torchvision>=0.24",
+]
+
+# The GX10 (NVIDIA GB10, ARM64) runs CUDA 13, so torch and torchvision come
+# from PyTorch's cu130 index on Linux. It publishes manylinux aarch64 wheels.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130", marker = "sys_platform == 'linux'" }]
+torchvision = [{ index = "pytorch-cu130", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

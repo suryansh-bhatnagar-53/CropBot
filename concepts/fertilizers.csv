@@ -1,0 +1,8 @@
+id,name_en,n_pct,p2o5_pct,k2o_pct,contains,review_status,source
+fertilizer:urea,Urea,46,0,0,,needs_review,N implied by docs/schema_v1.1.md alternatives example (16 kg urea = 7.4 kg N); P and K not stated there
+fertilizer:dap,Diammonium phosphate (DAP),18,46,0,,needs_review,N and P2O5 implied by docs/schema_v1.1.md alternatives example (40 kg DAP = 7.2 kg N and 18.4 kg P2O5); K not stated there
+fertilizer:ssp,Single super phosphate (SSP),0,16,0,,needs_review,P2O5 implied by docs/schema_v1.1.md alternatives example (120 kg super phosphate = 19.2 kg P2O5); N and K not stated there
+fertilizer:mop,Muriate of potash (MOP),0,0,60,,needs_review,"Not in any repo document; commonly quoted grade, to verify against an official source"
+fertilizer:znso4,Zinc sulphate (ZnSO4),,,,,needs_review,"TNAU 2020 PDF pp. 30, 74 name it as ZnSO4; Zn percentage depends on the grade and needs an official source; percentages left blank until an official grade is sourced (decision 2026-10-20)"
+fertilizer:feso4,Ferrous sulphate (FeSO4),,,,,needs_review,TNAU 2020 PDF p. 74 names it as FeSO4; Fe percentage needs an official source; percentages left blank until an official grade is sourced (decision 2026-10-20)
+fertilizer:potassium_nitrate,Potassium nitrate,,,,,needs_review,"TNAU 2020 PDF p. 73 '0.5 % KNO3'; identity follows the substance, so a Fertilizer, not an Input (decision 2026-10-20); percentages left blank until an official grade is sourced"

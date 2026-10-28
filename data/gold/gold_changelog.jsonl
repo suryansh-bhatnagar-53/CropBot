@@ -1,0 +1,139 @@
+{"_sheet": "Changelog", "_row": 2, "sheet": "A", "fact_id": "A38", "field": "alternative", "before": null, "after": "preferred", "why": "the other rows of this group are fallback"}
+{"_sheet": "Changelog", "_row": 3, "sheet": "B", "fact_id": "B44", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B2"}
+{"_sheet": "Changelog", "_row": 4, "sheet": "B", "fact_id": "B43", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B1"}
+{"_sheet": "Changelog", "_row": 5, "sheet": "B", "fact_id": "B34", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B6"}
+{"_sheet": "Changelog", "_row": 6, "sheet": "B", "fact_id": "B33", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B5"}
+{"_sheet": "Changelog", "_row": 7, "sheet": "B", "fact_id": "B32", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B4"}
+{"_sheet": "Changelog", "_row": 8, "sheet": "B", "fact_id": "B31", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B3b"}
+{"_sheet": "Changelog", "_row": 9, "sheet": "B", "fact_id": "B30", "field": "(row)", "before": "present", "after": "deleted", "why": "exact duplicate of B3"}
+{"_sheet": "Changelog", "_row": 10, "sheet": "B", "fact_id": "B3", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 11, "sheet": "B", "fact_id": "B3", "field": "condition", "before": "avoid excessive nitrogen", "after": "BPH; avoid excessive nitrogen", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 12, "sheet": "B", "fact_id": "B3b", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 13, "sheet": "B", "fact_id": "B3b", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 14, "sheet": "B", "fact_id": "B4", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 15, "sheet": "B", "fact_id": "B4", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 16, "sheet": "B", "fact_id": "B5", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 17, "sheet": "B", "fact_id": "B5", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 18, "sheet": "B", "fact_id": "B6", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 19, "sheet": "B", "fact_id": "B6", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 20, "sheet": "B", "fact_id": "B7", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 21, "sheet": "B", "fact_id": "B7", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 22, "sheet": "B", "fact_id": "B7", "field": "quote", "before": "Spray any one of the following insecticides per ha: Acephate 75 % SP 666-1000 g", "after": "Acephate 75 % SP 666-1000 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 23, "sheet": "B", "fact_id": "B7", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 24, "sheet": "B", "fact_id": "B7", "field": "step", "before": "1", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 25, "sheet": "B", "fact_id": "B8", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 26, "sheet": "B", "fact_id": "B8", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 27, "sheet": "B", "fact_id": "B8", "field": "quote", "before": "Spray any one of the following insecticides per ha: Acephate 95 % SG 590 g", "after": "Acephate 95 % SG 590 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 28, "sheet": "B", "fact_id": "B8", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 29, "sheet": "B", "fact_id": "B8", "field": "step", "before": "2", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 30, "sheet": "B", "fact_id": "B9", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 31, "sheet": "B", "fact_id": "B9", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 32, "sheet": "B", "fact_id": "B9", "field": "quote", "before": "Spray any one of the following insecticides per ha: Acetamiprid 20% SP 50-100 g", "after": "Acetamiprid 20% SP 50-100 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 33, "sheet": "B", "fact_id": "B9", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 34, "sheet": "B", "fact_id": "B9", "field": "step", "before": "3", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 35, "sheet": "B", "fact_id": "B10", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 36, "sheet": "B", "fact_id": "B10", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 37, "sheet": "B", "fact_id": "B10", "field": "quote", "before": "Spray any one of the following insecticides per ha: Azadirachtin 0.03% 1000 ml", "after": "Azadirachtin 0.03% 1000 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 38, "sheet": "B", "fact_id": "B10", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 39, "sheet": "B", "fact_id": "B10", "field": "step", "before": "4", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 40, "sheet": "B", "fact_id": "B11", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 41, "sheet": "B", "fact_id": "B11", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 42, "sheet": "B", "fact_id": "B11", "field": "quote", "before": "Spray any one of the following insecticides per ha: Neem oil 3% 15 lit", "after": "Neem oil 3% 15 lit", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 43, "sheet": "B", "fact_id": "B11", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 44, "sheet": "B", "fact_id": "B11", "field": "step", "before": "5", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 45, "sheet": "B", "fact_id": "B12", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 46, "sheet": "B", "fact_id": "B12", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 47, "sheet": "B", "fact_id": "B12", "field": "quote", "before": "Spray any one of the following insecticides per ha: Buprofezin 25% SC 800 ml", "after": "Buprofezin 25% SC 800 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 48, "sheet": "B", "fact_id": "B12", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 49, "sheet": "B", "fact_id": "B12", "field": "step", "before": "6", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 50, "sheet": "B", "fact_id": "B13", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 51, "sheet": "B", "fact_id": "B13", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 52, "sheet": "B", "fact_id": "B13", "field": "quote", "before": "Spray any one of the following insecticides per ha: Carbosulfan 25% EC 800-1000 ml", "after": "Carbosulfan 25% EC 800-1000 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 53, "sheet": "B", "fact_id": "B13", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 54, "sheet": "B", "fact_id": "B13", "field": "step", "before": "7", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 55, "sheet": "B", "fact_id": "B14", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 56, "sheet": "B", "fact_id": "B14", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 57, "sheet": "B", "fact_id": "B14", "field": "quote", "before": "Spray any one of the following insecticides per ha: Clothianidin 50% WG 20-24 g", "after": "Clothianidin 50% WG 20-24 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 58, "sheet": "B", "fact_id": "B14", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 59, "sheet": "B", "fact_id": "B14", "field": "step", "before": "8", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 60, "sheet": "B", "fact_id": "B15", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 61, "sheet": "B", "fact_id": "B15", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 62, "sheet": "B", "fact_id": "B15", "field": "quote", "before": "Spray any one of the following insecticides per ha: Chlorantraniliprole 18.5% SC 150 g", "after": "Chlorantraniliprole 18.5% SC 150 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 63, "sheet": "B", "fact_id": "B15", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 64, "sheet": "B", "fact_id": "B15", "field": "step", "before": "9", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 65, "sheet": "B", "fact_id": "B16", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 66, "sheet": "B", "fact_id": "B16", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 67, "sheet": "B", "fact_id": "B16", "field": "quote", "before": "Spray any one of the following insecticides per ha: Chlorantraniliprole 0.4% G 10 kg", "after": "Chlorantraniliprole 0.4% G 10 kg", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 68, "sheet": "B", "fact_id": "B16", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 69, "sheet": "B", "fact_id": "B16", "field": "step", "before": "10", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 70, "sheet": "B", "fact_id": "B17", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 71, "sheet": "B", "fact_id": "B17", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 72, "sheet": "B", "fact_id": "B17", "field": "quote", "before": "Spray any one of the following insecticides per ha: Chlorpyriphos 1.5% DP 25 kg", "after": "Chlorpyriphos 1.5% DP 25 kg", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 73, "sheet": "B", "fact_id": "B17", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 74, "sheet": "B", "fact_id": "B17", "field": "step", "before": "11", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 75, "sheet": "B", "fact_id": "B18", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 76, "sheet": "B", "fact_id": "B18", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 77, "sheet": "B", "fact_id": "B18", "field": "quote", "before": "Spray any one of the following insecticides per ha: Chlorpyriphos 20% EC 1250 ml", "after": "Chlorpyriphos 20% EC 1250 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 78, "sheet": "B", "fact_id": "B18", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 79, "sheet": "B", "fact_id": "B18", "field": "step", "before": "12", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 80, "sheet": "B", "fact_id": "B19", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 81, "sheet": "B", "fact_id": "B19", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 82, "sheet": "B", "fact_id": "B19", "field": "quote", "before": "Spray any one of the following insecticides per ha: Dinotefuran 20% SG 150-200 g", "after": "Dinotefuran 20% SG 150-200 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 83, "sheet": "B", "fact_id": "B19", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 84, "sheet": "B", "fact_id": "B19", "field": "step", "before": "13", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 85, "sheet": "B", "fact_id": "B18", "field": "fact_id", "before": "B18", "after": "B18x", "why": "duplicate fact_id"}
+{"_sheet": "Changelog", "_row": 86, "sheet": "B", "fact_id": "B18x", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 87, "sheet": "B", "fact_id": "B18x", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 88, "sheet": "B", "fact_id": "B18x", "field": "quote", "before": "Spray any one of the following insecticides per ha: Fenobucarb 50% EC 500-1500 ml", "after": "Fenobucarb 50% EC 500-1500 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 89, "sheet": "B", "fact_id": "B18x", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 90, "sheet": "B", "fact_id": "B18x", "field": "step", "before": "14", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 91, "sheet": "B", "fact_id": "B19", "field": "fact_id", "before": "B19", "after": "B19x", "why": "duplicate fact_id"}
+{"_sheet": "Changelog", "_row": 92, "sheet": "B", "fact_id": "B19x", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 93, "sheet": "B", "fact_id": "B19x", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 94, "sheet": "B", "fact_id": "B19x", "field": "quote", "before": "Spray any one of the following insecticides per ha: Fipronil 5% SC 1000-1500 ml", "after": "Fipronil 5% SC 1000-1500 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 95, "sheet": "B", "fact_id": "B19x", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 96, "sheet": "B", "fact_id": "B19x", "field": "step", "before": "15", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 97, "sheet": "B", "fact_id": "B20", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 98, "sheet": "B", "fact_id": "B20", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 99, "sheet": "B", "fact_id": "B20", "field": "quote", "before": "Spray any one of the following insecticides per ha: Fipronil 0.3% GR 16.67-25 kg", "after": "Fipronil 0.3% GR 16.67-25 kg", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 100, "sheet": "B", "fact_id": "B20", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 101, "sheet": "B", "fact_id": "B20", "field": "step", "before": "16", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 102, "sheet": "B", "fact_id": "B21", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 103, "sheet": "B", "fact_id": "B21", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 104, "sheet": "B", "fact_id": "B21", "field": "quote", "before": "Spray any one of the following insecticides per ha: Imidacloprid 70% WG 30-35 kg", "after": "Imidacloprid 70% WG 30-35 kg", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 105, "sheet": "B", "fact_id": "B21", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 106, "sheet": "B", "fact_id": "B21", "field": "step", "before": "17", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 107, "sheet": "B", "fact_id": "B22", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 108, "sheet": "B", "fact_id": "B22", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 109, "sheet": "B", "fact_id": "B22", "field": "quote", "before": "Spray any one of the following insecticides per ha: Imidacloprid 17.8% SL 100-125 ml", "after": "Imidacloprid 17.8% SL 100-125 ml", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 110, "sheet": "B", "fact_id": "B22", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 111, "sheet": "B", "fact_id": "B22", "field": "step", "before": "18", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 112, "sheet": "B", "fact_id": "B23", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 113, "sheet": "B", "fact_id": "B23", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 114, "sheet": "B", "fact_id": "B23", "field": "quote", "before": "Spray any one of the following insecticides per ha: Pymetrozine 50% WG 300 g", "after": "Pymetrozine 50% WG 300 g", "why": "list intro is not part of the item text"}
+{"_sheet": "Changelog", "_row": 115, "sheet": "B", "fact_id": "B23", "field": "condition", "before": "BPH;", "after": "BPH; spray any one of the following insecticides per ha", "why": "list intro kept as condition"}
+{"_sheet": "Changelog", "_row": 116, "sheet": "B", "fact_id": "B23", "field": "step", "before": "19", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 117, "sheet": "B", "fact_id": "B35", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 118, "sheet": "B", "fact_id": "B35", "field": "condition", "before": "BPH prone areas/seasons", "after": "BPH; BPH prone areas/seasons", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 119, "sheet": "B", "fact_id": "B36", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 120, "sheet": "B", "fact_id": "B36", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 121, "sheet": "B", "fact_id": "B37", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 122, "sheet": "B", "fact_id": "B37", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 123, "sheet": "B", "fact_id": "B38b", "field": "where", "before": "general;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 124, "sheet": "B", "fact_id": "B38b", "field": "condition", "before": null, "after": "general;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 125, "sheet": "B", "fact_id": "B42", "field": "where", "before": "BPH;", "after": null, "why": "pest marker belongs in condition"}
+{"_sheet": "Changelog", "_row": 126, "sheet": "B", "fact_id": "B42", "field": "condition", "before": null, "after": "BPH;", "why": "pest marker moved from where"}
+{"_sheet": "Changelog", "_row": 127, "sheet": "C", "fact_id": "C12", "field": "step", "before": "1", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 128, "sheet": "C", "fact_id": "C13", "field": "step", "before": "2", "after": "1", "why": "options from one list share a step"}
+{"_sheet": "Changelog", "_row": 129, "sheet": "A", "fact_id": "A25", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 130, "sheet": "A", "fact_id": "A26", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 131, "sheet": "A", "fact_id": "A27", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 132, "sheet": "A", "fact_id": "A28", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 133, "sheet": "A", "fact_id": "A30", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 134, "sheet": "A", "fact_id": "A37", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 135, "sheet": "A", "fact_id": "A44", "field": "alternative..other_values", "before": "shifted one column left", "after": "moved right by one; alternative now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 136, "sheet": "B", "fact_id": "B37", "field": "timing..other_values", "before": "shifted one column left", "after": "moved right by one; timing now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 137, "sheet": "B", "fact_id": "B42", "field": "timing..other_values", "before": "shifted one column left", "after": "moved right by one; timing now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 138, "sheet": "C", "fact_id": "C7", "field": "timing..other_values", "before": "shifted one column left", "after": "moved right by one; timing now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 139, "sheet": "C", "fact_id": "C8", "field": "timing..other_values", "before": "shifted one column left", "after": "moved right by one; timing now empty", "why": "annotator layout slip: quote was in other_values"}
+{"_sheet": "Changelog", "_row": 141, "sheet": "Frozen gold set: built from v3 by mechanical fixes only (duplicates, column placement, step numbers, ids, A38 preferred). No value, unit, basis or quote content was changed apart from removing the shared list intro from B quotes. Remaining disagreements are settled in step 15 against the PDF.", "fact_id": null, "field": null, "before": null, "after": null, "why": null}

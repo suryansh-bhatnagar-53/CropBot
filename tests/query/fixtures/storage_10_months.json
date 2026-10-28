@@ -1,0 +1,5 @@
+{"question": "Q17 (seed): How should I store seed for 10 months? (the book has no 9-12 month rule)",
+ "template": "storage",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:seed", "storage_months": 10},
+ "expect": {"scope": "local", "asks": ["storage_months"], "visible": [], "hidden": ["Treat the seeds with carbendazim"],
+            "message": "No rule for this storage period in the source"}}

@@ -1,0 +1,12 @@
+{"question": "Q2: When should I sow? (a farmer in Tarai, Uttarakhand)",
+ "template": "sowing_window",
+ "context": {"crop": "crop:rice", "state": "state:5", "zones": ["zone:uk_tarai_bhabhar_plain"]},
+ "expect": {"scope": "local", "asks": [],
+            "visible": ["Nursery sowing- 2 nd fortnight May", "Transplanting Time -June end"],
+            "citations": {"Nursery sowing- 2 nd fortnight May": {"pdf_page": 1, "printed_page": null, "status": "approved",
+                                                                  "source_id": "source:gbpuat_kharif_advisory_2020"},
+                          "Transplanting Time -June end": {"pdf_page": 1, "printed_page": null, "status": "approved",
+                                                           "source_id": "source:gbpuat_kharif_advisory_2020"}},
+            "labels": {"Nursery sowing- 2 nd fortnight May": [], "Transplanting Time -June end": []},
+            "windows": {"Nursery sowing- 2 nd fortnight May": ["nursery_sowing", 5, 16, 6, 7],
+                        "Transplanting Time -June end": ["transplanting", 6, 25, 7, 7]}}}

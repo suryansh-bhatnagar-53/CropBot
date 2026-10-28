@@ -1,0 +1,7 @@
+https://medium.com/@bhishma.gajavelli/from-training-to-deployment-ways-to-store-ml-models-4112ace88d28
+https://tedamoh.com/en/blog/data-modeling/53-fom/313-introduction-to-fact-oriented-modeling
+https://link.springer.com/article/10.1007/s00521-024-10113-5
+https://www.turing.com/resources/llm-factuality-guide
+https://arxiv.org/pdf/2405.05583
+https://www.turing.com/services/llm-alignment-and-safety
+

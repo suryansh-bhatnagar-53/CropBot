@@ -1,0 +1,5 @@
+{"question": "Q15: To what moisture should I dry paddy before selling?",
+ "template": "drying_target",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:grain"},
+ "expect": {"scope": "local", "asks": [], "visible": ["Dry the grains to 12% moisture"],
+            "labels": {"Dry the grains to 12% moisture": ["not yet verified by an expert"]}}}

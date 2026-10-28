@@ -1,0 +1,1280 @@
+{"end":"pest:white_backed_planthopper","props":{},"start":"rec:47c2bf441a686413","type":"ABOUT"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:7643e1ed1df05c50","type":"ABOUT"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:9594b0bf419a6ee9","type":"ABOUT"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:9cce09b1f149a819","type":"ABOUT"}
+{"end":"pest:leaffolder","props":{},"start":"rec:9cce09b1f149a819","type":"ABOUT"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:a75dc1da695f609f","type":"ABOUT"}
+{"end":"pest:leaffolder","props":{},"start":"rec:af8fafcf137af23f","type":"ABOUT"}
+{"end":"input:halogen_mixture","props":{"basis":"per_kg_seed","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 3 g / kg","unit":"g","value":3.0},"start":"step:0483c52c466ce4b8:0","type":"APPLIES"}
+{"end":"ai:carbofuran","props":{"basis":"per_ha","basis_inferred":false,"formulation":"3% CG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Carbofuran 3% CG 25 kg","unit":"kg","value":25.0},"start":"step:0805509f99a14b9e:0","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:0805509f99a14b9e:1","type":"APPLIES"}
+{"end":"ai:malathion","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% DP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Malathion 5% DP 25 kg","unit":"kg","value":25.0},"start":"step:0805509f99a14b9e:2","type":"APPLIES"}
+{"end":"ai:malathion","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50%EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Malathion 50%EC 1150 ml","unit":"ml","value":1150.0},"start":"step:0805509f99a14b9e:3","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"carrier_raw":"chopped paddy straw","formulation":"1.5% DP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.5% DP 25 kg/ha","unit":"kg","value":25.0},"start":"step:09040ca220039383:0","type":"APPLIES"}
+{"end":"nutrient:k2o","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:60 kg / ha","unit":"kg","value":60.0},"start":"step:0c03ada5c595b40c:0","type":"APPLIES"}
+{"end":"nutrient:n","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:60 kg / ha","unit":"kg","value":150.0},"start":"step:0c03ada5c595b40c:0","type":"APPLIES"}
+{"end":"nutrient:p2o5","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:60 kg / ha","unit":"kg","value":50.0},"start":"step:0c03ada5c595b40c:0","type":"APPLIES"}
+{"end":"ai:pseudomonas_fluorescens","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"seedling dip (2.5 kg/ha)","unit":"kg","value":2.5},"start":"step:0f9d9773d47c5eff:0","type":"APPLIES"}
+{"end":"ai:pseudomonas_fluorescens","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"main field application (2.5 kg/ha)","unit":"kg","value":2.5},"start":"step:0f9d9773d47c5eff:1","type":"APPLIES"}
+{"end":"fertilizer:dap","props":{"basis_inferred":false,"conc_raw":"2 % DAP","conc_unit":"pct","conc_value":2.0,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"2 % DAP"},"start":"step:1635d63ced89cca1:0","type":"APPLIES"}
+{"end":"fertilizer:dap","props":{"basis_inferred":false,"conc_raw":"2 % DAP","conc_unit":"pct","conc_value":2.0,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"2 % DAP"},"start":"step:1635d63ced89cca1:1","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":800.0,"min_inclusive":true,"raw":"Carbosulfan 25% EC 800-1000 ml","unit":"ml"},"start":"step:180b9264754c5f9b:0","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:180b9264754c5f9b:1","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 g","unit":"g"},"start":"step:180b9264754c5f9b:2","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.3% G","inherited":false,"max":25.0,"max_inclusive":true,"min":16.67,"min_inclusive":true,"raw":"Fipronil 0.3% G 16.67 - 25 kg","unit":"kg"},"start":"step:180b9264754c5f9b:3","type":"APPLIES"}
+{"end":"ai:quinalphos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Quinalphos 5% G 5 kg","unit":"kg","value":5.0},"start":"step:180b9264754c5f9b:4","type":"APPLIES"}
+{"end":"ai:thiamethoxam","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiamethoxam 25% WG 100 g","unit":"g","value":100.0},"start":"step:180b9264754c5f9b:5","type":"APPLIES"}
+{"end":"nutrient:k2o","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:80 kg / ha","unit":"kg","value":80.0},"start":"step:1bbd096e181116aa:0","type":"APPLIES"}
+{"end":"nutrient:n","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:80 kg / ha","unit":"kg","value":150.0},"start":"step:1bbd096e181116aa:0","type":"APPLIES"}
+{"end":"nutrient:p2o5","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 150:50:80 kg / ha","unit":"kg","value":50.0},"start":"step:1bbd096e181116aa:0","type":"APPLIES"}
+{"end":"ai:dicofol","props":{"basis":"per_ha","basis_inferred":false,"formulation":"18.5% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Dicofol 18.5% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:1f478eaf1a5feb7f:0","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.03%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Azadirachtin 0.03% 1000 ml","unit":"ml","value":1000.0},"start":"step:1f478eaf1a5feb7f:1","type":"APPLIES"}
+{"end":"ai:zinc_phosphide","props":{"basis_inferred":false,"carrier_raw":"popped corn/rice/dry fish","inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"1 part zinc phosphide with 49 parts popped corn/rice/dry fish","ratio_whole":50.0,"raw":"1 part zinc phosphide with 49 parts popped corn/rice/dry fish"},"start":"step:22c96600b312c233:0","type":"APPLIES"}
+{"end":"ai:warfarin","props":{"basis_inferred":false,"carrier_raw":"popped corn/rice/dry fish","formulation":"0.5%","inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"1 part with 19 parts of popped corn/rice/dry fish","ratio_whole":20.0,"raw":"warfarin 0.5% 1 part with 19 parts of popped corn/rice/dry fish"},"start":"step:22c96600b312c233:1","type":"APPLIES"}
+{"end":"ai:bromadiolone","props":{"basis_inferred":false,"carrier_raw":"bait","formulation":"0.25 w/w","inherited":false,"max_inclusive":true,"min_inclusive":true,"mix_conc_raw":"at 0.005%","mix_conc_unit":"pct","mix_conc_value":0.005,"ratio_part":1.0,"ratio_raw":"one part of bromodialone + 49 parts of bait","ratio_whole":50.0,"raw":"one part of bromodialone + 49 parts of bait"},"start":"step:22c96600b312c233:2","type":"APPLIES"}
+{"end":"fertilizer:dap","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":false,"inherited":true,"max_inclusive":true,"min_inclusive":true,"quantity_ref":"previous","raw":"40 kg of DAP","unit":"kg","value":2.0},"start":"step:2583fc4447ad6df4:0","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"1.5% DP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.5% DP 25 kg/ha","unit":"kg","value":25.0},"start":"step:27d31b349ec837cf:0","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"75 % SP","inherited":false,"max":1000.0,"max_inclusive":true,"min":666.0,"min_inclusive":true,"raw":"Acephate 75 % SP 666-1000 g","unit":"g"},"start":"step:2c8c2dca4d0af385:1","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.4% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 0.4% G 10 kg","unit":"kg","value":10.0},"start":"step:2c8c2dca4d0af385:10","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"1.5% DP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 1.5% DP 25 kg","unit":"kg","value":25.0},"start":"step:2c8c2dca4d0af385:11","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:2c8c2dca4d0af385:12","type":"APPLIES"}
+{"end":"ai:dinotefuran","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% SG","inherited":false,"max":200.0,"max_inclusive":true,"min":150.0,"min_inclusive":true,"raw":"Dinotefuran 20% SG 150-200g","unit":"g"},"start":"step:2c8c2dca4d0af385:13","type":"APPLIES"}
+{"end":"ai:fenobucarb","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50% EC","inherited":false,"max":1500.0,"max_inclusive":true,"min":500.0,"min_inclusive":true,"raw":"Fenobucarb 50% EC 500-1500 ml","unit":"ml"},"start":"step:2c8c2dca4d0af385:14","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 ml","unit":"ml"},"start":"step:2c8c2dca4d0af385:15","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.3% GR","inherited":false,"max":25.0,"max_inclusive":true,"min":16.67,"min_inclusive":true,"raw":"Fipronil 0.3% GR 16.67-25 kg","unit":"kg"},"start":"step:2c8c2dca4d0af385:16","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"70% WG","inherited":false,"max":35.0,"max_inclusive":true,"min":30.0,"min_inclusive":true,"raw":"Imidacloprid 70% WG 30-35 kg","unit":"kg"},"start":"step:2c8c2dca4d0af385:17","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"17.8 SL","inherited":false,"max":125.0,"max_inclusive":true,"min":100.0,"min_inclusive":true,"raw":"Imidacloprid 17.8 SL 100-125 ml","unit":"ml"},"start":"step:2c8c2dca4d0af385:18","type":"APPLIES"}
+{"end":"ai:pymetrozine","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Pymetrozine 50% WG 300g","unit":"g","value":300.0},"start":"step:2c8c2dca4d0af385:19","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"95 % SG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Acephate 95 % SG 590 g","unit":"g","value":590.0},"start":"step:2c8c2dca4d0af385:2","type":"APPLIES"}
+{"end":"ai:acetamiprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% SP","inherited":false,"max":100.0,"max_inclusive":true,"min":50.0,"min_inclusive":true,"raw":"Acetamiprid 20% SP 50-100 g","unit":"g"},"start":"step:2c8c2dca4d0af385:3","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.03%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Azadirachtin 0.03% 1000 ml","unit":"ml","value":1000.0},"start":"step:2c8c2dca4d0af385:4","type":"APPLIES"}
+{"end":"ai:neem_oil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"3%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Neem oil 3% 15 lit","unit":"l","value":15.0},"start":"step:2c8c2dca4d0af385:5","type":"APPLIES"}
+{"end":"ai:buprofezin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Buprofezin 25% SC 800 ml","unit":"ml","value":800.0},"start":"step:2c8c2dca4d0af385:6","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":800.0,"min_inclusive":true,"raw":"Carbosulfan 25% EC 800-1000 ml","unit":"ml"},"start":"step:2c8c2dca4d0af385:7","type":"APPLIES"}
+{"end":"ai:clothianidin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50% WG","inherited":false,"max":24.0,"max_inclusive":true,"min":20.0,"min_inclusive":true,"raw":"Clothianidin 50% WG 20-24 g","unit":"g"},"start":"step:2c8c2dca4d0af385:8","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"18.5% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 18.5% SC 150 g","unit":"g","value":150.0},"start":"step:2c8c2dca4d0af385:9","type":"APPLIES"}
+{"end":"ai:carbendazim","props":{"basis":"per_kg_seed","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 2 g / kg of seed","unit":"g","value":2.0},"start":"step:3912e547d565197a:0","type":"APPLIES"}
+{"end":"ai:pseudomonas_fluorescens","props":{"basis_inferred":false,"conc_raw":"4% Pseudomonas fluorescens","conc_unit":"pct","conc_value":4.0,"inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"at the ratio of 1 : 1","ratio_whole":2.0,"raw":"4% Pseudomonas fluorescens"},"start":"step:403735de15ee34a5:0","type":"APPLIES"}
+{"end":"ai:cartap_hydrochloride","props":{"basis":"per_ha","basis_inferred":false,"formulation":"4% G","inherited":false,"max":25.0,"max_inclusive":true,"min":18.75,"min_inclusive":true,"raw":"Cartap hydrochloride 4% G 18.75 - 25 kg","unit":"kg"},"start":"step:40a5519b48fdd47a:0","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:40a5519b48fdd47a:1","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 g","unit":"g"},"start":"step:40a5519b48fdd47a:2","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.3% GR","inherited":false,"max":25.0,"max_inclusive":true,"min":16.67,"min_inclusive":true,"raw":"Fipronil 0.3% GR 16.67- 25 kg","unit":"kg"},"start":"step:40a5519b48fdd47a:3","type":"APPLIES"}
+{"end":"ai:pseudomonas_fluorescens","props":{"basis":"per_kg_seed","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"(10 g/kg)","unit":"g","value":10.0},"start":"step:43a4f3323dc80938:0","type":"APPLIES"}
+{"end":"input:thanjavur_bow_trap","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 100/ha","unit":"count","value":100.0},"start":"step:49804d570a3d71a0:0","type":"APPLIES"}
+{"end":"ai:zinc_phosphide","props":{"basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"(49: 1)","ratio_whole":50.0},"start":"step:60de97f6e5cfdc19:0","type":"APPLIES"}
+{"end":"fertilizer:dap","props":{"area_cents":1.0,"basis":"per_cent_nursery","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg of DAP/cent","unit":"kg","value":1.0},"start":"step:6134642b5b926d6a:0","type":"APPLIES"}
+{"end":"input:gypsum","props":{"area_cents":1.0,"basis":"per_cent_nursery","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"4 kg of gypsum","unit":"kg","value":4.0},"start":"step:6134642b5b926d6a:0","type":"APPLIES"}
+{"end":"fertilizer:dap","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"40 kg of DAP","unit":"kg","value":2.0},"start":"step:648e437e4448b126:0","type":"APPLIES"}
+{"end":"fertilizer:ssp","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"120 kg of super phosphate","unit":"kg","value":6.0},"start":"step:648e437e4448b126:1","type":"APPLIES"}
+{"end":"fertilizer:urea","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"16 kg of urea","unit":"kg","value":0.8},"start":"step:648e437e4448b126:1","type":"APPLIES"}
+{"end":"ai:neem_seed_kernel_extract","props":{"basis_inferred":false,"conc_raw":"Neem seed kernel extract 5%","conc_unit":"pct","conc_value":5.0,"inherited":false,"max_inclusive":true,"min_inclusive":true},"start":"step:68c90901216c9818:0","type":"APPLIES"}
+{"end":"ai:neem_oil","props":{"basis_inferred":false,"conc_raw":"Neem oil 2%","conc_unit":"pct","conc_value":2.0,"inherited":false,"max_inclusive":true,"min_inclusive":true},"start":"step:68c90901216c9818:1","type":"APPLIES"}
+{"end":"fertilizer:znso4","props":{"area_cents":1.0,"basis":"per_cent_nursery","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"100 g ZnSO4 /cent","unit":"g","value":100.0},"start":"step:698703e19b16a350:0","type":"APPLIES"}
+{"end":"nutrient:k2o","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 120:40:40 kg / ha","unit":"kg","value":40.0},"start":"step:6a65095bbb8eee27:0","type":"APPLIES"}
+{"end":"nutrient:n","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 120:40:40 kg / ha","unit":"kg","value":120.0},"start":"step:6a65095bbb8eee27:0","type":"APPLIES"}
+{"end":"nutrient:p2o5","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"NPK @ 120:40:40 kg / ha","unit":"kg","value":40.0},"start":"step:6a65095bbb8eee27:0","type":"APPLIES"}
+{"end":"organic_input:azospirillum","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Liquid","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"125 ml of each","unit":"ml","value":125.0},"start":"step:6b8e2b0cb892a7f8:0","type":"APPLIES"}
+{"end":"organic_input:phosphobacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Liquid","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"125 ml of each","unit":"ml","value":125.0},"start":"step:6b8e2b0cb892a7f8:0","type":"APPLIES"}
+{"end":"organic_input:azophos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Liquid","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"125 ml of each","unit":"ml","value":125.0},"start":"step:6b8e2b0cb892a7f8:1","type":"APPLIES"}
+{"end":"organic_input:silicate_solubilizing_bacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Liquid","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"125 ml of each","unit":"ml","value":125.0},"start":"step:6b8e2b0cb892a7f8:2","type":"APPLIES"}
+{"end":"organic_input:potash_bacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Liquid","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"125 ml of each","unit":"ml","value":125.0},"start":"step:6b8e2b0cb892a7f8:3","type":"APPLIES"}
+{"end":"ai:butachlor","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.0 l/ha","unit":"l","value":1.0},"start":"step:6b9bc98a5bf45dda:0","type":"APPLIES"}
+{"end":"ai:pendimethalin","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.0 l/ha","unit":"l","value":1.0},"start":"step:6b9bc98a5bf45dda:1","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.15% W/W","inherited":false,"max":2.5,"max_inclusive":true,"min":1.5,"min_inclusive":true,"raw":"Azadirachtin 0.15% W/W 1.5 - 2.5 kg","unit":"kg"},"start":"step:6fdde983afc215de:0","type":"APPLIES"}
+{"end":"ai:thiamethoxam","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiamethoxam 25% WG 100 g","unit":"g","value":100.0},"start":"step:6fdde983afc215de:1","type":"APPLIES"}
+{"end":"ai:beauveria_bassiana","props":{"basis":"per_ha","basis_inferred":false,"formulation":"1.15 WP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.15 WP 2.5 kg/ha","unit":"kg","value":2.5},"start":"step:7d85c23dab92404f:0","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_kg_seed","basis_inferred":false,"formulation":"48%FS","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 2.5 g/kg","unit":"g","value":2.5},"start":"step:7e5d0347912da7db:0","type":"APPLIES"}
+{"end":"fertilizer:feso4","props":{"basis_inferred":false,"conc_raw":"0.5 % FeSO4 and ZnSO4","conc_unit":"pct","conc_value":0.5,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"0.5 % FeSO4 and ZnSO4"},"start":"step:7f96a01583cde662:0","type":"APPLIES"}
+{"end":"fertilizer:znso4","props":{"basis_inferred":false,"conc_raw":"0.5 % FeSO4 and ZnSO4","conc_unit":"pct","conc_value":0.5,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"0.5 % FeSO4 and ZnSO4"},"start":"step:7f96a01583cde662:0","type":"APPLIES"}
+{"end":"input:thanjavur_bow_trap","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"(100 nos./ha)","unit":"count","value":100.0},"start":"step:805c40801e1b4fc9:0","type":"APPLIES"}
+{"end":"organic_input:azospirillum","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Five packets (1kg/ha) each","unit":"kg","value":1.0},"start":"step:83584b66ebcce85d:0","type":"APPLIES"}
+{"end":"organic_input:phosphobacteria","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Five packets (1kg/ha) each","unit":"kg","value":1.0},"start":"step:83584b66ebcce85d:0","type":"APPLIES"}
+{"end":"organic_input:azophos","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"five packets (1kg/ha)","unit":"kg","value":1.0},"start":"step:83584b66ebcce85d:1","type":"APPLIES"}
+{"end":"input:seed","props":{"basis":"per_ha","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"30 kg","unit":"kg","value":30.0},"start":"step:84a41015bfeabadf:0","type":"APPLIES"}
+{"end":"input:platygaster_oryzae_galls","props":{"basis":"per_m2","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"at 1 per 10 m 2","unit":"count","value":0.1},"start":"step:8e849977f2fe4e2a:0","type":"APPLIES"}
+{"end":"input:common_salt","props":{"basis":"per_l_water","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.5 kg of common salt in 10 lit of water","unit":"kg","value":0.15},"start":"step:959edaf9cae05bb5:0","type":"APPLIES"}
+{"end":"ai:phenthoate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"phenthoate 50% EC 1000 ml","unit":"ml","value":1000.0},"start":"step:98055057e0bb74b5:0","type":"APPLIES"}
+{"end":"input:nitric_acid","props":{"basis_inferred":false,"conc_raw":"0.1 N conc. HNO3","conc_unit":"normal","conc_value":0.1,"formulation":"conc.","inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"in equal volume","ratio_whole":2.0,"raw":"0.1 N conc. HNO3"},"start":"step:992a08425d77a875:0","type":"APPLIES"}
+{"end":"fertilizer:potassium_nitrate","props":{"basis_inferred":false,"conc_raw":"0.5 % KNO3","conc_unit":"pct","conc_value":0.5,"inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"in equal volume","ratio_whole":2.0,"raw":"0.5 % KNO3"},"start":"step:992a08425d77a875:1","type":"APPLIES"}
+{"end":"organic_input:azospirillum","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Carrier based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg each","unit":"kg","value":1.0},"start":"step:9e70a8a8ae6a3d01:0","type":"APPLIES"}
+{"end":"organic_input:phosphobacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Carrier based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg each","unit":"kg","value":1.0},"start":"step:9e70a8a8ae6a3d01:0","type":"APPLIES"}
+{"end":"organic_input:azophos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Carrier based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg each","unit":"kg","value":1.0},"start":"step:9e70a8a8ae6a3d01:1","type":"APPLIES"}
+{"end":"organic_input:silicate_solubilizing_bacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Carrier based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg each","unit":"kg","value":1.0},"start":"step:9e70a8a8ae6a3d01:2","type":"APPLIES"}
+{"end":"organic_input:potash_bacteria","props":{"basis":"per_ha","basis_inferred":false,"formulation":"Carrier based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 kg each","unit":"kg","value":1.0},"start":"step:9e70a8a8ae6a3d01:3","type":"APPLIES"}
+{"end":"ai:pyrazosulfuron_ethyl","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 20 g/ha","unit":"g","value":20.0},"start":"step:a348605da39c8f52:0","type":"APPLIES"}
+{"end":"ai:pseudomonas_fluorescens","props":{"basis":"per_kg_seed","basis_inferred":false,"formulation":"talc based","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"10g/kg of seed","unit":"g","value":10.0},"start":"step:a4f7515e739df09b:0","type":"APPLIES"}
+{"end":"ai:methyl_demeton","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":500.0,"min_inclusive":true,"raw":"25% EC 500-1000 ml/ha","unit":"ml"},"start":"step:a93ad8cab06e3c86:0","type":"APPLIES"}
+{"end":"ai:neem_seed_kernel_extract","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"5% (25 kg kernel/ha)","unit":"kg","value":25.0},"start":"step:af8681c1a9467e1d:0","type":"APPLIES"}
+{"end":"input:seed","props":{"basis":"per_ha","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"40 kg","unit":"kg","value":40.0},"start":"step:b12ad94ed6373855:0","type":"APPLIES"}
+{"end":"organic_input:fym","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 tonne of fully decomposed FYM or compost to 20 cents nursery","unit":"t","value":0.05},"start":"step:b49b723de350fd7f:0","type":"APPLIES"}
+{"end":"organic_input:compost","props":{"area_cents":20.0,"basis":"per_cent_nursery","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1 tonne of fully decomposed FYM or compost to 20 cents nursery","unit":"t","value":0.05},"start":"step:b49b723de350fd7f:1","type":"APPLIES"}
+{"end":"fertilizer:znso4","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 25 kg / ha","unit":"kg","value":25.0},"start":"step:bf987a349eed385f:0","type":"APPLIES"}
+{"end":"input:trichogramma_chilonis","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 1,00,000/ha each","unit":"count","value":100000.0},"start":"step:c275abdea2f82958:0","type":"APPLIES"}
+{"end":"input:common_salt","props":{"basis_inferred":false,"conc_raw":"20% NaCl","conc_unit":"pct","conc_value":20.0,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"20% NaCl"},"start":"step:cbb66266ab09530f:0","type":"APPLIES"}
+{"end":"ai:methyl_demeton","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"25% EC 1000 ml/ha","unit":"ml","value":1000.0},"start":"step:ce3a65c250dfa329:0","type":"APPLIES"}
+{"end":"input:sodium_nitroprusside","props":{"basis_inferred":false,"conc_raw":"80 µM concentration","conc_unit":"micromolar","conc_value":80.0,"inherited":false,"max_inclusive":true,"min_inclusive":true,"ratio_part":1.0,"ratio_raw":"in equal volume","ratio_whole":2.0,"raw":"80 µM concentration of sodium nitroprusside"},"start":"step:d23089768a246e03:0","type":"APPLIES"}
+{"end":"ai:phosphamidon","props":{"basis":"per_ha","basis_inferred":false,"formulation":"40% SL","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Phosphamidon 40% SL 1000 ml","unit":"ml","value":1000.0},"start":"step:d4ceba85c02f5f9b:0","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.03%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Azadirachtin 0.03% 1000 ml","unit":"ml","value":1000.0},"start":"step:d4ceba85c02f5f9b:1","type":"APPLIES"}
+{"end":"ai:buprofezin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Buprofezin 25% SC 800 ml","unit":"ml","value":800.0},"start":"step:d4ceba85c02f5f9b:2","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":800.0,"min_inclusive":true,"raw":"Carbosulfan 25% EC 800-1000 ml","unit":"ml"},"start":"step:d4ceba85c02f5f9b:3","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"18.5% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 18.5% SC 150 g","unit":"g","value":150.0},"start":"step:d4ceba85c02f5f9b:4","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.4% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 0.4% G 10 kg","unit":"kg","value":10.0},"start":"step:d4ceba85c02f5f9b:5","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 ml","unit":"ml"},"start":"step:d4ceba85c02f5f9b:6","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.3% GR","inherited":false,"max":25.0,"max_inclusive":true,"min":16.67,"min_inclusive":true,"raw":"Fipronil 0.3% GR 16.67-25 kg","unit":"kg"},"start":"step:d4ceba85c02f5f9b:7","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"70% WG","inherited":false,"max":35.0,"max_inclusive":true,"min":30.0,"min_inclusive":true,"raw":"Imidacloprid 70% WG 30-35 kg","unit":"kg"},"start":"step:d4ceba85c02f5f9b:8","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"17.8% SL","inherited":false,"max":125.0,"max_inclusive":true,"min":100.0,"min_inclusive":true,"raw":"Imidacloprid 17.8% SL 100-125 ml","unit":"ml"},"start":"step:d4ceba85c02f5f9b:9","type":"APPLIES"}
+{"end":"nutrient:k2o","props":{"basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"share_pct":50.0,"share_raw":"basal (50%)"},"start":"step:d73bcce29b0f7eb1:0","type":"APPLIES"}
+{"end":"nutrient:k2o","props":{"basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"share_pct":50.0,"share_raw":"one top dressing (50%)"},"start":"step:d73bcce29b0f7eb1:1","type":"APPLIES"}
+{"end":"ai:bacillus_thuringiensis_kurstaki","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"1.50 kg/ha","unit":"kg","value":1.5},"start":"step:e3b348f926ee0fc6:0","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"75 % SP","inherited":false,"max":1000.0,"max_inclusive":true,"min":666.0,"min_inclusive":true,"raw":"Acephate 75 % SP 666-1000 ml","unit":"ml"},"start":"step:e5925cdeb28efee3:0","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"95 % SG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Acephate 95 % SG 590 g","unit":"g","value":590.0},"start":"step:e5925cdeb28efee3:1","type":"APPLIES"}
+{"end":"ai:flubendiamide","props":{"basis":"per_ha","basis_inferred":false,"formulation":"39.35% M/M SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Flubendiamide 39.35% M/M SC 50 g","unit":"g","value":50.0},"start":"step:e5925cdeb28efee3:10","type":"APPLIES"}
+{"end":"ai:indoxacarb","props":{"basis":"per_ha","basis_inferred":false,"formulation":"15.8% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Indoxacarb 15.8% EC 200 g","unit":"g","value":200.0},"start":"step:e5925cdeb28efee3:11","type":"APPLIES"}
+{"end":"ai:thiamethoxam","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiamethoxam 25% WG 100 g","unit":"g","value":100.0},"start":"step:e5925cdeb28efee3:12","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.03%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Azadirachtin 0.03% 1000 ml","unit":"ml","value":1000.0},"start":"step:e5925cdeb28efee3:2","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:e5925cdeb28efee3:3","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"6% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Carbosulfan 6% G 16.7 kg","unit":"kg","value":16.7},"start":"step:e5925cdeb28efee3:4","type":"APPLIES"}
+{"end":"ai:cartap_hydrochloride","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50 % SP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Cartaphydrochloride 50 % SP 1000 g","unit":"g","value":1000.0},"start":"step:e5925cdeb28efee3:5","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"18.5% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 18.5% SC 150 g","unit":"g","value":150.0},"start":"step:e5925cdeb28efee3:6","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.4% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 0.4% G 10 kg","unit":"kg","value":10.0},"start":"step:e5925cdeb28efee3:7","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"80%WG","inherited":false,"max":62.5,"max_inclusive":true,"min":50.0,"min_inclusive":true,"raw":"Fipronil 80%WG 50-62.5 g","unit":"g"},"start":"step:e5925cdeb28efee3:8","type":"APPLIES"}
+{"end":"ai:flubendiamide","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% WG","inherited":false,"max":250.0,"max_inclusive":true,"min":125.0,"min_inclusive":true,"raw":"Flubendiamide 20% WG 125-250 g","unit":"g"},"start":"step:e5925cdeb28efee3:9","type":"APPLIES"}
+{"end":"ai:carbendazim","props":{"basis":"per_l_water","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"2 g/l of water for 1 kg of seeds","unit":"g","value":2.0},"start":"step:e7a72d0f3e22657d:0","type":"APPLIES"}
+{"end":"ai:pyroquilon","props":{"basis":"per_l_water","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"2 g/l of water for 1 kg of seeds","unit":"g","value":2.0},"start":"step:e7a72d0f3e22657d:1","type":"APPLIES"}
+{"end":"ai:tricyclazole","props":{"basis":"per_l_water","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"2 g/l of water for 1 kg of seeds","unit":"g","value":2.0},"start":"step:e7a72d0f3e22657d:2","type":"APPLIES"}
+{"end":"input:gypsum","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 500 kg / ha","unit":"kg","value":500.0},"start":"step:efa0eaf9d7a1af37:0","type":"APPLIES"}
+{"end":"ai:phosphamidon","props":{"basis":"per_ha","basis_inferred":false,"formulation":"40% SL","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Phosphamidon 40% SL 1000 ml","unit":"ml","value":1000.0},"start":"step:f1156b7a6dbdb44c:0","type":"APPLIES"}
+{"end":"ai:carbofuran","props":{"basis":"per_ha","basis_inferred":false,"formulation":"3% CG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Carbofuran 3% CG 25 kg","unit":"kg","value":25.0},"start":"step:f1156b7a6dbdb44c:1","type":"APPLIES"}
+{"end":"ai:buprofezin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Buprofezin 25% SC 800 g","unit":"g","value":800.0},"start":"step:f1156b7a6dbdb44c:2","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":800.0,"min_inclusive":true,"raw":"Carbosulfan 25% EC 800-1000 ml","unit":"ml"},"start":"step:f1156b7a6dbdb44c:3","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 g","unit":"g"},"start":"step:f1156b7a6dbdb44c:4","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.3% G","inherited":false,"max":25.0,"max_inclusive":true,"min":16.67,"min_inclusive":true,"raw":"Fipronil 0.3% G 16.67-25 kg","unit":"kg"},"start":"step:f1156b7a6dbdb44c:5","type":"APPLIES"}
+{"end":"ai:imidacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"17.8% SL","inherited":false,"max":125.0,"max_inclusive":true,"min":100.0,"min_inclusive":true,"raw":"Imidacloprid 17.8% SL 100 -125 ml","unit":"ml"},"start":"step:f1156b7a6dbdb44c:6","type":"APPLIES"}
+{"end":"ai:thiamethoxam","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiamethoxam 25% WG 100 g","unit":"g","value":100.0},"start":"step:f1156b7a6dbdb44c:7","type":"APPLIES"}
+{"end":"input:seed","props":{"basis":"per_ha","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"20 kg","unit":"kg","value":20.0},"start":"step:f62c2da2f69adc50:0","type":"APPLIES"}
+{"end":"input:seed","props":{"basis":"per_ha","basis_inferred":true,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"60 kg","unit":"kg","value":60.0},"start":"step:f76c3c593467fd70:0","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"75 % SP","inherited":false,"max":1000.0,"max_inclusive":true,"min":670.0,"min_inclusive":true,"raw":"Acephate 75 % SP 670-1000 g","unit":"g"},"start":"step:fa0802540d945d30:0","type":"APPLIES"}
+{"end":"ai:acephate","props":{"basis":"per_ha","basis_inferred":false,"formulation":"95 % SG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Acephate 95 % SG 590 g","unit":"g","value":590.0},"start":"step:fa0802540d945d30:1","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"5% SC","inherited":false,"max":1500.0,"max_inclusive":true,"min":1000.0,"min_inclusive":true,"raw":"Fipronil 5% SC 1000-1500 g","unit":"g"},"start":"step:fa0802540d945d30:10","type":"APPLIES"}
+{"end":"ai:fipronil","props":{"basis":"per_ha","basis_inferred":false,"formulation":"80%WG","inherited":false,"max":62.5,"max_inclusive":true,"min":50.0,"min_inclusive":true,"raw":"Fipronil 80%WG 50- 62.5 kg","unit":"kg"},"start":"step:fa0802540d945d30:11","type":"APPLIES"}
+{"end":"ai:flubendiamide","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Flubendiamide 20% WG 125 g","unit":"g","value":125.0},"start":"step:fa0802540d945d30:12","type":"APPLIES"}
+{"end":"ai:flubendiamide","props":{"basis":"per_ha","basis_inferred":false,"formulation":"39.35% M/M SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Flubendiamide 39.35% M/M SC 50 g","unit":"g","value":50.0},"start":"step:fa0802540d945d30:13","type":"APPLIES"}
+{"end":"ai:thiacloprid","props":{"basis":"per_ha","basis_inferred":false,"formulation":"21.7% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiacloprid 21.7% SC 500 g","unit":"g","value":500.0},"start":"step:fa0802540d945d30:14","type":"APPLIES"}
+{"end":"ai:thiamethoxam","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% WG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Thiamethoxam 25% WG 100 g","unit":"g","value":100.0},"start":"step:fa0802540d945d30:15","type":"APPLIES"}
+{"end":"ai:azadirachtin","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.03%","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Azadirachtin 0.03% 1000 ml","unit":"ml","value":1000.0},"start":"step:fa0802540d945d30:2","type":"APPLIES"}
+{"end":"ai:carbofuran","props":{"basis":"per_ha","basis_inferred":false,"formulation":"3% CG","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Carbofuran 3% CG 25 kg","unit":"kg","value":25.0},"start":"step:fa0802540d945d30:3","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"6% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Carbosulfan 6% G 16.7 kg","unit":"kg","value":16.7},"start":"step:fa0802540d945d30:4","type":"APPLIES"}
+{"end":"ai:carbosulfan","props":{"basis":"per_ha","basis_inferred":false,"formulation":"25% EC","inherited":false,"max":1000.0,"max_inclusive":true,"min":800.0,"min_inclusive":true,"raw":"Carbosulfan 25% EC 800-1000 ml","unit":"ml"},"start":"step:fa0802540d945d30:5","type":"APPLIES"}
+{"end":"ai:cartap_hydrochloride","props":{"basis":"per_ha","basis_inferred":false,"formulation":"50 % SP","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Cartap hydrochloride 50 % SP 1000 g","unit":"g","value":1000.0},"start":"step:fa0802540d945d30:6","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"18.5% SC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 18.5% SC 150 ml","unit":"ml","value":150.0},"start":"step:fa0802540d945d30:7","type":"APPLIES"}
+{"end":"ai:chlorantraniliprole","props":{"basis":"per_ha","basis_inferred":false,"formulation":"0.4% G","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorantraniliprole 0.4% G 10 kg","unit":"kg","value":10.0},"start":"step:fa0802540d945d30:8","type":"APPLIES"}
+{"end":"ai:chlorpyrifos","props":{"basis":"per_ha","basis_inferred":false,"formulation":"20% EC","inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"Chlorpyriphos 20% EC 1250 ml","unit":"ml","value":1250.0},"start":"step:fa0802540d945d30:9","type":"APPLIES"}
+{"end":"input:trichogramma_japonicum","props":{"basis":"per_ha","basis_inferred":false,"inherited":false,"max_inclusive":true,"min_inclusive":true,"raw":"@ 1,00,000/ha each release","unit":"count","value":100000.0},"start":"step:fa8ef26df371f6b7:0","type":"APPLIES"}
+{"end":"ai:cypermethrin","props":{},"start":"rec:47c2bf441a686413","type":"CONCERNS"}
+{"end":"ai:deltamethrin","props":{},"start":"rec:47c2bf441a686413","type":"CONCERNS"}
+{"end":"ai:fenvalerate","props":{},"start":"rec:47c2bf441a686413","type":"CONCERNS"}
+{"end":"ai:acephate","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:carbofuran","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:chlorpyrifos","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:deltamethrin","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:etofenprox","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:fenthion","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:fenvalerate","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:methomyl","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:methyl_parathion","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:monocrotophos","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:permethrin","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:perthane","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:phosalone","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:quinalphos","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:thiometon","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:vamidothion","props":{},"start":"rec:7643e1ed1df05c50","type":"CONCERNS"}
+{"end":"ai:quinalphos","props":{},"start":"rec:a75dc1da695f609f","type":"CONCERNS"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"rec:a75dc1da695f609f","type":"CONCERNS"}
+{"end":"ai:carbofuran","props":{},"start":"rec:af8fafcf137af23f","type":"CONCERNS"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"rec:e39f514579e1ac5f","type":"CONCERNS"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"rec:f007c0ef8e4e242f","type":"CONCERNS"}
+{"end":"rec:a75d0fde620c2524","props":{"origin":"review"},"start":"rec:9955264d61cb4288","type":"CONFLICTS_WITH"}
+{"end":"span:ea98d520f928b3a2","props":{},"start":"rec:018eb4a7472801b8","type":"EVIDENCED_BY"}
+{"end":"span:0cc2fcb00370d60b","props":{},"start":"rec:0402103a75243fbf","type":"EVIDENCED_BY"}
+{"end":"span:1fc9ae25bfe3db61","props":{},"start":"rec:0483c52c466ce4b8","type":"EVIDENCED_BY"}
+{"end":"span:b0e2c6f7a9519fd6","props":{},"start":"rec:056622f1afeedd71","type":"EVIDENCED_BY"}
+{"end":"span:ca4f1bf1f282f3f1","props":{},"start":"rec:0805509f99a14b9e","type":"EVIDENCED_BY"}
+{"end":"span:bbeb727b2d369a3f","props":{},"start":"rec:09040ca220039383","type":"EVIDENCED_BY"}
+{"end":"span:1406cd600e4d7520","props":{},"start":"rec:0c03ada5c595b40c","type":"EVIDENCED_BY"}
+{"end":"span:cb372c02a7604311","props":{},"start":"rec:0f8f8b207c291bb6","type":"EVIDENCED_BY"}
+{"end":"span:62196b61a511b3a5","props":{},"start":"rec:0f9d9773d47c5eff","type":"EVIDENCED_BY"}
+{"end":"span:aba9a8b037aa2978","props":{},"start":"rec:14264311e13a8591","type":"EVIDENCED_BY"}
+{"end":"span:ae0d91c463c4c75b","props":{},"start":"rec:1635d63ced89cca1","type":"EVIDENCED_BY"}
+{"end":"span:0cc2fcb00370d60b","props":{},"start":"rec:169d4142d0034fe5","type":"EVIDENCED_BY"}
+{"end":"span:e10275496c0587f7","props":{},"start":"rec:180b9264754c5f9b","type":"EVIDENCED_BY"}
+{"end":"span:eb22599ca3ac0cd5","props":{},"start":"rec:197dd52c3e7ccfae","type":"EVIDENCED_BY"}
+{"end":"span:2e11604aabdcc9d2","props":{},"start":"rec:1bbd096e181116aa","type":"EVIDENCED_BY"}
+{"end":"span:a84a7b3767a3229b","props":{},"start":"rec:1f478eaf1a5feb7f","type":"EVIDENCED_BY"}
+{"end":"span:b3b9eaaa7cdfedd9","props":{},"start":"rec:22c96600b312c233","type":"EVIDENCED_BY"}
+{"end":"span:952f6ca29a21f6f0","props":{},"start":"rec:2364f1262b61e0ec","type":"EVIDENCED_BY"}
+{"end":"span:ee659044dc9bd032","props":{},"start":"rec:24c69d0d945ee8f1","type":"EVIDENCED_BY"}
+{"end":"span:595dca07e1c1e312","props":{},"start":"rec:2583fc4447ad6df4","type":"EVIDENCED_BY"}
+{"end":"span:decd372039325e53","props":{},"start":"rec:25e9f74bb58f9586","type":"EVIDENCED_BY"}
+{"end":"span:5a12ad2b0ee4df8f","props":{},"start":"rec:27d31b349ec837cf","type":"EVIDENCED_BY"}
+{"end":"span:e247302ff8f0be8d","props":{},"start":"rec:2c8c2dca4d0af385","type":"EVIDENCED_BY"}
+{"end":"span:c623f2f200028dfa","props":{},"start":"rec:2d56be7fa2a91e11","type":"EVIDENCED_BY"}
+{"end":"span:6e4d03b1ee6801fa","props":{},"start":"rec:2d7463b4202f04df","type":"EVIDENCED_BY"}
+{"end":"span:c143eff9dc17fc6a","props":{},"start":"rec:2e4ffb0c66fa04f6","type":"EVIDENCED_BY"}
+{"end":"span:011d5f1a01695618","props":{},"start":"rec:2fb3ff49184fd16b","type":"EVIDENCED_BY"}
+{"end":"span:3e5d79907478b2e1","props":{},"start":"rec:326834e0c2628a09","type":"EVIDENCED_BY"}
+{"end":"span:cba35077e08165a1","props":{},"start":"rec:33c31fb8db4d3764","type":"EVIDENCED_BY"}
+{"end":"span:4e0e18943b227b3e","props":{},"start":"rec:36e8e5fe0495fd19","type":"EVIDENCED_BY"}
+{"end":"span:ae876579610b1dcd","props":{},"start":"rec:382079b59bae7d8c","type":"EVIDENCED_BY"}
+{"end":"span:2411ae236d577978","props":{},"start":"rec:384418a3438f0cd2","type":"EVIDENCED_BY"}
+{"end":"span:a668b7a56e544c19","props":{},"start":"rec:3912e547d565197a","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:3afb9c5ca3d750b8","type":"EVIDENCED_BY"}
+{"end":"span:c1770493cc0a42ce","props":{},"start":"rec:3d643577b66a92f4","type":"EVIDENCED_BY"}
+{"end":"span:002d3acde0df589b","props":{},"start":"rec:403735de15ee34a5","type":"EVIDENCED_BY"}
+{"end":"span:a3cdbd755c328340","props":{},"start":"rec:40a5519b48fdd47a","type":"EVIDENCED_BY"}
+{"end":"span:de040462b9d8757a","props":{},"start":"rec:4146c1616b5f0ca8","type":"EVIDENCED_BY"}
+{"end":"span:853ad6f280e4f698","props":{},"start":"rec:43a4f3323dc80938","type":"EVIDENCED_BY"}
+{"end":"span:a63fa915a82bd037","props":{},"start":"rec:47c2bf441a686413","type":"EVIDENCED_BY"}
+{"end":"span:24df1c4b730c93e3","props":{},"start":"rec:49804d570a3d71a0","type":"EVIDENCED_BY"}
+{"end":"span:31453fa86fcc2ec3","props":{},"start":"rec:4c53b98047189b29","type":"EVIDENCED_BY"}
+{"end":"span:3ad66b890e4f57be","props":{},"start":"rec:4d44ee1e940bbea6","type":"EVIDENCED_BY"}
+{"end":"span:3288ceaec6ee2501","props":{},"start":"rec:50a16be5b462a7d1","type":"EVIDENCED_BY"}
+{"end":"span:add6a3823ce5e976","props":{},"start":"rec:51d2fd5647880556","type":"EVIDENCED_BY"}
+{"end":"span:b3ff2d0bc5c68eac","props":{},"start":"rec:5524757008fa05e6","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:56cb3c4fa48bfba5","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:5a550498e29100b9","type":"EVIDENCED_BY"}
+{"end":"span:713df019cde600c5","props":{},"start":"rec:5d952152cffc0306","type":"EVIDENCED_BY"}
+{"end":"span:d4c58bd33678646b","props":{},"start":"rec:6039ab4d93149958","type":"EVIDENCED_BY"}
+{"end":"span:a82c91af8e6bcd73","props":{},"start":"rec:60de97f6e5cfdc19","type":"EVIDENCED_BY"}
+{"end":"span:c997ebf858c4c7d3","props":{},"start":"rec:6134642b5b926d6a","type":"EVIDENCED_BY"}
+{"end":"span:f80de2ef1ff1424f","props":{},"start":"rec:648e437e4448b126","type":"EVIDENCED_BY"}
+{"end":"span:810f4fd8a0e9ed03","props":{},"start":"rec:67507e568f5d5519","type":"EVIDENCED_BY"}
+{"end":"span:f3dd4a7f33b1c502","props":{},"start":"rec:67bfb512abe37980","type":"EVIDENCED_BY"}
+{"end":"span:334d8a90d37cf7f4","props":{},"start":"rec:68c90901216c9818","type":"EVIDENCED_BY"}
+{"end":"span:1d3447717c985fa5","props":{},"start":"rec:698703e19b16a350","type":"EVIDENCED_BY"}
+{"end":"span:18e680da80fea32b","props":{},"start":"rec:6a65095bbb8eee27","type":"EVIDENCED_BY"}
+{"end":"span:65402031b6d6358a","props":{},"start":"rec:6af3c75f469d47dc","type":"EVIDENCED_BY"}
+{"end":"span:d6b1adfa6421c782","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"EVIDENCED_BY"}
+{"end":"span:18cfb4f340743dc6","props":{},"start":"rec:6b9bc98a5bf45dda","type":"EVIDENCED_BY"}
+{"end":"span:6df23ded1e0556fd","props":{},"start":"rec:6e7d52cbee3af4b6","type":"EVIDENCED_BY"}
+{"end":"span:eb4add5a56c31c4e","props":{},"start":"rec:6fdde983afc215de","type":"EVIDENCED_BY"}
+{"end":"span:ff984a824f82230a","props":{},"start":"rec:723909d826224a27","type":"EVIDENCED_BY"}
+{"end":"span:4e08c1b9beedb209","props":{},"start":"rec:7643e1ed1df05c50","type":"EVIDENCED_BY"}
+{"end":"span:b0558618dcc650c8","props":{},"start":"rec:78da38a205ebf290","type":"EVIDENCED_BY"}
+{"end":"span:ea2ace26ede345c1","props":{},"start":"rec:7a00b5da2c275964","type":"EVIDENCED_BY"}
+{"end":"span:510cd09888836a0d","props":{},"start":"rec:7d85c23dab92404f","type":"EVIDENCED_BY"}
+{"end":"span:e05cea06513e5a57","props":{},"start":"rec:7e5d0347912da7db","type":"EVIDENCED_BY"}
+{"end":"span:072030b48ebbf3af","props":{},"start":"rec:7f4c6fe239fa6769","type":"EVIDENCED_BY"}
+{"end":"span:fc050821e3979833","props":{},"start":"rec:7f96a01583cde662","type":"EVIDENCED_BY"}
+{"end":"span:49c60546efe16544","props":{},"start":"rec:805c40801e1b4fc9","type":"EVIDENCED_BY"}
+{"end":"span:6dea2e2d5b17730e","props":{},"start":"rec:82d46c67af395f1a","type":"EVIDENCED_BY"}
+{"end":"span:32ace376d1c298b1","props":{},"start":"rec:83584b66ebcce85d","type":"EVIDENCED_BY"}
+{"end":"span:c93bbf040d92251f","props":{},"start":"rec:84988444c931a854","type":"EVIDENCED_BY"}
+{"end":"span:70fcc6e097c4b833","props":{},"start":"rec:84a41015bfeabadf","type":"EVIDENCED_BY"}
+{"end":"span:af376e286c7b3aad","props":{},"start":"rec:8e849977f2fe4e2a","type":"EVIDENCED_BY"}
+{"end":"span:c53c2abcb8f6e2eb","props":{},"start":"rec:93ac1107707de63f","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:9573237d203159bf","type":"EVIDENCED_BY"}
+{"end":"span:296a7ee9638d16fa","props":{},"start":"rec:9594b0bf419a6ee9","type":"EVIDENCED_BY"}
+{"end":"span:caed9114db6c236e","props":{},"start":"rec:959edaf9cae05bb5","type":"EVIDENCED_BY"}
+{"end":"span:81590dec21c25b9c","props":{},"start":"rec:95cb72d207c93b6d","type":"EVIDENCED_BY"}
+{"end":"span:7fa327191ac3c1b6","props":{},"start":"rec:98055057e0bb74b5","type":"EVIDENCED_BY"}
+{"end":"span:d8c61d295d6dd5fd","props":{},"start":"rec:992a08425d77a875","type":"EVIDENCED_BY"}
+{"end":"span:58ded32e28279a5c","props":{},"start":"rec:9955264d61cb4288","type":"EVIDENCED_BY"}
+{"end":"span:89aa36cd1445a7b6","props":{},"start":"rec:9a1349cefb7181d1","type":"EVIDENCED_BY"}
+{"end":"span:822193584f28aa7c","props":{},"start":"rec:9cce09b1f149a819","type":"EVIDENCED_BY"}
+{"end":"span:5f4f475b7569aaf6","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"EVIDENCED_BY"}
+{"end":"span:0cc2fcb00370d60b","props":{},"start":"rec:9fd00776b4ef6b69","type":"EVIDENCED_BY"}
+{"end":"span:3f6f09114b278180","props":{},"start":"rec:a348605da39c8f52","type":"EVIDENCED_BY"}
+{"end":"span:6bb1b76269c13518","props":{},"start":"rec:a4f7515e739df09b","type":"EVIDENCED_BY"}
+{"end":"span:c5c57617bacf9482","props":{},"start":"rec:a75d0fde620c2524","type":"EVIDENCED_BY"}
+{"end":"span:4351daa0ee360a28","props":{},"start":"rec:a75dc1da695f609f","type":"EVIDENCED_BY"}
+{"end":"span:b7783f903542b047","props":{},"start":"rec:a93ad8cab06e3c86","type":"EVIDENCED_BY"}
+{"end":"span:b0558618dcc650c8","props":{},"start":"rec:aa56f3830281cf17","type":"EVIDENCED_BY"}
+{"end":"span:2909afd8a203d5f6","props":{},"start":"rec:aaea6438ff215029","type":"EVIDENCED_BY"}
+{"end":"span:6d4da2e7fa154b55","props":{},"start":"rec:abbee2551e5f524f","type":"EVIDENCED_BY"}
+{"end":"span:19d9cb3ed9cb804f","props":{},"start":"rec:af8681c1a9467e1d","type":"EVIDENCED_BY"}
+{"end":"span:44601beadbdae34a","props":{},"start":"rec:af8fafcf137af23f","type":"EVIDENCED_BY"}
+{"end":"span:4de4ffee986d1f49","props":{},"start":"rec:b12ad94ed6373855","type":"EVIDENCED_BY"}
+{"end":"span:249cbe08850a62da","props":{},"start":"rec:b235d6870af984d6","type":"EVIDENCED_BY"}
+{"end":"span:50a8b6f1e2f04d29","props":{},"start":"rec:b49b723de350fd7f","type":"EVIDENCED_BY"}
+{"end":"span:ea34f036f65c4c1d","props":{},"start":"rec:bf987a349eed385f","type":"EVIDENCED_BY"}
+{"end":"span:d76f245c77c828f9","props":{},"start":"rec:c10e706058fbcf51","type":"EVIDENCED_BY"}
+{"end":"span:9fa1b7016b2dc67e","props":{},"start":"rec:c275abdea2f82958","type":"EVIDENCED_BY"}
+{"end":"span:6eb23bb542375696","props":{},"start":"rec:cbb66266ab09530f","type":"EVIDENCED_BY"}
+{"end":"span:6810252ef3e90689","props":{},"start":"rec:cccf4d95563f0621","type":"EVIDENCED_BY"}
+{"end":"span:ff409c247f03d326","props":{},"start":"rec:ce3a65c250dfa329","type":"EVIDENCED_BY"}
+{"end":"span:9958e11528081e53","props":{},"start":"rec:ce61e3753452f7f7","type":"EVIDENCED_BY"}
+{"end":"span:ab53e3d444eaed29","props":{},"start":"rec:cea50ad34989348c","type":"EVIDENCED_BY"}
+{"end":"span:93595177bbc51605","props":{},"start":"rec:d059b00f55d562e2","type":"EVIDENCED_BY"}
+{"end":"span:c7e70a5d1329de96","props":{},"start":"rec:d23089768a246e03","type":"EVIDENCED_BY"}
+{"end":"span:2aa8fc5b32c8aeb6","props":{},"start":"rec:d4ceba85c02f5f9b","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:d61bd3430e9d21af","type":"EVIDENCED_BY"}
+{"end":"span:dc8b6b07fa085f6d","props":{},"start":"rec:d73bcce29b0f7eb1","type":"EVIDENCED_BY"}
+{"end":"span:831f440f25f859cf","props":{},"start":"rec:d86b6772341e5926","type":"EVIDENCED_BY"}
+{"end":"span:e3ef2064ed039860","props":{},"start":"rec:dd886f43cb6ceca5","type":"EVIDENCED_BY"}
+{"end":"span:139b4164b193065d","props":{},"start":"rec:e0c53fea4db591a1","type":"EVIDENCED_BY"}
+{"end":"span:d8636e6e2d2d6c42","props":{},"start":"rec:e1eca2c1d4ad7e2a","type":"EVIDENCED_BY"}
+{"end":"span:e4bb0b0238fedec7","props":{},"start":"rec:e2a874701a9ccf60","type":"EVIDENCED_BY"}
+{"end":"span:5bc20e8ef19d61c2","props":{},"start":"rec:e39f514579e1ac5f","type":"EVIDENCED_BY"}
+{"end":"span:ce205c91f2763dae","props":{},"start":"rec:e3b348f926ee0fc6","type":"EVIDENCED_BY"}
+{"end":"span:3ab6c84bec5036c4","props":{},"start":"rec:e4ab91446b4fee9a","type":"EVIDENCED_BY"}
+{"end":"span:720f9c188caf6fc7","props":{},"start":"rec:e5925cdeb28efee3","type":"EVIDENCED_BY"}
+{"end":"span:6cb6921b286791a4","props":{},"start":"rec:e70bef0b0616e1af","type":"EVIDENCED_BY"}
+{"end":"span:2622ba5acb98d520","props":{},"start":"rec:e7a72d0f3e22657d","type":"EVIDENCED_BY"}
+{"end":"span:110e54ed0766f8f6","props":{},"start":"rec:e9840e07d662aa4e","type":"EVIDENCED_BY"}
+{"end":"span:294ce3b38ab45650","props":{},"start":"rec:ed9aae1ef9c57afe","type":"EVIDENCED_BY"}
+{"end":"span:5aff9525726f1ff0","props":{},"start":"rec:eee17fcc9d566fd0","type":"EVIDENCED_BY"}
+{"end":"span:1afc0906b9f708cb","props":{},"start":"rec:efa0eaf9d7a1af37","type":"EVIDENCED_BY"}
+{"end":"span:90cbfd7903d83ec6","props":{},"start":"rec:f007c0ef8e4e242f","type":"EVIDENCED_BY"}
+{"end":"span:26fcbdefa142b482","props":{},"start":"rec:f1156b7a6dbdb44c","type":"EVIDENCED_BY"}
+{"end":"span:c48fd571a8ea2bbd","props":{},"start":"rec:f62c2da2f69adc50","type":"EVIDENCED_BY"}
+{"end":"span:3378a7e3b66d0cbb","props":{},"start":"rec:f76c3c593467fd70","type":"EVIDENCED_BY"}
+{"end":"span:d8636e6e2d2d6c42","props":{},"start":"rec:f80f6ac21b0a45f3","type":"EVIDENCED_BY"}
+{"end":"span:1df790d857cb4af7","props":{},"start":"rec:f9ba0999166c7f71","type":"EVIDENCED_BY"}
+{"end":"span:7e3b794549c36df0","props":{},"start":"rec:fa0802540d945d30","type":"EVIDENCED_BY"}
+{"end":"span:b465678ce6369d42","props":{},"start":"rec:fa8ef26df371f6b7","type":"EVIDENCED_BY"}
+{"end":"span:49ae0b50e9b7352a","props":{},"start":"rec:fb82532e4167ee76","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_36_t11","props":{},"start":"variety:adt_36","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_37_t11","props":{},"start":"variety:adt_37","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_38_t22","props":{},"start":"variety:adt_38","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_39_t22","props":{},"start":"variety:adt_39","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_43_t11","props":{},"start":"variety:adt_43","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_53_t15","props":{},"start":"variety:adt_53","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_r_45_t13","props":{},"start":"variety:adt_r_45","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_adt_r_48_t19","props":{},"start":"variety:adt_r_48","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_anna_r_4_t15","props":{},"start":"variety:anna_r_4","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_asd_16_t13","props":{},"start":"variety:asd_16","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_asd_18_t13","props":{},"start":"variety:asd_18","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_asd_19_t25","props":{},"start":"variety:asd_19","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_co_43_t23","props":{},"start":"variety:co_43","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_co_51_t9","props":{},"start":"variety:co_51","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_co_r_50_t22","props":{},"start":"variety:co_r_50","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_corh_3_hybrid_t15","props":{},"start":"variety:corh_3_hybrid","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_cow_w_1_t119","props":{},"start":"variety:cow_w_1","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_cow_w_2_t119","props":{},"start":"variety:cow_w_2","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_cr_1009_t27","props":{},"start":"variety:cr_1009","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_cr_1009_sub_1_t27","props":{},"start":"variety:cr_1009_sub_1","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_mdu_5_t19","props":{},"start":"variety:mdu_5","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_mdu_6_t9","props":{},"start":"variety:mdu_6","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_paiyur_1_t23","props":{},"start":"variety:paiyur_1","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_pmk_r_3_t19","props":{},"start":"variety:pmk_r_3","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_rice_adt_51_t27","props":{},"start":"variety:rice_adt_51","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_rice_co_52_t21","props":{},"start":"variety:rice_co_52","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tkm_11_t17","props":{},"start":"variety:tkm_11","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tkm_13_t21","props":{},"start":"variety:tkm_13","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tkm_9_t19","props":{},"start":"variety:tkm_9","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tnau_rice_adt_49_t22","props":{},"start":"variety:tnau_rice_adt_49","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tnau_rice_adt_50_t27","props":{},"start":"variety:tnau_rice_adt_50","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tnau_rice_hybrid_co_4_t25","props":{},"start":"variety:tnau_rice_hybrid_co_4","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tnau_rice_try_3_t21","props":{},"start":"variety:tnau_rice_try_3","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tps_3_t25","props":{},"start":"variety:tps_3","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_tps_5_t9","props":{},"start":"variety:tps_5","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_try_1_t25","props":{},"start":"variety:try_1","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_try_2_t17","props":{},"start":"variety:try_2","type":"EVIDENCED_BY"}
+{"end":"span:tnau_agriculture_2020_vgd_1_t21","props":{},"start":"variety:vgd_1","type":"EVIDENCED_BY"}
+{"end":"crop:rice","props":{},"start":"rec:018eb4a7472801b8","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0402103a75243fbf","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0483c52c466ce4b8","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:056622f1afeedd71","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0805509f99a14b9e","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:09040ca220039383","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0c03ada5c595b40c","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0f8f8b207c291bb6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:0f9d9773d47c5eff","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:14264311e13a8591","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:1635d63ced89cca1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:169d4142d0034fe5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:180b9264754c5f9b","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:197dd52c3e7ccfae","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:1bbd096e181116aa","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:1f478eaf1a5feb7f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:22c96600b312c233","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2364f1262b61e0ec","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:24c69d0d945ee8f1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2583fc4447ad6df4","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:25e9f74bb58f9586","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:27d31b349ec837cf","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2c8c2dca4d0af385","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2d56be7fa2a91e11","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2d7463b4202f04df","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2e4ffb0c66fa04f6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:2fb3ff49184fd16b","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:326834e0c2628a09","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:33c31fb8db4d3764","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:36e8e5fe0495fd19","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:382079b59bae7d8c","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:384418a3438f0cd2","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:3912e547d565197a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:3afb9c5ca3d750b8","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:3d643577b66a92f4","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:403735de15ee34a5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:40a5519b48fdd47a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:4146c1616b5f0ca8","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:43a4f3323dc80938","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:47c2bf441a686413","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:49804d570a3d71a0","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:4c53b98047189b29","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:4d44ee1e940bbea6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:50a16be5b462a7d1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:51d2fd5647880556","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:5524757008fa05e6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:56cb3c4fa48bfba5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:5a550498e29100b9","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:5d952152cffc0306","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6039ab4d93149958","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:60de97f6e5cfdc19","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6134642b5b926d6a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:648e437e4448b126","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:67507e568f5d5519","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:67bfb512abe37980","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:68c90901216c9818","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:698703e19b16a350","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6a65095bbb8eee27","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6af3c75f469d47dc","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6b9bc98a5bf45dda","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6e7d52cbee3af4b6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:6fdde983afc215de","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:723909d826224a27","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7643e1ed1df05c50","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:78da38a205ebf290","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7a00b5da2c275964","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7d85c23dab92404f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7e5d0347912da7db","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7f4c6fe239fa6769","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:7f96a01583cde662","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:805c40801e1b4fc9","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:82d46c67af395f1a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:83584b66ebcce85d","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:84988444c931a854","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:84a41015bfeabadf","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:8e849977f2fe4e2a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:93ac1107707de63f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9573237d203159bf","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9594b0bf419a6ee9","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:959edaf9cae05bb5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:95cb72d207c93b6d","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:98055057e0bb74b5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:992a08425d77a875","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9955264d61cb4288","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9a1349cefb7181d1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9cce09b1f149a819","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:9fd00776b4ef6b69","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:a348605da39c8f52","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:a4f7515e739df09b","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:a75d0fde620c2524","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:a75dc1da695f609f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:a93ad8cab06e3c86","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:aa56f3830281cf17","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:aaea6438ff215029","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:abbee2551e5f524f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:af8681c1a9467e1d","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:af8fafcf137af23f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:b12ad94ed6373855","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:b235d6870af984d6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:b49b723de350fd7f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:bf987a349eed385f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:c10e706058fbcf51","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:c275abdea2f82958","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:cbb66266ab09530f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:cccf4d95563f0621","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:ce3a65c250dfa329","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:ce61e3753452f7f7","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:cea50ad34989348c","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d059b00f55d562e2","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d23089768a246e03","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d4ceba85c02f5f9b","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d61bd3430e9d21af","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d73bcce29b0f7eb1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:d86b6772341e5926","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:dd886f43cb6ceca5","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e0c53fea4db591a1","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e1eca2c1d4ad7e2a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e2a874701a9ccf60","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e39f514579e1ac5f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e3b348f926ee0fc6","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e4ab91446b4fee9a","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e5925cdeb28efee3","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e70bef0b0616e1af","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e7a72d0f3e22657d","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:e9840e07d662aa4e","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:ed9aae1ef9c57afe","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:eee17fcc9d566fd0","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:efa0eaf9d7a1af37","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f007c0ef8e4e242f","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f1156b7a6dbdb44c","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f62c2da2f69adc50","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f76c3c593467fd70","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f80f6ac21b0a45f3","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:f9ba0999166c7f71","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:fa0802540d945d30","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:fa8ef26df371f6b7","type":"FOR_CROP"}
+{"end":"crop:rice","props":{},"start":"rec:fb82532e4167ee76","type":"FOR_CROP"}
+{"end":"pest:leaffolder","props":{},"start":"rec:2364f1262b61e0ec","type":"FOR_PEST"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:2d7463b4202f04df","type":"FOR_PEST"}
+{"end":"pest:stem_borer","props":{},"start":"rec:2fb3ff49184fd16b","type":"FOR_PEST"}
+{"end":"pest:thrips","props":{},"start":"rec:4c53b98047189b29","type":"FOR_PEST"}
+{"end":"pest:earhead_bug","props":{},"start":"rec:67bfb512abe37980","type":"FOR_PEST"}
+{"end":"pest:gall_midge","props":{},"start":"rec:7a00b5da2c275964","type":"FOR_PEST"}
+{"end":"pest:whorl_maggot","props":{},"start":"rec:abbee2551e5f524f","type":"FOR_PEST"}
+{"end":"pest:green_leafhopper","props":{},"start":"rec:fb82532e4167ee76","type":"FOR_PEST"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:0483c52c466ce4b8","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:056622f1afeedd71","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:0c03ada5c595b40c","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:1635d63ced89cca1","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:1bbd096e181116aa","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:2d56be7fa2a91e11","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:326834e0c2628a09","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:3912e547d565197a","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:403735de15ee34a5","type":"FOR_PURPOSE"}
+{"end":"purpose:grain","props":{"origin":["text"]},"start":"rec:6039ab4d93149958","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:6a65095bbb8eee27","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:7f96a01583cde662","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:959edaf9cae05bb5","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:992a08425d77a875","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:9955264d61cb4288","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:9a1349cefb7181d1","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section","text"]},"start":"rec:a75d0fde620c2524","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:bf987a349eed385f","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:d23089768a246e03","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:e1eca2c1d4ad7e2a","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:e9840e07d662aa4e","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:ed9aae1ef9c57afe","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:efa0eaf9d7a1af37","type":"FOR_PURPOSE"}
+{"end":"purpose:seed","props":{"origin":["section"]},"start":"rec:f80f6ac21b0a45f3","type":"FOR_PURPOSE"}
+{"end":"clause:2364f1262b61e0ec:0","props":{},"start":"rec:2364f1262b61e0ec","type":"HAS_CLAUSE"}
+{"end":"clause:2364f1262b61e0ec:1","props":{},"start":"rec:2364f1262b61e0ec","type":"HAS_CLAUSE"}
+{"end":"clause:2d7463b4202f04df:0","props":{},"start":"rec:2d7463b4202f04df","type":"HAS_CLAUSE"}
+{"end":"clause:2d7463b4202f04df:1","props":{},"start":"rec:2d7463b4202f04df","type":"HAS_CLAUSE"}
+{"end":"clause:2fb3ff49184fd16b:0","props":{},"start":"rec:2fb3ff49184fd16b","type":"HAS_CLAUSE"}
+{"end":"clause:2fb3ff49184fd16b:1","props":{},"start":"rec:2fb3ff49184fd16b","type":"HAS_CLAUSE"}
+{"end":"clause:2fb3ff49184fd16b:2","props":{},"start":"rec:2fb3ff49184fd16b","type":"HAS_CLAUSE"}
+{"end":"clause:4c53b98047189b29:0","props":{},"start":"rec:4c53b98047189b29","type":"HAS_CLAUSE"}
+{"end":"clause:4c53b98047189b29:1","props":{},"start":"rec:4c53b98047189b29","type":"HAS_CLAUSE"}
+{"end":"clause:67bfb512abe37980:0","props":{},"start":"rec:67bfb512abe37980","type":"HAS_CLAUSE"}
+{"end":"clause:67bfb512abe37980:1","props":{},"start":"rec:67bfb512abe37980","type":"HAS_CLAUSE"}
+{"end":"clause:7a00b5da2c275964:0","props":{},"start":"rec:7a00b5da2c275964","type":"HAS_CLAUSE"}
+{"end":"clause:abbee2551e5f524f:0","props":{},"start":"rec:abbee2551e5f524f","type":"HAS_CLAUSE"}
+{"end":"clause:fb82532e4167ee76:0","props":{},"start":"rec:fb82532e4167ee76","type":"HAS_CLAUSE"}
+{"end":"clause:fb82532e4167ee76:1","props":{},"start":"rec:fb82532e4167ee76","type":"HAS_CLAUSE"}
+{"end":"clause:fb82532e4167ee76:2","props":{},"start":"rec:fb82532e4167ee76","type":"HAS_CLAUSE"}
+{"end":"clause:fb82532e4167ee76:3","props":{},"start":"rec:fb82532e4167ee76","type":"HAS_CLAUSE"}
+{"end":"step:018eb4a7472801b8:0","props":{},"start":"rec:018eb4a7472801b8","type":"HAS_STEP"}
+{"end":"step:0483c52c466ce4b8:0","props":{},"start":"rec:0483c52c466ce4b8","type":"HAS_STEP"}
+{"end":"step:056622f1afeedd71:0","props":{},"start":"rec:056622f1afeedd71","type":"HAS_STEP"}
+{"end":"step:056622f1afeedd71:1","props":{},"start":"rec:056622f1afeedd71","type":"HAS_STEP"}
+{"end":"step:0805509f99a14b9e:0","props":{},"start":"rec:0805509f99a14b9e","type":"HAS_STEP"}
+{"end":"step:0805509f99a14b9e:1","props":{},"start":"rec:0805509f99a14b9e","type":"HAS_STEP"}
+{"end":"step:0805509f99a14b9e:2","props":{},"start":"rec:0805509f99a14b9e","type":"HAS_STEP"}
+{"end":"step:0805509f99a14b9e:3","props":{},"start":"rec:0805509f99a14b9e","type":"HAS_STEP"}
+{"end":"step:09040ca220039383:0","props":{},"start":"rec:09040ca220039383","type":"HAS_STEP"}
+{"end":"step:0c03ada5c595b40c:0","props":{},"start":"rec:0c03ada5c595b40c","type":"HAS_STEP"}
+{"end":"step:0f9d9773d47c5eff:0","props":{},"start":"rec:0f9d9773d47c5eff","type":"HAS_STEP"}
+{"end":"step:0f9d9773d47c5eff:1","props":{},"start":"rec:0f9d9773d47c5eff","type":"HAS_STEP"}
+{"end":"step:1635d63ced89cca1:0","props":{},"start":"rec:1635d63ced89cca1","type":"HAS_STEP"}
+{"end":"step:1635d63ced89cca1:1","props":{},"start":"rec:1635d63ced89cca1","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:0","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:1","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:2","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:3","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:4","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:180b9264754c5f9b:5","props":{},"start":"rec:180b9264754c5f9b","type":"HAS_STEP"}
+{"end":"step:197dd52c3e7ccfae:0","props":{},"start":"rec:197dd52c3e7ccfae","type":"HAS_STEP"}
+{"end":"step:1bbd096e181116aa:0","props":{},"start":"rec:1bbd096e181116aa","type":"HAS_STEP"}
+{"end":"step:1f478eaf1a5feb7f:0","props":{},"start":"rec:1f478eaf1a5feb7f","type":"HAS_STEP"}
+{"end":"step:1f478eaf1a5feb7f:1","props":{},"start":"rec:1f478eaf1a5feb7f","type":"HAS_STEP"}
+{"end":"step:22c96600b312c233:0","props":{},"start":"rec:22c96600b312c233","type":"HAS_STEP"}
+{"end":"step:22c96600b312c233:1","props":{},"start":"rec:22c96600b312c233","type":"HAS_STEP"}
+{"end":"step:22c96600b312c233:2","props":{},"start":"rec:22c96600b312c233","type":"HAS_STEP"}
+{"end":"step:22c96600b312c233:3","props":{},"start":"rec:22c96600b312c233","type":"HAS_STEP"}
+{"end":"step:2583fc4447ad6df4:0","props":{},"start":"rec:2583fc4447ad6df4","type":"HAS_STEP"}
+{"end":"step:25e9f74bb58f9586:0","props":{},"start":"rec:25e9f74bb58f9586","type":"HAS_STEP"}
+{"end":"step:27d31b349ec837cf:0","props":{},"start":"rec:27d31b349ec837cf","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:0","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:1","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:10","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:11","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:12","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:13","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:14","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:15","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:16","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:17","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:18","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:19","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:2","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:3","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:4","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:5","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:6","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:7","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:8","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2c8c2dca4d0af385:9","props":{},"start":"rec:2c8c2dca4d0af385","type":"HAS_STEP"}
+{"end":"step:2d56be7fa2a91e11:0","props":{},"start":"rec:2d56be7fa2a91e11","type":"HAS_STEP"}
+{"end":"step:2e4ffb0c66fa04f6:0","props":{},"start":"rec:2e4ffb0c66fa04f6","type":"HAS_STEP"}
+{"end":"step:326834e0c2628a09:0","props":{},"start":"rec:326834e0c2628a09","type":"HAS_STEP"}
+{"end":"step:33c31fb8db4d3764:0","props":{},"start":"rec:33c31fb8db4d3764","type":"HAS_STEP"}
+{"end":"step:382079b59bae7d8c:0","props":{},"start":"rec:382079b59bae7d8c","type":"HAS_STEP"}
+{"end":"step:382079b59bae7d8c:1","props":{},"start":"rec:382079b59bae7d8c","type":"HAS_STEP"}
+{"end":"step:3912e547d565197a:0","props":{},"start":"rec:3912e547d565197a","type":"HAS_STEP"}
+{"end":"step:403735de15ee34a5:0","props":{},"start":"rec:403735de15ee34a5","type":"HAS_STEP"}
+{"end":"step:403735de15ee34a5:1","props":{},"start":"rec:403735de15ee34a5","type":"HAS_STEP"}
+{"end":"step:40a5519b48fdd47a:0","props":{},"start":"rec:40a5519b48fdd47a","type":"HAS_STEP"}
+{"end":"step:40a5519b48fdd47a:1","props":{},"start":"rec:40a5519b48fdd47a","type":"HAS_STEP"}
+{"end":"step:40a5519b48fdd47a:2","props":{},"start":"rec:40a5519b48fdd47a","type":"HAS_STEP"}
+{"end":"step:40a5519b48fdd47a:3","props":{},"start":"rec:40a5519b48fdd47a","type":"HAS_STEP"}
+{"end":"step:43a4f3323dc80938:0","props":{},"start":"rec:43a4f3323dc80938","type":"HAS_STEP"}
+{"end":"step:49804d570a3d71a0:0","props":{},"start":"rec:49804d570a3d71a0","type":"HAS_STEP"}
+{"end":"step:4d44ee1e940bbea6:0","props":{},"start":"rec:4d44ee1e940bbea6","type":"HAS_STEP"}
+{"end":"step:51d2fd5647880556:0","props":{},"start":"rec:51d2fd5647880556","type":"HAS_STEP"}
+{"end":"step:5524757008fa05e6:0","props":{},"start":"rec:5524757008fa05e6","type":"HAS_STEP"}
+{"end":"step:5d952152cffc0306:0","props":{},"start":"rec:5d952152cffc0306","type":"HAS_STEP"}
+{"end":"step:6039ab4d93149958:0","props":{},"start":"rec:6039ab4d93149958","type":"HAS_STEP"}
+{"end":"step:60de97f6e5cfdc19:0","props":{},"start":"rec:60de97f6e5cfdc19","type":"HAS_STEP"}
+{"end":"step:6134642b5b926d6a:0","props":{},"start":"rec:6134642b5b926d6a","type":"HAS_STEP"}
+{"end":"step:648e437e4448b126:0","props":{},"start":"rec:648e437e4448b126","type":"HAS_STEP"}
+{"end":"step:648e437e4448b126:1","props":{},"start":"rec:648e437e4448b126","type":"HAS_STEP"}
+{"end":"step:67507e568f5d5519:0","props":{},"start":"rec:67507e568f5d5519","type":"HAS_STEP"}
+{"end":"step:68c90901216c9818:0","props":{},"start":"rec:68c90901216c9818","type":"HAS_STEP"}
+{"end":"step:68c90901216c9818:1","props":{},"start":"rec:68c90901216c9818","type":"HAS_STEP"}
+{"end":"step:698703e19b16a350:0","props":{},"start":"rec:698703e19b16a350","type":"HAS_STEP"}
+{"end":"step:6a65095bbb8eee27:0","props":{},"start":"rec:6a65095bbb8eee27","type":"HAS_STEP"}
+{"end":"step:6b8e2b0cb892a7f8:0","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"HAS_STEP"}
+{"end":"step:6b8e2b0cb892a7f8:1","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"HAS_STEP"}
+{"end":"step:6b8e2b0cb892a7f8:2","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"HAS_STEP"}
+{"end":"step:6b8e2b0cb892a7f8:3","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"HAS_STEP"}
+{"end":"step:6b8e2b0cb892a7f8:4","props":{},"start":"rec:6b8e2b0cb892a7f8","type":"HAS_STEP"}
+{"end":"step:6b9bc98a5bf45dda:0","props":{},"start":"rec:6b9bc98a5bf45dda","type":"HAS_STEP"}
+{"end":"step:6b9bc98a5bf45dda:1","props":{},"start":"rec:6b9bc98a5bf45dda","type":"HAS_STEP"}
+{"end":"step:6fdde983afc215de:0","props":{},"start":"rec:6fdde983afc215de","type":"HAS_STEP"}
+{"end":"step:6fdde983afc215de:1","props":{},"start":"rec:6fdde983afc215de","type":"HAS_STEP"}
+{"end":"step:723909d826224a27:0","props":{},"start":"rec:723909d826224a27","type":"HAS_STEP"}
+{"end":"step:78da38a205ebf290:0","props":{},"start":"rec:78da38a205ebf290","type":"HAS_STEP"}
+{"end":"step:7d85c23dab92404f:0","props":{},"start":"rec:7d85c23dab92404f","type":"HAS_STEP"}
+{"end":"step:7e5d0347912da7db:0","props":{},"start":"rec:7e5d0347912da7db","type":"HAS_STEP"}
+{"end":"step:7f96a01583cde662:0","props":{},"start":"rec:7f96a01583cde662","type":"HAS_STEP"}
+{"end":"step:805c40801e1b4fc9:0","props":{},"start":"rec:805c40801e1b4fc9","type":"HAS_STEP"}
+{"end":"step:82d46c67af395f1a:0","props":{},"start":"rec:82d46c67af395f1a","type":"HAS_STEP"}
+{"end":"step:83584b66ebcce85d:0","props":{},"start":"rec:83584b66ebcce85d","type":"HAS_STEP"}
+{"end":"step:83584b66ebcce85d:1","props":{},"start":"rec:83584b66ebcce85d","type":"HAS_STEP"}
+{"end":"step:83584b66ebcce85d:2","props":{},"start":"rec:83584b66ebcce85d","type":"HAS_STEP"}
+{"end":"step:84988444c931a854:0","props":{},"start":"rec:84988444c931a854","type":"HAS_STEP"}
+{"end":"step:84a41015bfeabadf:0","props":{},"start":"rec:84a41015bfeabadf","type":"HAS_STEP"}
+{"end":"step:8e849977f2fe4e2a:0","props":{},"start":"rec:8e849977f2fe4e2a","type":"HAS_STEP"}
+{"end":"step:93ac1107707de63f:0","props":{},"start":"rec:93ac1107707de63f","type":"HAS_STEP"}
+{"end":"step:959edaf9cae05bb5:0","props":{},"start":"rec:959edaf9cae05bb5","type":"HAS_STEP"}
+{"end":"step:959edaf9cae05bb5:1","props":{},"start":"rec:959edaf9cae05bb5","type":"HAS_STEP"}
+{"end":"step:959edaf9cae05bb5:2","props":{},"start":"rec:959edaf9cae05bb5","type":"HAS_STEP"}
+{"end":"step:98055057e0bb74b5:0","props":{},"start":"rec:98055057e0bb74b5","type":"HAS_STEP"}
+{"end":"step:992a08425d77a875:0","props":{},"start":"rec:992a08425d77a875","type":"HAS_STEP"}
+{"end":"step:992a08425d77a875:1","props":{},"start":"rec:992a08425d77a875","type":"HAS_STEP"}
+{"end":"step:9955264d61cb4288:0","props":{},"start":"rec:9955264d61cb4288","type":"HAS_STEP"}
+{"end":"step:9a1349cefb7181d1:0","props":{},"start":"rec:9a1349cefb7181d1","type":"HAS_STEP"}
+{"end":"step:9e70a8a8ae6a3d01:0","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"HAS_STEP"}
+{"end":"step:9e70a8a8ae6a3d01:1","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"HAS_STEP"}
+{"end":"step:9e70a8a8ae6a3d01:2","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"HAS_STEP"}
+{"end":"step:9e70a8a8ae6a3d01:3","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"HAS_STEP"}
+{"end":"step:9e70a8a8ae6a3d01:4","props":{},"start":"rec:9e70a8a8ae6a3d01","type":"HAS_STEP"}
+{"end":"step:a348605da39c8f52:0","props":{},"start":"rec:a348605da39c8f52","type":"HAS_STEP"}
+{"end":"step:a348605da39c8f52:1","props":{},"start":"rec:a348605da39c8f52","type":"HAS_STEP"}
+{"end":"step:a348605da39c8f52:2","props":{},"start":"rec:a348605da39c8f52","type":"HAS_STEP"}
+{"end":"step:a4f7515e739df09b:0","props":{},"start":"rec:a4f7515e739df09b","type":"HAS_STEP"}
+{"end":"step:a4f7515e739df09b:1","props":{},"start":"rec:a4f7515e739df09b","type":"HAS_STEP"}
+{"end":"step:a4f7515e739df09b:2","props":{},"start":"rec:a4f7515e739df09b","type":"HAS_STEP"}
+{"end":"step:a4f7515e739df09b:3","props":{},"start":"rec:a4f7515e739df09b","type":"HAS_STEP"}
+{"end":"step:a4f7515e739df09b:4","props":{},"start":"rec:a4f7515e739df09b","type":"HAS_STEP"}
+{"end":"step:a75d0fde620c2524:0","props":{},"start":"rec:a75d0fde620c2524","type":"HAS_STEP"}
+{"end":"step:a93ad8cab06e3c86:0","props":{},"start":"rec:a93ad8cab06e3c86","type":"HAS_STEP"}
+{"end":"step:aa56f3830281cf17:0","props":{},"start":"rec:aa56f3830281cf17","type":"HAS_STEP"}
+{"end":"step:af8681c1a9467e1d:0","props":{},"start":"rec:af8681c1a9467e1d","type":"HAS_STEP"}
+{"end":"step:b12ad94ed6373855:0","props":{},"start":"rec:b12ad94ed6373855","type":"HAS_STEP"}
+{"end":"step:b235d6870af984d6:0","props":{},"start":"rec:b235d6870af984d6","type":"HAS_STEP"}
+{"end":"step:b49b723de350fd7f:0","props":{},"start":"rec:b49b723de350fd7f","type":"HAS_STEP"}
+{"end":"step:b49b723de350fd7f:1","props":{},"start":"rec:b49b723de350fd7f","type":"HAS_STEP"}
+{"end":"step:bf987a349eed385f:0","props":{},"start":"rec:bf987a349eed385f","type":"HAS_STEP"}
+{"end":"step:c275abdea2f82958:0","props":{},"start":"rec:c275abdea2f82958","type":"HAS_STEP"}
+{"end":"step:cbb66266ab09530f:0","props":{},"start":"rec:cbb66266ab09530f","type":"HAS_STEP"}
+{"end":"step:ce3a65c250dfa329:0","props":{},"start":"rec:ce3a65c250dfa329","type":"HAS_STEP"}
+{"end":"step:d23089768a246e03:0","props":{},"start":"rec:d23089768a246e03","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:0","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:1","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:2","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:3","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:4","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:5","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:6","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:7","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:8","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d4ceba85c02f5f9b:9","props":{},"start":"rec:d4ceba85c02f5f9b","type":"HAS_STEP"}
+{"end":"step:d73bcce29b0f7eb1:0","props":{},"start":"rec:d73bcce29b0f7eb1","type":"HAS_STEP"}
+{"end":"step:d73bcce29b0f7eb1:1","props":{},"start":"rec:d73bcce29b0f7eb1","type":"HAS_STEP"}
+{"end":"step:e1eca2c1d4ad7e2a:0","props":{},"start":"rec:e1eca2c1d4ad7e2a","type":"HAS_STEP"}
+{"end":"step:e2a874701a9ccf60:0","props":{},"start":"rec:e2a874701a9ccf60","type":"HAS_STEP"}
+{"end":"step:e2a874701a9ccf60:1","props":{},"start":"rec:e2a874701a9ccf60","type":"HAS_STEP"}
+{"end":"step:e3b348f926ee0fc6:0","props":{},"start":"rec:e3b348f926ee0fc6","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:0","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:1","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:10","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:11","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:12","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:2","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:3","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:4","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:5","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:6","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:7","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:8","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e5925cdeb28efee3:9","props":{},"start":"rec:e5925cdeb28efee3","type":"HAS_STEP"}
+{"end":"step:e70bef0b0616e1af:0","props":{},"start":"rec:e70bef0b0616e1af","type":"HAS_STEP"}
+{"end":"step:e7a72d0f3e22657d:0","props":{},"start":"rec:e7a72d0f3e22657d","type":"HAS_STEP"}
+{"end":"step:e7a72d0f3e22657d:1","props":{},"start":"rec:e7a72d0f3e22657d","type":"HAS_STEP"}
+{"end":"step:e7a72d0f3e22657d:2","props":{},"start":"rec:e7a72d0f3e22657d","type":"HAS_STEP"}
+{"end":"step:e7a72d0f3e22657d:3","props":{},"start":"rec:e7a72d0f3e22657d","type":"HAS_STEP"}
+{"end":"step:e7a72d0f3e22657d:4","props":{},"start":"rec:e7a72d0f3e22657d","type":"HAS_STEP"}
+{"end":"step:e9840e07d662aa4e:0","props":{},"start":"rec:e9840e07d662aa4e","type":"HAS_STEP"}
+{"end":"step:eee17fcc9d566fd0:0","props":{},"start":"rec:eee17fcc9d566fd0","type":"HAS_STEP"}
+{"end":"step:efa0eaf9d7a1af37:0","props":{},"start":"rec:efa0eaf9d7a1af37","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:0","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:1","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:2","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:3","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:4","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:5","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:6","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:7","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f1156b7a6dbdb44c:8","props":{},"start":"rec:f1156b7a6dbdb44c","type":"HAS_STEP"}
+{"end":"step:f62c2da2f69adc50:0","props":{},"start":"rec:f62c2da2f69adc50","type":"HAS_STEP"}
+{"end":"step:f76c3c593467fd70:0","props":{},"start":"rec:f76c3c593467fd70","type":"HAS_STEP"}
+{"end":"step:f80f6ac21b0a45f3:0","props":{},"start":"rec:f80f6ac21b0a45f3","type":"HAS_STEP"}
+{"end":"step:f9ba0999166c7f71:0","props":{},"start":"rec:f9ba0999166c7f71","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:0","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:1","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:10","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:11","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:12","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:13","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:14","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:15","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:2","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:3","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:4","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:5","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:6","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:7","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:8","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa0802540d945d30:9","props":{},"start":"rec:fa0802540d945d30","type":"HAS_STEP"}
+{"end":"step:fa8ef26df371f6b7:0","props":{},"start":"rec:fa8ef26df371f6b7","type":"HAS_STEP"}
+{"end":"country:in","props":{},"start":"state:33","type":"IN_COUNTRY"}
+{"end":"country:in","props":{},"start":"state:5","type":"IN_COUNTRY"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:018eb4a7472801b8","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:0402103a75243fbf","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:0483c52c466ce4b8","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:056622f1afeedd71","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:0805509f99a14b9e","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:09040ca220039383","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:0c03ada5c595b40c","type":"IN_REGION"}
+{"end":"zone:uk_high_hills","props":{"origin":"text"},"start":"rec:0f8f8b207c291bb6","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:0f9d9773d47c5eff","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:14264311e13a8591","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:1635d63ced89cca1","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:169d4142d0034fe5","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:180b9264754c5f9b","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:197dd52c3e7ccfae","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:1bbd096e181116aa","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:1f478eaf1a5feb7f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:22c96600b312c233","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2364f1262b61e0ec","type":"IN_REGION"}
+{"end":"zone:uk_tarai_bhabhar_plain","props":{"origin":"text"},"start":"rec:24c69d0d945ee8f1","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2583fc4447ad6df4","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:25e9f74bb58f9586","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:27d31b349ec837cf","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2c8c2dca4d0af385","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2d56be7fa2a91e11","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2d7463b4202f04df","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2e4ffb0c66fa04f6","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:2fb3ff49184fd16b","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:326834e0c2628a09","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:33c31fb8db4d3764","type":"IN_REGION"}
+{"end":"zone:uk_tarai_bhabhar_plain","props":{"origin":"text"},"start":"rec:36e8e5fe0495fd19","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:382079b59bae7d8c","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:384418a3438f0cd2","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:3912e547d565197a","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:3afb9c5ca3d750b8","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:3d643577b66a92f4","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:403735de15ee34a5","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:40a5519b48fdd47a","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:4146c1616b5f0ca8","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:43a4f3323dc80938","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:47c2bf441a686413","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:49804d570a3d71a0","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:4c53b98047189b29","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:4d44ee1e940bbea6","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:50a16be5b462a7d1","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:51d2fd5647880556","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:5524757008fa05e6","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:56cb3c4fa48bfba5","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:5a550498e29100b9","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:5d952152cffc0306","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6039ab4d93149958","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:60de97f6e5cfdc19","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6134642b5b926d6a","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:648e437e4448b126","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:67507e568f5d5519","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:67bfb512abe37980","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:68c90901216c9818","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:698703e19b16a350","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6a65095bbb8eee27","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:6af3c75f469d47dc","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6b8e2b0cb892a7f8","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6b9bc98a5bf45dda","type":"IN_REGION"}
+{"end":"zone:uk_high_hills","props":{"origin":"text"},"start":"rec:6e7d52cbee3af4b6","type":"IN_REGION"}
+{"end":"zone:uk_mid_hills","props":{"origin":"text"},"start":"rec:6e7d52cbee3af4b6","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:6fdde983afc215de","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:723909d826224a27","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:7643e1ed1df05c50","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:78da38a205ebf290","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:7a00b5da2c275964","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:7d85c23dab92404f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:7e5d0347912da7db","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:7f4c6fe239fa6769","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:7f96a01583cde662","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:805c40801e1b4fc9","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:82d46c67af395f1a","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:83584b66ebcce85d","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:84988444c931a854","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:84a41015bfeabadf","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:8e849977f2fe4e2a","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:93ac1107707de63f","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:9573237d203159bf","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:9594b0bf419a6ee9","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:959edaf9cae05bb5","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:95cb72d207c93b6d","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:98055057e0bb74b5","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:992a08425d77a875","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:9955264d61cb4288","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:9a1349cefb7181d1","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:9cce09b1f149a819","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:9e70a8a8ae6a3d01","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:9fd00776b4ef6b69","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:a348605da39c8f52","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:a4f7515e739df09b","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:a75d0fde620c2524","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:a75dc1da695f609f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:a93ad8cab06e3c86","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:aa56f3830281cf17","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:aaea6438ff215029","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:abbee2551e5f524f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:af8681c1a9467e1d","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:af8fafcf137af23f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:b12ad94ed6373855","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:b235d6870af984d6","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:b49b723de350fd7f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:bf987a349eed385f","type":"IN_REGION"}
+{"end":"zone:uk_mid_hills","props":{"origin":"text"},"start":"rec:c10e706058fbcf51","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:c275abdea2f82958","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:cbb66266ab09530f","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:cccf4d95563f0621","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:ce3a65c250dfa329","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:ce61e3753452f7f7","type":"IN_REGION"}
+{"end":"zone:uk_high_hills","props":{"origin":"text"},"start":"rec:cea50ad34989348c","type":"IN_REGION"}
+{"end":"zone:uk_tarai_bhabhar_plain","props":{"origin":"text"},"start":"rec:d059b00f55d562e2","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:d23089768a246e03","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:d4ceba85c02f5f9b","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:d61bd3430e9d21af","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:d73bcce29b0f7eb1","type":"IN_REGION"}
+{"end":"zone:uk_mid_hills","props":{"origin":"text"},"start":"rec:d86b6772341e5926","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:dd886f43cb6ceca5","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:e0c53fea4db591a1","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e1eca2c1d4ad7e2a","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e2a874701a9ccf60","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e39f514579e1ac5f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e3b348f926ee0fc6","type":"IN_REGION"}
+{"end":"country:in","props":{"origin":"source"},"start":"rec:e4ab91446b4fee9a","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e5925cdeb28efee3","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e70bef0b0616e1af","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e7a72d0f3e22657d","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:e9840e07d662aa4e","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:ed9aae1ef9c57afe","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:eee17fcc9d566fd0","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:efa0eaf9d7a1af37","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f007c0ef8e4e242f","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f1156b7a6dbdb44c","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f62c2da2f69adc50","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f76c3c593467fd70","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f80f6ac21b0a45f3","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:f9ba0999166c7f71","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:fa0802540d945d30","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:fa8ef26df371f6b7","type":"IN_REGION"}
+{"end":"state:33","props":{"origin":"source"},"start":"rec:fb82532e4167ee76","type":"IN_REGION"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:002d3acde0df589b","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:011d5f1a01695618","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:072030b48ebbf3af","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:0cc2fcb00370d60b","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:110e54ed0766f8f6","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:139b4164b193065d","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:1406cd600e4d7520","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:18cfb4f340743dc6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:18e680da80fea32b","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:19d9cb3ed9cb804f","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:1afc0906b9f708cb","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:1d3447717c985fa5","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:1df790d857cb4af7","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:1fc9ae25bfe3db61","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:2411ae236d577978","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:249cbe08850a62da","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:24df1c4b730c93e3","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:2622ba5acb98d520","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:26fcbdefa142b482","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:2909afd8a203d5f6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:294ce3b38ab45650","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:296a7ee9638d16fa","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:2aa8fc5b32c8aeb6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:2e11604aabdcc9d2","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:31453fa86fcc2ec3","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:3288ceaec6ee2501","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:32ace376d1c298b1","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:334d8a90d37cf7f4","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:3378a7e3b66d0cbb","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:3ab6c84bec5036c4","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:3ad66b890e4f57be","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:3e5d79907478b2e1","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:3f6f09114b278180","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:4351daa0ee360a28","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:44601beadbdae34a","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:49ae0b50e9b7352a","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:49c60546efe16544","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:4de4ffee986d1f49","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:4e08c1b9beedb209","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:4e0e18943b227b3e","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:50a8b6f1e2f04d29","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:510cd09888836a0d","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:58ded32e28279a5c","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:595dca07e1c1e312","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:5a12ad2b0ee4df8f","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:5aff9525726f1ff0","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:5bc20e8ef19d61c2","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:5f4f475b7569aaf6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:62196b61a511b3a5","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:65402031b6d6358a","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:6810252ef3e90689","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6bb1b76269c13518","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6cb6921b286791a4","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6d4da2e7fa154b55","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6dea2e2d5b17730e","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:6df23ded1e0556fd","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6e4d03b1ee6801fa","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:6eb23bb542375696","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:70fcc6e097c4b833","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:713df019cde600c5","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:720f9c188caf6fc7","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:7e3b794549c36df0","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:7fa327191ac3c1b6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:810f4fd8a0e9ed03","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:81590dec21c25b9c","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:822193584f28aa7c","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:831f440f25f859cf","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:853ad6f280e4f698","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:89aa36cd1445a7b6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:90cbfd7903d83ec6","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:93595177bbc51605","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:952f6ca29a21f6f0","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:9958e11528081e53","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:9fa1b7016b2dc67e","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:a3cdbd755c328340","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:a63fa915a82bd037","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:a668b7a56e544c19","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:a82c91af8e6bcd73","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:a84a7b3767a3229b","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:ab53e3d444eaed29","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:aba9a8b037aa2978","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:add6a3823ce5e976","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ae0d91c463c4c75b","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ae876579610b1dcd","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:af376e286c7b3aad","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b0558618dcc650c8","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b0e2c6f7a9519fd6","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b3b9eaaa7cdfedd9","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b3ff2d0bc5c68eac","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b465678ce6369d42","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:b7783f903542b047","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:bbeb727b2d369a3f","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c143eff9dc17fc6a","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:c1770493cc0a42ce","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c48fd571a8ea2bbd","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c53c2abcb8f6e2eb","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c5c57617bacf9482","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c623f2f200028dfa","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c7e70a5d1329de96","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c93bbf040d92251f","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:c997ebf858c4c7d3","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ca4f1bf1f282f3f1","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:caed9114db6c236e","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:cb372c02a7604311","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:cba35077e08165a1","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ce205c91f2763dae","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:d4c58bd33678646b","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:d6b1adfa6421c782","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:d76f245c77c828f9","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:d8636e6e2d2d6c42","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:d8c61d295d6dd5fd","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:dc8b6b07fa085f6d","type":"IN_SOURCE"}
+{"end":"source:dfpd_uniform_spec_kms_2026_27","props":{},"start":"span:de040462b9d8757a","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:decd372039325e53","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:e05cea06513e5a57","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:e10275496c0587f7","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:e247302ff8f0be8d","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:e3ef2064ed039860","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:e4bb0b0238fedec7","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ea2ace26ede345c1","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ea34f036f65c4c1d","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ea98d520f928b3a2","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:eb22599ca3ac0cd5","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:eb4add5a56c31c4e","type":"IN_SOURCE"}
+{"end":"source:gbpuat_kharif_advisory_2020","props":{},"start":"span:ee659044dc9bd032","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:f3dd4a7f33b1c502","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:f80de2ef1ff1424f","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:fc050821e3979833","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ff409c247f03d326","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:ff984a824f82230a","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_36_t11","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_37_t11","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_38_t22","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_39_t22","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_43_t11","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_53_t15","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_r_45_t13","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_adt_r_48_t19","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_anna_r_4_t15","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_asd_16_t13","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_asd_18_t13","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_asd_19_t25","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_co_43_t23","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_co_51_t9","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_co_r_50_t22","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_corh_3_hybrid_t15","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_cow_w_1_t119","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_cow_w_2_t119","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_cr_1009_sub_1_t27","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_cr_1009_t27","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_mdu_5_t19","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_mdu_6_t9","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_paiyur_1_t23","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_pmk_r_3_t19","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_rice_adt_51_t27","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_rice_co_52_t21","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tkm_11_t17","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tkm_13_t21","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tkm_9_t19","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tnau_rice_adt_49_t22","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tnau_rice_adt_50_t27","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tnau_rice_hybrid_co_4_t25","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tnau_rice_try_3_t21","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tps_3_t25","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_tps_5_t9","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_try_1_t25","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_try_2_t17","type":"IN_SOURCE"}
+{"end":"source:tnau_agriculture_2020","props":{},"start":"span:tnau_agriculture_2020_vgd_1_t21","type":"IN_SOURCE"}
+{"end":"variety:pusa_basmati_1509","props":{},"start":"label:01f1bbd304ba4c97d059","type":"LABEL_OF"}
+{"end":"zone:uk_mid_hills","props":{},"start":"label:08b4cd3132b23a28c948","type":"LABEL_OF"}
+{"end":"ai:cartap_hydrochloride","props":{},"start":"label:0ca258b70e9751312745","type":"LABEL_OF"}
+{"end":"zone:uk_high_hills","props":{},"start":"label:0e9eeb9d97c21944a89b","type":"LABEL_OF"}
+{"end":"pest:leaffolder","props":{},"start":"label:112aaea01f0307f391ec","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_10","props":{},"start":"label:122e4ad7d570708fd3d1","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_12","props":{},"start":"label:166e8d4ddb98bb9a32bc","type":"LABEL_OF"}
+{"end":"fertilizer:feso4","props":{},"start":"label:1771e5d0348ec48d66a5","type":"LABEL_OF"}
+{"end":"pest:earhead_bug","props":{},"start":"label:1dae17d845545e571b8e","type":"LABEL_OF"}
+{"end":"ai:methyl_parathion","props":{},"start":"label:1de485199d3a6607f1f2","type":"LABEL_OF"}
+{"end":"organic_input:potash_bacteria","props":{},"start":"label:1e2961a36ac8fa043fe5","type":"LABEL_OF"}
+{"end":"organic_input:fym","props":{},"start":"label:204e30ac7882bc70e763","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_11","props":{},"start":"label:22187805eb33992633dc","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_27","props":{},"start":"label:244e258c36f1b13974bc","type":"LABEL_OF"}
+{"end":"organic_input:silicate_solubilizing_bacteria","props":{},"start":"label:27bf4652f6676412fdf2","type":"LABEL_OF"}
+{"end":"disease:tungro","props":{},"start":"label:2e85c95c3dc68ded39ec","type":"LABEL_OF"}
+{"end":"fertilizer:mop","props":{},"start":"label:307b183dd5cc70518465","type":"LABEL_OF"}
+{"end":"crop:rice","props":{},"start":"label:3a367d578ef6fdf0c35f","type":"LABEL_OF"}
+{"end":"crop:rice","props":{},"start":"label:42ebcf0a7b3b28bd3a21","type":"LABEL_OF"}
+{"end":"variety:pr_114","props":{},"start":"label:48b941a059a7484648a7","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_12","props":{},"start":"label:48c2dcf646fdb70df672","type":"LABEL_OF"}
+{"end":"fertilizer:potassium_nitrate","props":{},"start":"label:4c06c4175e83170ae742","type":"LABEL_OF"}
+{"end":"input:common_salt","props":{},"start":"label:4f153e4a2811af6f99ac","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_24","props":{},"start":"label:583260bede006cda6a99","type":"LABEL_OF"}
+{"end":"soil:saline","props":{},"start":"label:58d66b9b974a2606448c","type":"LABEL_OF"}
+{"end":"variety:pant_basmati_2","props":{},"start":"label:681192a7858c328656f4","type":"LABEL_OF"}
+{"end":"pest:hispa","props":{},"start":"label:691e35d9fda4dddf6855","type":"LABEL_OF"}
+{"end":"ai:etofenprox","props":{},"start":"label:6c466af4a340584c3b40","type":"LABEL_OF"}
+{"end":"zone:uk_mid_hills","props":{},"start":"label:77ac6c82a3516ceedb12","type":"LABEL_OF"}
+{"end":"crop:wheat","props":{},"start":"label:77aea7d576517d51e54f","type":"LABEL_OF"}
+{"end":"ai:chlorpyrifos","props":{},"start":"label:7abf2a9e4c5f5fb86284","type":"LABEL_OF"}
+{"end":"variety:pr_113","props":{},"start":"label:7c93c366d6731a4c7a6c","type":"LABEL_OF"}
+{"end":"organic_input:azospirillum","props":{},"start":"label:83303f651fa8836348d7","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_27","props":{},"start":"label:86cc686d6d637022dc71","type":"LABEL_OF"}
+{"end":"pest:green_leafhopper","props":{},"start":"label:87a71ac0cc0ef9c57d20","type":"LABEL_OF"}
+{"end":"soil:saline","props":{},"start":"label:8ac3e9b7a9bd4609641b","type":"LABEL_OF"}
+{"end":"soil:clay","props":{},"start":"label:8ec35d98694f7435e842","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_26","props":{},"start":"label:98916e73b4274d9bd4c0","type":"LABEL_OF"}
+{"end":"fertilizer:ssp","props":{},"start":"label:9a83bc1a402b0d717d8d","type":"LABEL_OF"}
+{"end":"ai:bromadiolone","props":{},"start":"label:a012611b83223f63737a","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_17","props":{},"start":"label:a3f4f30f0720cd5de0a4","type":"LABEL_OF"}
+{"end":"input:nitric_acid","props":{},"start":"label:a59c9f690b5a172f1614","type":"LABEL_OF"}
+{"end":"pest:white_backed_planthopper","props":{},"start":"label:a7ff8472e3d581e49a67","type":"LABEL_OF"}
+{"end":"input:light_trap","props":{},"start":"label:aa2f4746aaf704a6de33","type":"LABEL_OF"}
+{"end":"pest:rat","props":{},"start":"label:aa73a9075d1aeca2fadf","type":"LABEL_OF"}
+{"end":"ai:tricyclazole","props":{},"start":"label:b60af4562986e6c121a2","type":"LABEL_OF"}
+{"end":"input:yellow_pan_trap","props":{},"start":"label:b796bc93a8aa7b66b303","type":"LABEL_OF"}
+{"end":"input:owl_perch","props":{},"start":"label:bb1393c61621d8a89a8a","type":"LABEL_OF"}
+{"end":"ai:carbendazim","props":{},"start":"label:bc39f07307895d1c9383","type":"LABEL_OF"}
+{"end":"input:platygaster_oryzae_galls","props":{},"start":"label:bdff45c3c07a1d29ebcf","type":"LABEL_OF"}
+{"end":"variety:pant_basmati_1","props":{},"start":"label:c9ff84f56dcb050310c5","type":"LABEL_OF"}
+{"end":"pest:brown_planthopper","props":{},"start":"label:d32aa495e87bc31c169c","type":"LABEL_OF"}
+{"end":"pest:hispa","props":{},"start":"label:d444f62696b9b785feaa","type":"LABEL_OF"}
+{"end":"variety:pusa_basmati_1509","props":{},"start":"label:d76a1414c5f5af2b94bd","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_15","props":{},"start":"label:d89590c3e720b6f61c82","type":"LABEL_OF"}
+{"end":"zone:uk_high_hills","props":{},"start":"label:d8b7691a7a8313b7bf30","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_17","props":{},"start":"label:dbea3e6d69ce1849b1c4","type":"LABEL_OF"}
+{"end":"variety:pusa_basmati_1121","props":{},"start":"label:dd806c66fcfcaa268a8c","type":"LABEL_OF"}
+{"end":"fertilizer:znso4","props":{},"start":"label:df70464c8b2bd1555cd9","type":"LABEL_OF"}
+{"end":"soil:sodic","props":{},"start":"label:e9e3b83d8ecbde14a27d","type":"LABEL_OF"}
+{"end":"input:owl_perch","props":{},"start":"label:eff926d62fe3a44907f0","type":"LABEL_OF"}
+{"end":"variety:pant_sugandha_dhan_15","props":{},"start":"label:f0116dbf78a7a4b69b2a","type":"LABEL_OF"}
+{"end":"variety:pant_dhan_19","props":{},"start":"label:f148a83775fde58475d0","type":"LABEL_OF"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"ai:cypermethrin","type":"MEMBER_OF"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"ai:deltamethrin","type":"MEMBER_OF"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"ai:etofenprox","type":"MEMBER_OF"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"ai:fenvalerate","type":"MEMBER_OF"}
+{"end":"ai_group:synthetic_pyrethroids","props":{},"start":"ai:permethrin","type":"MEMBER_OF"}
+{"end":"soil:clay","props":{},"start":"rec:6134642b5b926d6a","type":"ON_SOIL"}
+{"end":"soil:saline","props":{},"start":"rec:7f96a01583cde662","type":"ON_SOIL"}
+{"end":"soil:saline","props":{},"start":"rec:d23089768a246e03","type":"ON_SOIL"}
+{"end":"soil:sodic","props":{},"start":"rec:d23089768a246e03","type":"ON_SOIL"}
+{"end":"soil:saline","props":{},"start":"rec:ed9aae1ef9c57afe","type":"ON_SOIL"}
+{"end":"soil:saline","props":{},"start":"rec:efa0eaf9d7a1af37","type":"ON_SOIL"}
+{"end":"variety:hkr_47","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:narendra_359","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_basmati_1","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_basmati_2","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_10","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_12","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_19","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_24","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_26","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_sugandha_dhan_15","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_sugandha_dhan_17","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pant_sugandha_dhan_27","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pr_113","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pr_114","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pusa_basmati_1121","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:pusa_basmati_1509","props":{},"start":"rec:36e8e5fe0495fd19","type":"RECOMMENDS"}
+{"end":"variety:govind","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_11","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:pant_dhan_12","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:pusa_basmati_1509","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:vivek_dhan_82","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:vl_65","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:vl_dhan_68","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"variety:vl_dhan_85","props":{},"start":"rec:6e7d52cbee3af4b6","type":"RECOMMENDS"}
+{"end":"pest:hispa","props":{},"start":"rec:0805509f99a14b9e","type":"TARGETS"}
+{"end":"pest:termite","props":{},"start":"rec:09040ca220039383","type":"TARGETS"}
+{"end":"pest:gall_midge","props":{},"start":"rec:180b9264754c5f9b","type":"TARGETS"}
+{"end":"pest:rice_mite","props":{},"start":"rec:1f478eaf1a5feb7f","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:22c96600b312c233","type":"TARGETS"}
+{"end":"pest:grasshopper","props":{},"start":"rec:27d31b349ec837cf","type":"TARGETS"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:2c8c2dca4d0af385","type":"TARGETS"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:382079b59bae7d8c","type":"TARGETS"}
+{"end":"pest:whorl_maggot","props":{},"start":"rec:40a5519b48fdd47a","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:49804d570a3d71a0","type":"TARGETS"}
+{"end":"pest:brown_planthopper","props":{},"start":"rec:5d952152cffc0306","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:60de97f6e5cfdc19","type":"TARGETS"}
+{"end":"pest:thrips","props":{},"start":"rec:6fdde983afc215de","type":"TARGETS"}
+{"end":"pest:stem_borer","props":{},"start":"rec:723909d826224a27","type":"TARGETS"}
+{"end":"pest:leaffolder","props":{},"start":"rec:78da38a205ebf290","type":"TARGETS"}
+{"end":"pest:leaffolder","props":{},"start":"rec:7d85c23dab92404f","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:805c40801e1b4fc9","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:82d46c67af395f1a","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:84988444c931a854","type":"TARGETS"}
+{"end":"pest:gall_midge","props":{},"start":"rec:8e849977f2fe4e2a","type":"TARGETS"}
+{"end":"pest:case_worm","props":{},"start":"rec:98055057e0bb74b5","type":"TARGETS"}
+{"end":"pest:blue_white_leafhopper","props":{},"start":"rec:a93ad8cab06e3c86","type":"TARGETS"}
+{"end":"pest:stem_borer","props":{},"start":"rec:aa56f3830281cf17","type":"TARGETS"}
+{"end":"pest:black_bug","props":{},"start":"rec:af8681c1a9467e1d","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:b235d6870af984d6","type":"TARGETS"}
+{"end":"pest:leaffolder","props":{},"start":"rec:c275abdea2f82958","type":"TARGETS"}
+{"end":"pest:mealybug","props":{},"start":"rec:ce3a65c250dfa329","type":"TARGETS"}
+{"end":"pest:white_backed_planthopper","props":{},"start":"rec:d4ceba85c02f5f9b","type":"TARGETS"}
+{"end":"pest:green_leafhopper","props":{},"start":"rec:e2a874701a9ccf60","type":"TARGETS"}
+{"end":"pest:leaffolder","props":{},"start":"rec:e3b348f926ee0fc6","type":"TARGETS"}
+{"end":"pest:leaffolder","props":{},"start":"rec:e5925cdeb28efee3","type":"TARGETS"}
+{"end":"pest:rat","props":{},"start":"rec:eee17fcc9d566fd0","type":"TARGETS"}
+{"end":"pest:green_leafhopper","props":{},"start":"rec:f1156b7a6dbdb44c","type":"TARGETS"}
+{"end":"pest:stem_borer","props":{},"start":"rec:fa0802540d945d30","type":"TARGETS"}
+{"end":"pest:stem_borer","props":{},"start":"rec:fa8ef26df371f6b7","type":"TARGETS"}
+{"end":"system:irrigated","props":{},"start":"rec:0f8f8b207c291bb6","type":"UNDER_SYSTEM"}
+{"end":"system:irrigated","props":{},"start":"rec:6e7d52cbee3af4b6","type":"UNDER_SYSTEM"}
+{"end":"system:irrigated","props":{},"start":"rec:c10e706058fbcf51","type":"UNDER_SYSTEM"}
+{"end":"system:irrigated","props":{},"start":"rec:cea50ad34989348c","type":"UNDER_SYSTEM"}
+{"end":"system:irrigated","props":{},"start":"rec:d86b6772341e5926","type":"UNDER_SYSTEM"}
+{"end":"crop:rice","props":{},"start":"variety:adt_36","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_37","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_38","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_39","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_43","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_53","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_r_45","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:adt_r_48","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:anna_r_4","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:asd_16","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:asd_18","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:asd_19","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:co_43","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:co_51","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:co_r_50","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:corh_3_hybrid","type":"VARIETY_OF"}
+{"end":"crop:wheat","props":{},"start":"variety:cow_w_1","type":"VARIETY_OF"}
+{"end":"crop:wheat","props":{},"start":"variety:cow_w_2","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:cr_1009","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:cr_1009_sub_1","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:govind","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:hkr_47","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:mdu_5","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:mdu_6","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:narendra_359","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:paiyur_1","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_basmati_1","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_basmati_2","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_10","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_11","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_12","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_19","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_24","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_dhan_26","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_sugandha_dhan_15","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_sugandha_dhan_17","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pant_sugandha_dhan_27","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pmk_r_3","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pr_113","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pr_114","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pusa_basmati_1121","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:pusa_basmati_1509","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:rice_adt_51","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:rice_co_52","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tkm_11","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tkm_13","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tkm_9","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tnau_rice_adt_49","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tnau_rice_adt_50","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tnau_rice_hybrid_co_4","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tnau_rice_try_3","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tps_3","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:tps_5","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:try_1","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:try_2","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:vgd_1","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:vivek_dhan_82","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:vl_65","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:vl_dhan_68","type":"VARIETY_OF"}
+{"end":"crop:rice","props":{},"start":"variety:vl_dhan_85","type":"VARIETY_OF"}
+{"end":"cond:2d7463b4202f04df:c0:0","props":{},"start":"clause:2d7463b4202f04df:0","type":"WHEN"}
+{"end":"cond:2d7463b4202f04df:c1:0","props":{},"start":"clause:2d7463b4202f04df:1","type":"WHEN"}
+{"end":"cond:fb82532e4167ee76:c3:0","props":{},"start":"clause:fb82532e4167ee76:3","type":"WHEN"}
+{"end":"cond:a75dc1da695f609f:r:0","props":{},"start":"rec:a75dc1da695f609f","type":"WHEN"}
+{"end":"cond:bf987a349eed385f:r:0","props":{},"start":"rec:bf987a349eed385f","type":"WHEN"}

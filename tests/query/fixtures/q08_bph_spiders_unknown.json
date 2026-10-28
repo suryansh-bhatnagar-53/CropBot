@@ -1,0 +1,7 @@
+{"question": "Q8: When is brown planthopper bad enough to spray? (spiders not counted)",
+ "template": "threshold",
+ "context": {"crop": "crop:rice", "state": "state:33", "pest": "pest:brown_planthopper"},
+ "expect": {"scope": "local", "asks": ["spider_count_per_hill"],
+            "visible": ["1 hopper/ tiller in the absence of predatory spider"],
+            "clauses": {"1 hopper/ tiller in the absence of predatory spider": [1.0, 2.0]},
+            "labels": {"1 hopper/ tiller in the absence of predatory spider": ["not yet verified by an expert"]}}}

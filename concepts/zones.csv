@@ -1,0 +1,11 @@
+id,name_en,scheme,state_id,review_status,source
+zone:tn_cauvery_delta,Cauvery Delta Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 13"
+zone:tn_north_eastern,North Eastern Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 14"
+zone:tn_western,Western Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 15"
+zone:tn_north_western,North Western Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 15"
+zone:tn_high_altitude,High Altitude Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 16"
+zone:tn_southern,Southern Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 16"
+zone:tn_high_rainfall,High Rainfall Zone,state_book,state:33,needs_review,"TNAU Crop Production Guide Agriculture 2020, rice variety table, PDF p. 17"
+zone:uk_tarai_bhabhar_plain,"Tarai, Bhabhar & Plain",state_book,state:5,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice row, Area column: ""Tarai, Bhabhar & Plain"""
+zone:uk_mid_hills,Mid hills (900–1500 m),state_book,state:5,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice row ""Irrigated Hills"", Sowing time column: ""Mid hills (900 – 1500msl)"""
+zone:uk_high_hills,High hills (1500 m and above),state_book,state:5,needs_review,"GBPUAT kharif advisory 2020, PDF p. 1, rice row ""Irrigated Hills"", Sowing time column: ""High Hills (1500 msl and above)"""

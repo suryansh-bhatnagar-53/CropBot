@@ -1,0 +1,18 @@
+id,name_en,kind,review_status,source
+input:seed,Seed (planting material),seed,needs_review,"TNAU 2020 rice seed rate, PDF p. 29: 'seed' in the seed rates; schema v1.3 Input kind seed"
+input:trichogramma_japonicum,Trichogramma japonicum,bioagent,needs_review,"TNAU 2020 stem borer row, PDF p. 64: egg parasitoid released @ 1,00,000/ha"
+input:trichogramma_chilonis,Trichogramma chilonis,bioagent,needs_review,"TNAU 2020 leaf folder row, PDF p. 65: egg parasitoid released"
+input:platygaster_oryzae_galls,Platygaster oryzae parasitised galls,bioagent,needs_review,"TNAU 2020 gall midge row, PDF p. 65: 'Platygaster oryzae parasitised galls' distributed 1 per 10 m2"
+input:thanjavur_bow_trap,Thanjavur bow trap,trap,needs_review,"TNAU 2020 rat row and IPM module, PDF p. 68: @ 100/ha"
+input:light_trap,Light trap,trap,needs_review,"TNAU 2020 leafhopper and planthopper rows, PDF pp. 66-67: 'light traps'"
+input:yellow_pan_trap,Yellow pan trap,trap,needs_review,TNAU 2020 PDF p. 66: 'yellow pan traps during day time'
+input:owl_perch,Owl perch,device,needs_review,"TNAU 2020 rat row and IPM module, PDF p. 68: 'owl perches', 'bird (owl) perches'"
+input:common_salt,Common salt (sodium chloride),salt,needs_review,"TNAU 2020 PDF p. 39 '20% NaCl' (seed maturity test) and p. 73 'common salt' (seed grading); one substance, so one concept with the label NaCl"
+input:nitric_acid,Nitric acid,chemical,needs_review,"TNAU 2020 seed treatment, PDF p. 73: '0.1 N conc. HNO3'"
+input:sodium_nitroprusside,Sodium nitroprusside,chemical,needs_review,"TNAU 2020 seed treatment for saline / sodic soils, PDF p. 73: '80 µM' (the conversion lost the µ: see the open point)"
+input:halogen_mixture,Halogen mixture,chemical,needs_review,"TNAU 2020 seed storage, PDF p. 74: pre-storage seed treatment"
+input:halopolymer,Halopolymer,chemical,needs_review,"TNAU 2020 seed storage, PDF p. 74: pre-storage seed treatment"
+input:gypsum,Gypsum,amendment,needs_review,"TNAU 2020 PDF pp. 30, 74; schema v1.3 decision 2026-10-20: gypsum is an amendment, not a fertilizer"
+input:notchi_leaf_extract,Notchi leaf extract,botanical,needs_review,"TNAU 2020 earhead bug row, PDF p. 67: 'Notchi or Ipomoea or Prosopis leaf extract 10%'; plain leaf extract, so Input botanical (decision 2026-10-20)"
+input:ipomoea_leaf_extract,Ipomoea leaf extract,botanical,needs_review,"TNAU 2020 earhead bug row, PDF p. 67"
+input:prosopis_leaf_extract,Prosopis leaf extract,botanical,needs_review,"TNAU 2020 earhead bug row, PDF p. 67"

@@ -1,0 +1,7 @@
+{"question": "Q16: I'm keeping some as seed for next season. How dry? (storage period not given)",
+ "template": "drying_target",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:seed"},
+ "expect": {"scope": "local", "asks": ["storage_months"],
+            "visible": [{"quote": "Dry the seeds to 12 - 13 % moisture content for short term storage", "exact": true},
+                        "8-9 % moisture for long term storage"],
+            "conflicts": {"8-9 % moisture for long term storage": ["700 gauge polythene bag"]}}}

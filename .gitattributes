@@ -1,0 +1,4 @@
+# kg_snapshot/: stored and checked out byte for byte (manifest.json holds their sha256s; kg.export load checks them)
+kg_snapshot/*.jsonl -text
+kg_snapshot/*.json -text
+kg_snapshot/*.dump binary

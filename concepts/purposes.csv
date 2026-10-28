@@ -1,0 +1,5 @@
+id,name_en,review_status,source
+purpose:grain,Grain,approved,docs/schema_v1.1.md
+purpose:seed,Seed,approved,docs/schema_v1.1.md
+purpose:fodder,Fodder,approved,docs/schema_v1.1.md
+purpose:green_manure,Green manure,approved,docs/schema_v1.1.md

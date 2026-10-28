@@ -1,0 +1,10 @@
+id,name_en,review_status,source
+system:irrigated,Irrigated,approved,docs/schema_v1.1.md
+system:rainfed,Rainfed,approved,docs/schema_v1.1.md
+system:transplanted,Transplanted,approved,docs/schema_v1.1.md
+system:wet_dsr,Wet direct-seeded rice,approved,docs/schema_v1.1.md
+system:dry_dsr,Dry direct-seeded rice,approved,docs/schema_v1.1.md
+system:nursery,Nursery,approved,docs/schema_v1.1.md
+system:garden_land,Garden land,approved,docs/schema_v1.1.md
+system:wetland,Wetland,approved,docs/schema_v1.1.md
+system:sri,System of Rice Intensification (SRI),approved,docs/schema_v1.1.md

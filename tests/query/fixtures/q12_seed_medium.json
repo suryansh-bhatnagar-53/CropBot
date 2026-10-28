@@ -1,0 +1,6 @@
+{"question": "Q12: How do I know my paddy is ready? (seed crop, medium duration)",
+ "template": "harvest_readiness",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:seed", "duration_group": "medium"},
+ "expect": {"scope": "local", "asks": [],
+            "visible": [{"quote": "20% for short and medium duration varieties", "duration_group": "medium"},
+                        "Thresh either manually or using mechanical threshers"]}}

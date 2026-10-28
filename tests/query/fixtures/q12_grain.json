@@ -1,0 +1,5 @@
+{"question": "Q12: How do I know my paddy is ready? (grain crop; the book's harvest rules are for seed)",
+ "template": "harvest_readiness",
+ "context": {"crop": "crop:rice", "state": "state:33", "purpose": "purpose:grain", "duration_group": "medium"},
+ "expect": {"scope": "local", "asks": [], "visible": [], "message": "No verified guidance available",
+            "hidden": ["by spraying 20% NaCl a week before harvest"]}}

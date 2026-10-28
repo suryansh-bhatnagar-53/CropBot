@@ -1,0 +1,361 @@
+# Source registry entry: TNAU Crop Production Guide, Agriculture 2020.
+# Fields follow docs/schema_v1.2.md "Source registry"
+# (edition_label, default_scope as a list of rules). Validate with:
+#   uv run python -m kg.registry
+
+id = "source:tnau_agriculture_2020"
+title = "Crop Production Guide: Agriculture 2020"
+publisher = "Directorate of Agriculture, Tamil Nadu and Tamil Nadu Agricultural University"
+edition_year = 2020
+edition_label = "2020"
+language = "en"
+url = "https://agritech.tnau.ac.in/pdf/AGRICULTURE.pdf"
+sha256 = "adbb66a8efc7bc24cb6b4afc99782519cf41d8b1ca0414c486db6627d7bc5c7f"
+# Identical copies (same sha256) also exist at BooksData/AGRICULTURE.pdf and
+# sources/pdfs/tnau_agriculture.pdf; they serve the two extraction scripts.
+file = "data/raw/AGRICULTURE.pdf"
+state_id = "state:33"
+region_scope = ["state:33"]
+authority_tier = 1
+doc_type = "practice_guide"
+rights_note = "State extension publication; portal footer says All Rights Reserved. Attribute TNAU."
+notes = [
+    "Printed p. 135 is missing: PDF p. 146 is printed 134 and PDF p. 147 is printed 136 (pulses chapter). Numbering slip or missing page; outside the first slice.",
+    "Printed pp. 370-384 are missing: PDF p. 380 is printed 369 and PDF p. 381 is printed 385. Per the contents table this is inside Sericulture (printed 363-384); outside the first slice.",
+]
+
+# Chapters from the contents table (PDF pp. 3-5); pdf_page = printed page mapped through printed_pages.
+# Mangled contents rows were read by hand: "10. Sword bean OILSEEDS | 179 181" (Sword bean 179, Oilseeds 181),
+# Castor (page on the next row: 206), and duplicated cells for Niger, Sugarcane, Sweet sorghum, Tropical sugarbeet
+# and Forage crops. Group rows (MILLETS, PULSES, ...) are kept as group. Segmentation uses every chapter for
+# boundaries; extraction uses approved chapters only.
+chapters = [
+  { number = "1", title = "RICE", printed_page = 1, pdf_page = 13, status = "approved", crop_id = "crop:rice" },
+  { number = "2.1", title = "Sorghum", group = "MILLETS", printed_page = 65, pdf_page = 77, status = "proposed" },
+  { number = "2.2", title = "Cumbu", group = "MILLETS", printed_page = 81, pdf_page = 93, status = "proposed" },
+  { number = "2.3", title = "Ragi", group = "MILLETS", printed_page = 92, pdf_page = 104, status = "proposed" },
+  { number = "2.4", title = "Maize", group = "MILLETS", printed_page = 103, pdf_page = 115, status = "proposed" },
+  { number = "2.5", title = "Small Millets", group = "MILLETS", printed_page = 117, pdf_page = 129, status = "proposed" },
+  { number = "3", title = "WHEAT", printed_page = 122, pdf_page = 134, status = "approved", crop_id = "crop:wheat" },
+  { number = "4.1", title = "Redgram", group = "PULSES", printed_page = 125, pdf_page = 137, status = "proposed" },
+  { number = "4.2", title = "Blackgram", group = "PULSES", printed_page = 134, pdf_page = 146, status = "proposed" },
+  { number = "4.3", title = "Greengram", group = "PULSES", printed_page = 145, pdf_page = 156, status = "proposed" },
+  { number = "4.4", title = "Cowpea", group = "PULSES", printed_page = 154, pdf_page = 165, status = "proposed" },
+  { number = "4.5", title = "Horsegram", group = "PULSES", printed_page = 159, pdf_page = 170, status = "proposed" },
+  { number = "4.6", title = "Bengalgram", group = "PULSES", printed_page = 162, pdf_page = 173, status = "proposed" },
+  { number = "4.7", title = "Garden Lab lab (Avarai)", group = "PULSES", printed_page = 166, pdf_page = 177, status = "proposed" },
+  { number = "4.8", title = "Field Lab lab (Mochai)", group = "PULSES", printed_page = 171, pdf_page = 182, status = "proposed" },
+  { number = "4.9", title = "Soya bean", group = "PULSES", printed_page = 174, pdf_page = 185, status = "proposed" },
+  { number = "4.10", title = "Sword bean", group = "PULSES", printed_page = 179, pdf_page = 190, status = "proposed" },
+  { number = "5.1", title = "Groundnut", group = "OILSEEDS", printed_page = 181, pdf_page = 192, status = "proposed" },
+  { number = "5.2", title = "Sesame", group = "OILSEEDS", printed_page = 198, pdf_page = 209, status = "proposed" },
+  { number = "5.3", title = "Castor", group = "OILSEEDS", printed_page = 206, pdf_page = 217, status = "proposed" },
+  { number = "5.4", title = "Sunflower", group = "OILSEEDS", printed_page = 216, pdf_page = 227, status = "proposed" },
+  { number = "5.5", title = "Safflower", group = "OILSEEDS", printed_page = 224, pdf_page = 235, status = "proposed" },
+  { number = "5.6", title = "Coconut", group = "OILSEEDS", printed_page = 227, pdf_page = 238, status = "proposed" },
+  { number = "5.7", title = "Oilpalm", group = "OILSEEDS", printed_page = 239, pdf_page = 250, status = "proposed" },
+  { number = "5.8", title = "Niger", group = "OILSEEDS", printed_page = 249, pdf_page = 260, status = "proposed" },
+  { number = "6.1", title = "Cotton", group = "FIBRE CROPS", printed_page = 253, pdf_page = 264, status = "proposed" },
+  { number = "6.2", title = "Jute", group = "FIBRE CROPS", printed_page = 285, pdf_page = 296, status = "proposed" },
+  { number = "7", title = "SUGARCANE", printed_page = 286, pdf_page = 297, status = "proposed" },
+  { number = "8", title = "SWEET SORGHUM", printed_page = 309, pdf_page = 320, status = "proposed" },
+  { number = "9", title = "TROPICAL SUGARBEET", printed_page = 311, pdf_page = 322, status = "proposed" },
+  { number = "10.1", title = "Fodder Cholam", group = "FORAGE CROPS", printed_page = 316, pdf_page = 327, status = "proposed" },
+  { number = "10.2", title = "Fodder Maize", group = "FORAGE CROPS", printed_page = 318, pdf_page = 329, status = "proposed" },
+  { number = "10.3", title = "Neelakolukattai", group = "FORAGE CROPS", printed_page = 321, pdf_page = 332, status = "proposed" },
+  { number = "10.4", title = "Guinea grass", group = "FORAGE CROPS", printed_page = 323, pdf_page = 334, status = "proposed" },
+  { number = "10.5", title = "Deenanath grass", group = "FORAGE CROPS", printed_page = 325, pdf_page = 336, status = "proposed" },
+  { number = "10.6", title = "Cumbu Napier Hybrids", group = "FORAGE CROPS", printed_page = 327, pdf_page = 338, status = "proposed" },
+  { number = "10.7", title = "Lucerne - Kudiraimasal", group = "FORAGE CROPS", printed_page = 329, pdf_page = 340, status = "proposed" },
+  { number = "10.8", title = "Hedge Lucerne - Velimasal", group = "FORAGE CROPS", printed_page = 331, pdf_page = 342, status = "proposed" },
+  { number = "10.9", title = "Fodder Cowpea", group = "FORAGE CROPS", printed_page = 333, pdf_page = 344, status = "proposed" },
+  { number = "10.10", title = "Muyalmasal", group = "FORAGE CROPS", printed_page = 335, pdf_page = 346, status = "proposed" },
+  { number = "10.11", title = "Leucaena - Soundal", group = "FORAGE CROPS", printed_page = 337, pdf_page = 348, status = "proposed" },
+  { number = "11.1", title = "Daincha", group = "GREEN MANURE CROPS", printed_page = 339, pdf_page = 350, status = "proposed" },
+  { number = "11.2", title = "Sunnhemp", group = "GREEN MANURE CROPS", printed_page = 340, pdf_page = 351, status = "proposed" },
+  { number = "12", title = "MUSHROOM CULTIVATION", printed_page = 341, pdf_page = 352, status = "proposed" },
+  { number = "13", title = "COMPOSTING AND INDUSTRIAL WASTE WATER UTILIZATION", printed_page = 348, pdf_page = 359, status = "proposed" },
+  { number = "14", title = "SERICULTURE", printed_page = 363, pdf_page = 374, status = "proposed" },
+  { number = "15", title = "AGRO FORESTRY", printed_page = 385, pdf_page = 381, status = "proposed" },
+  { number = "16", title = "INTEGRATED FARMING SYSTEM RESEARCH IN TAMIL NADU", printed_page = 403, pdf_page = 399, status = "proposed" },
+  { number = "17", title = "WEEDS", printed_page = 408, pdf_page = 404, status = "proposed" },
+  { number = "18", title = "SOIL RELATED CONSTRAINTS & THEIR MANAGEMENT", printed_page = 410, pdf_page = 406, status = "proposed" },
+  { number = "19", title = "CHISEL TECHNOLOGY", printed_page = 413, pdf_page = 409, status = "proposed" },
+  { number = "20", title = "SURGE IRRIGATION", printed_page = 414, pdf_page = 410, status = "proposed" },
+  { number = "21", title = "MICRO IRRIGATION", printed_page = 415, pdf_page = 411, status = "proposed" },
+  { number = "22", title = "AGROMETEOROLOGY", printed_page = 421, pdf_page = 417, status = "proposed" },
+  { number = "23.1", title = "Land preparation implements", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 441, pdf_page = 437, status = "proposed" },
+  { number = "23.2", title = "Sowing implements", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 443, pdf_page = 439, status = "proposed" },
+  { number = "23.3", title = "Inter-cultural equipments", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 445, pdf_page = 441, status = "proposed" },
+  { number = "23.4", title = "Harvesting and Thrashing Machines", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 446, pdf_page = 442, status = "proposed" },
+  { number = "23.5", title = "Horticultural Implements", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 447, pdf_page = 443, status = "proposed" },
+  { number = "23.6", title = "Miscellaneous Machinery", group = "FARM IMPLEMENTS AND MACHINERY", printed_page = 452, pdf_page = 448, status = "proposed" },
+  { number = "24", title = "AGRICULTURAL PROCESSING EQUIPMENTS", printed_page = 453, pdf_page = 449, status = "proposed" },
+  { number = "25", title = "RENEWABLE ENERGY ENGINEERING", printed_page = 455, pdf_page = 451, status = "proposed" },
+  { number = "26", title = "HOME SCIENCE - FOOD PROCESSING TECHNOLOGIES", printed_page = 460, pdf_page = 456, status = "proposed" },
+]
+
+# Printed page = PDF page - offset (first text line of each page, checked on all 460 pages).
+# PDF pp. 1-12 (cover, contents, forewords) and p. 460 (blank) have no printed number.
+[[printed_pages]]
+pdf_pages = [13, 146]
+offset = 12
+
+[[printed_pages]]
+pdf_pages = [147, 380]
+offset = 11
+
+[[printed_pages]]
+pdf_pages = [381, 459]
+offset = -4
+
+[extraction]   # carried over from extraction/sources.toml; used by convert, not loaded into the graph
+ocr = "auto"
+ocr_lang = ["en"]
+note = "Page 7 (Tamil preface) uses a legacy font; it is not crop content."
+prompt_version = "v4"   # the prompt of the four hand-runs (2026-10-22); steps 9-15 read v4 runs for this book
+
+# --- default scope: only status = "approved" rules are used ------------------------
+
+[[default_scope]]
+rule = "dose basis = per_ha unless stated"
+quote = "Dose recommended are per ha, unless otherwise specified"
+pdf_page = 63
+status = "approved"
+section = { heading = "ii) Main field", pdf_pages = [63, 69] }
+
+[[default_scope]]
+rule = "nursery doses are for 800 m2 (20 cents) of nursery per ha of main field"
+quote = "An area of 800 sq.m. (20 cents) nursery is required for planting one ha of main field."
+pdf_page = 62
+status = "approved"
+section = { heading = "Nursery", pdf_pages = [62, 63] }
+
+# --- section scopes: used only when approved --------------------------------------------
+
+[[section_scope]]   # PDF p. 73 (printed 61) prints the centred bold heading "RICE - VARIETAL SEED PRODUCTION";
+                    # everything under it (pp. 73-75) is for seed: purpose only, regions stay the book's
+heading = "RICE - VARIETAL SEED PRODUCTION"
+pdf_pages = [73, 75]
+purposes = ["purpose:seed"]
+status = "approved"
+
+[[section_scope]]   # integrated farming systems
+heading = "1. WESTERN ZONE WETLAND"
+pdf_pages = [399, 401]
+regions = ["zone:tn_western"]
+status = "proposed"
+
+[[section_scope]]
+heading = "2. CAUVERY DELTA ZONE"
+pdf_pages = [401, 402]
+regions = ["zone:tn_cauvery_delta"]
+status = "proposed"
+
+[[section_scope]]   # segmentation: covers p. 402 only; "WETLANDS OF PERIYAR VAIGAI COMMAND AREA" and
+                    # "DRY LANDS OF SOUTHERN ZONE" are separate caps sections, not covered by this scope
+heading = "3. SOUTHERN ZONE WETLANDS OF TAMBIRAPARANI COMMAND AREA"
+pdf_pages = [402, 403]
+regions = ["zone:tn_southern"]
+status = "proposed"
+
+[[section_scope]]
+heading = "4. NORTH WESTERN ZONE"
+pdf_pages = [403, 403]
+regions = ["zone:tn_north_western"]
+status = "proposed"
+
+[[section_scope]]   # agrometeorology: length of growing period
+heading = "1. North Eastern Zone"
+pdf_pages = [417, 418]
+regions = ["zone:tn_north_eastern"]
+status = "proposed"
+
+[[section_scope]]
+heading = "2. North Western Zone"
+pdf_pages = [418, 419]
+regions = ["zone:tn_north_western"]
+status = "proposed"
+
+[[section_scope]]
+heading = "3. Western Zone"
+pdf_pages = [419, 420]
+regions = ["zone:tn_western"]
+status = "proposed"
+
+[[section_scope]]
+heading = "4. Cauvery Delta Zone"
+pdf_pages = [420, 421]
+regions = ["zone:tn_cauvery_delta"]
+status = "proposed"
+
+[[section_scope]]
+heading = "5. Southern Zone"
+pdf_pages = [421, 422]
+regions = ["zone:tn_southern"]
+status = "proposed"
+
+[[section_scope]]
+heading = "6. High Rainfall Zone"
+pdf_pages = [422, 423]
+regions = ["zone:tn_high_rainfall"]
+status = "proposed"
+
+[[section_scope]]   # sorghum, dryland
+heading = "iv) Time of sowing and nutrient level for sorghum under different rainfall situations in dryland (black soil) of western agro climate zone of Tamil Nadu"
+pdf_pages = [431, 432]
+regions = ["zone:tn_western"]
+status = "proposed"
+
+# --- heading fixes: applied by segmentation only when approved; each match must be found
+# exactly once on its pdf_page, or segmentation fails. Checked against the rendered pages. ---
+
+[[heading_fix]]   # the heading runs into an inline sub-heading
+match = "1.1.1. Wet nursery Nursery area"
+pdf_page = 29
+heading = "1.1.1. Wet nursery"
+inline_subheading = "Nursery area"
+status = "approved"
+
+[[heading_fix]]   # "Nursery" is the first sub-section of A), sibling of "ii) Main field"; no number is invented
+match = "A) Pest management Nursery"
+pdf_page = 62
+heading = "A) Pest management"
+subsection = "Nursery"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 13 prints "CROP IMPROVEMENT" and "I. SEASON AND VARIETIES" on separate lines
+match = "CROP IMPROVEMENT I. SEASON AND VARIETIES"
+pdf_page = 13
+heading = "CROP IMPROVEMENT"
+subsection = "I. SEASON AND VARIETIES"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 39 (printed 27) prints "1.3. Insect management: See Crop Protection Chapter"
+kind = "restore"
+match = "Insect management: See Crop Protection Chapter"
+pdf_page = 39
+heading = "1.3. Insect management: See Crop Protection Chapter"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 39 prints "1.4. Disease management: See Crop Protection Chapter"
+kind = "restore"
+match = "Disease management: See Crop Protection Chapter"
+pdf_page = 39
+heading = "1.4. Disease management: See Crop Protection Chapter"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 39 prints "1.5. Harvesting"; its bullets include the grain-drying sentence
+kind = "restore"
+match = "Harvesting"
+pdf_page = 39
+heading = "1.5. Harvesting"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 46 (printed 34) prints "3.9. Insect management: See Crop Protection Chapter"
+kind = "restore"
+match = "Insect management: See Crop Protection Chapter"
+pdf_page = 46
+heading = "3.9. Insect management: See Crop Protection Chapter"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 46 prints "3.10. Disease management: See Crop Protection Chapter"
+kind = "restore"
+match = "Disease management: See Crop Protection Chapter"
+pdf_page = 46
+heading = "3.10. Disease management: See Crop Protection Chapter"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 49 (printed 37) prints "4.10. Insect management: See Crop Protection Chapter"
+kind = "restore"
+match = "Insect management: See Crop Protection Chapter"
+pdf_page = 49
+heading = "4.10. Insect management: See Crop Protection Chapter"
+status = "approved"
+
+[[heading_fix]]   # PDF p. 51 (printed 39) prints "5.12. Disease management: See Crop Protection Chapter"
+kind = "restore"
+match = "Disease management: See Crop Protection Chapter"
+pdf_page = 51
+heading = "5.12. Disease management: See Crop Protection Chapter"
+status = "approved"
+
+# --- reading-order fixes: applied only when approved; first, last and after must each be
+# found exactly once on pdf_page --------------------------------------------------------
+
+[[reading_order_fix]]   # PDF p. 134 (printed 122) prints this block below "I. SEASON AND VARIETY";
+                        # Docling read it before the chapter heading "3. WHEAT"
+pdf_page = 134
+first = "Suitable Districts"
+last = "3. SEED RATE: 100 kg/ha"
+after = "I. SEASON AND VARIETY"
+status = "approved"
+
+[[reading_order_fix]]   # PDF p. 134 prints, top to bottom: "CROP IMPROVEMENT" (centred), "CLIMATE REQUIREMENT"
+                        # (left) + table + paragraph, then "I. SEASON AND VARIETY" (centred). Rice (p. 13) has
+                        # the climate block first and "CROP IMPROVEMENT" directly above "I. SEASON AND VARIETIES".
+                        # Moving "CROP IMPROVEMENT" after the climate paragraph gives wheat the same tree.
+pdf_page = 134
+first = "CROP IMPROVEMENT"
+last = "CROP IMPROVEMENT"
+after = "Tropical and Sub tropical cool and dry climate. Grown during rabi season and has wide adaptability. Wheat can tolerate severe cold and snow and resume growth with the setting in warm weather in spring. Wheat needs cold and dry climate. Long day plant."
+status = "approved"
+
+# --- numbering gaps the printed book really has: listed apart from open problems --------
+
+[[acknowledged_gap]]
+chapter = "WHEAT"
+under = "I. SEASON AND VARIETY"
+missing = ["1"]
+pdf_page = 134
+note = "The printed page has no '1.' before '2. Morphological Description of COW(W) 1' (checked on the rendered page)."
+
+[[reading_order_fix]]   # PDF p. 74 (printed 62) prints one bullet per line: "Medium duration : NPK @ 150:50:60 kg / ha"
+                        # and "Long duration : NPK @ 150:50:80 kg / ha". Docling read both labels before both values.
+pdf_page = 74
+first = ": NPK @ 150:50:60 kg / ha"
+last = ": NPK @ 150:50:60 kg / ha"
+after = "Medium duration"
+status = "approved"
+
+# --- review notes: attached by step 11 to facts quoting the text on that page; values never change ---
+
+[[review_note]]   # rendered PDF p. 64 prints "Fipronil 80%WG 50- 62.5 kg"; p. 65 prints "Fipronil 80%WG 50-62.5 g"
+pdf_page = 64
+match = "Fipronil 80%WG 50- 62.5 kg"
+note = "suspected source typo: same product printed in g on p. 65"
+status = "approved"
+
+[[review_note]]   # rendered PDF p. 66; pp. 287 and 288 print "Imidacloprid 70%WG 30-35g/ha" and "@30-35 g/ha"
+pdf_page = 66
+match = "Imidacloprid 70% WG 30-35 kg"
+note = "inconsistent units for the same product in the source: g/ha on pp. 287–288, kg/ha on pp. 66, 67 and once on p. 288"
+status = "approved"
+
+[[review_note]]   # rendered PDF p. 67 (WBPH row continued); same evidence as the p. 66 note
+pdf_page = 67
+match = "Imidacloprid 70% WG 30-35 kg"
+note = "inconsistent units for the same product in the source: g/ha on pp. 287–288, kg/ha on pp. 66, 67 and once on p. 288"
+status = "approved"
+
+[[review_note]]   # rejected 2026-10-21: the PDF text layer, the conversion and the v2 answer all have µ (U+00B5); only the v3 hand-run answer had U+FFFD
+pdf_page = 73
+match = "80 �M concentration of sodium nitroprusside"
+note = "the PDF text layer has a replacement character where the page prints µ: '80 µM' (rendered p. 73, printed p. 61); once approved, step 10 may read '�M' here as micromolar"
+status = "rejected"
+reason = "based on a typo (U+FFFD) in the hand-run answer; the PDF text layer prints µ"
+# --- reviewer conflicts: CONFLICTS_WITH {origin: "review"} once approved; each side must match exactly one loaded fact ---
+
+[[conflict]]   # rice seed: the drying section calls 8-9 % "long term"; the storage section's long term (> 15 months) is < 8 %
+note = "rice seed long term storage: dried to 8-9 % moisture (p. 74) vs stored at less than 8 % for more than 15 months (p. 75)"
+status = "approved"   # approved by the user 2026-10-20, as quoted below
+
+[conflict.a]
+subtype = "DryingSpec"
+pdf_page = 74
+quote = "Dry the seeds to 12 - 13 % moisture content for short term storage and 8-9 % moisture for long term storage."
+
+[conflict.b]
+subtype = "StorageRule"
+pdf_page = 75
+quote = "Store the seeds in 700 gauge polythene bag for long term storage (more than 15 months) with a seed moisture content less than 8 %."

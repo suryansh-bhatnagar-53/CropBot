@@ -1,0 +1,19 @@
+id,name_en,review_status,source
+operation:sowing,Sowing,approved,docs/schema_v1.1.md
+operation:transplanting,Transplanting,approved,docs/schema_v1.1.md
+operation:irrigation,Irrigation,approved,docs/schema_v1.1.md
+operation:fertilizer_application,Fertilizer application,approved,docs/schema_v1.1.md
+operation:spraying,Spraying,approved,docs/schema_v1.1.md
+operation:seed_treatment,Seed treatment,approved,docs/schema_v1.1.md
+operation:weeding,Weeding,approved,docs/schema_v1.1.md
+operation:harvest,Harvest,approved,docs/schema_v1.1.md
+operation:threshing,Threshing,approved,docs/schema_v1.1.md
+operation:drying,Drying,approved,docs/schema_v1.1.md
+operation:storage,Storage,approved,docs/schema_v1.1.md
+operation:dusting,Dusting,approved,docs/schema_v1.3.md
+operation:application,Application,approved,docs/schema_v1.3.md
+operation:release,Release,approved,docs/schema_v1.3.md
+operation:trapping,Trapping,approved,docs/schema_v1.3.md
+operation:baiting,Baiting,approved,docs/schema_v1.3.md
+operation:bund_management,Bund management,approved,docs/schema_v1.3.md
+operation:sanitation,Sanitation,approved,docs/schema_v1.3.md

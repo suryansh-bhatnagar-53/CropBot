@@ -1,0 +1,37 @@
+# Source registry entry: GBPUAT Pantnagar, "Advisory for Kharif Season in Uttarakhand", 02.05.2020.
+# Fields follow docs/schema_v1.6.md "Source registry". Validate with:
+#   uv run python -m kg.registry
+# Checked on the rendered pages (2026-10-24): 3 pages, one table (Crops | Area | Varieties | Sowing time) on
+# PDF pp. 1-2, then horticulture, veterinary and fisheries rows on pp. 2-3. No page prints a number.
+
+id = "source:gbpuat_kharif_advisory_2020"
+title = "Advisory for Kharif Season in Uttarakhand"
+publisher = "G.B. Pant University of Agriculture and Technology, Pantnagar, Directorate of Extension Education"
+edition_year = 2020
+edition_label = "2020"
+language = "en"
+url = "https://www.gbpuat.ac.in/directorates/Extension_Edu/02.05.2020_Kharif_season_Advisory.pdf"
+sha256 = "d24de1ac4e3608b661870feedfdf1ca885b3e7aac016f6dbf0da6d43f4de4bc6"
+file = "data/raw/gbpuat_kharif_advisory_2020.pdf"
+state_id = "state:5"
+region_scope = ["state:5"]
+authority_tier = 1                  # state agricultural university
+doc_type = "advisory"
+rights_note = "University extension advisory; the PDF prints no rights statement. Attribute GBPUAT Pantnagar."
+notes = [
+    "The sha256 is of the local copy (saved 2026-10-24 as data/raw/02.05.2020_Kharif_season_Advisory.pdf, the url's file name, and renamed); it has not been checked against a fresh download from the url.",
+    "The PDF prints neither the publisher nor the date: the publisher is from the url (gbpuat.ac.in, Directorate of Extension Education) and the date 02.05.2020 from the url's file name and the PDF CreationDate (2020-05-02, Microsoft Office Word 2007).",
+    "Native text layer (Word 2007), English; no OCR. pdfium reads the line-break hyphen in 'Pant Sugandha Dhan-15' as U+FFFE; the page prints '-'.",
+    "Only the rice rows (PDF p. 1) are in scope (decided 2026-10-24): the one chapter carries crop:rice for the whole table, so every other crop's row must be listed as not extracted.",
+]
+
+# One chapter: the document's title heading. Approved 2026-10-24 for the rice rows only (see notes).
+chapters = [
+  { number = "1", title = "Advisory for Kharif Season in Uttarakhand", pdf_page = 1, status = "approved", crop_id = "crop:rice" },
+]
+
+[extraction]
+ocr = "auto"
+ocr_lang = ["en"]
+prompt_version = "v6"               # schema v1.6 runs; pinned so a later LATEST does not move them
+note = "Native text; OCR only where a layout region has no text cells."

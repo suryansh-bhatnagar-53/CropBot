@@ -1,0 +1,63 @@
+# Source registry entry: DFPD Uniform Specifications for central pool procurement, KMS 2026-27.
+# Fields follow docs/schema_v1.4.md "Source registry". Validate with:
+#   uv run python -m kg.registry
+# Checked on the rendered pages (2026-10-22): PDF p. 4 is the DFPD letter, subject "Uniform specifications of
+# paddy, rice, coarse grains and 06 minor millets for Kharif Marketing Season (KMS) 2026-27 for central pool
+# procurement-reg.", dated 17.08.2026.
+
+id = "source:dfpd_uniform_spec_kms_2026_27"
+title = "Uniform Specifications of Paddy, Rice, Coarse Grains and 06 Minor Millets for Kharif Marketing Season (KMS) 2026-27 for Central Pool Procurement"
+publisher = "Department of Food and Public Distribution, Ministry of Consumer Affairs, Food and Public Distribution, Government of India"
+edition_year = 2026
+edition_label = "2026-27"           # KMS 2026-27; the label must start with the year, so "KMS" is in the title
+language = "en"
+url = "https://www.foododisha.in/Download/uniform-specification-of-paddy-rice-and-coarse-grains.pdf"
+sha256 = "19e85992dcfd143087c3fd6402a9904aa9fba3a1a97d281abc090de927519cdf"
+file = "data/raw/dfpd_uniform_spec_kms_2026_27.pdf"
+# no state_id: a central specification for all States/UTs
+region_scope = ["country:in"]
+authority_tier = 0                  # regulatory (schema v1.5): outranks books for QualitySpec
+# QualitySpec season fields (schema v1.5), as printed in every schedule heading, e.g. PDF p. 6
+season_label = "KHARIF MARKETING SEASON 2026-2027"
+marketing_season = "KMS"
+doc_type = "procurement_specification"
+rights_note = "Government of India letter; it asks that wide publicity be given to the specifications among farmers (PDF p. 4, para 2)."
+notes = [
+    "This copy is a state forward: Government of Odisha, Food, Supplies & Consumer Welfare Department letter No. 14453 dated 21/08/2026 (PDF pp. 1-3, with endorsements) forwarding DFPD letter F. No.8-1/2022-S&I (E-381310) dated 17.08.2026 (PDF pp. 4-5) and its enclosures (PDF pp. 6-14). The url is the Odisha department's copy.",
+    "The DFPD letter (PDF p. 4) says these specifications will continue to be applicable unless otherwise communicated by the Government of India.",
+    "Scanned (producer Hewlett-Packard; one image per page). The embedded text layer is the scanner's OCR and is unreliable (e.g. 'KnARIF', 'IUCE'), so conversion uses full-page OCR and every quote is checked against the rendered page.",
+    "Only PDF p. 5 prints a page number ('-2-'); the enclosed schedules print none.",
+]
+printed_pages = [
+  { pdf_pages = [5, 5], offset = 3 },
+]
+
+# One chapter per enclosure, by its printed heading (text in parentheses is ignored when matching). Numbers are
+# positions in this PDF; the document prints none. Segmentation uses every chapter for boundaries; extraction
+# uses approved chapters only.
+chapters = [
+  { number = "0.1", title = "Government of Odisha", group = "LETTERS", pdf_page = 1, status = "proposed" },
+  { number = "0.2", title = "Government of India", group = "LETTERS", pdf_page = 4, status = "proposed" },
+  { number = "1", title = "UNIFORM SPECIFICATION OF ALL VARIETIES OF PADDY", pdf_page = 6, status = "approved", crop_id = "crop:rice" },
+  { number = "2", title = "UNIFORM SPECIFICATION FOR GRADE 'A' & 'COMMON' RICE", pdf_page = 7, status = "proposed", crop_id = "crop:rice" },
+  { number = "3", title = "STANDARDS OF RICE FOR ISSUE TO STATE GOVERNMENTS/ UT ADMINISTRATIONS", pdf_page = 9, status = "proposed", crop_id = "crop:rice" },
+  { number = "4", title = "UNIFORM SPECIFICATION FOR JOWAR", pdf_page = 10, status = "proposed" },
+  { number = "5", title = "UNIFORM SPECIFICATION FOR BAJRA", pdf_page = 11, status = "proposed" },
+  { number = "6", title = "UNIFORM SPECIFICATION FOR MAIZE", pdf_page = 12, status = "proposed" },
+  { number = "7", title = "UNIFORM SPECIFICATION FOR RAGI", pdf_page = 13, status = "proposed" },
+  { number = "8", title = "UNIFORM SPECIFICATION OF 06 MINOR MILLETS", pdf_page = 14, status = "proposed" },
+]
+
+# Schema v1.5: the grades the paddy limits apply to. The evidence is the chapter heading on PDF p. 6 (approved
+# transcription p006.md): "UNIFORM SPECIFICATION OF ALL VARIETIES OF PADDY", i.e. both grades the page defines.
+[[section_scope]]
+heading = "UNIFORM SPECIFICATION OF ALL VARIETIES OF PADDY"
+pdf_pages = [6, 6]
+grades = ["grade_a", "common"]
+status = "approved"                 # approved by the user 2026-10-24
+
+[extraction]
+ocr = "force"
+ocr_lang = ["en"]
+prompt_version = "v5"               # the prompt its paddy hand-runs used (2026-10-24); LATEST is v6 since then
+note = "Scanned; the embedded scanner OCR is not used (see notes)."

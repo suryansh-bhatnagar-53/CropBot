@@ -1,0 +1,6 @@
+id,name_en,review_status,source
+season:kharif,Kharif,approved,docs/schema_v1.1.md
+season:rabi,Rabi,approved,docs/schema_v1.1.md
+season:zaid,Zaid,approved,docs/schema_v1.1.md
+season:summer,Summer,approved,docs/schema_v1.1.md
+season:perennial,Perennial,approved,docs/schema_v1.1.md

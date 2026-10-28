@@ -1,0 +1,13 @@
+{"question": "Q1: Which paddy variety should I sow this season? (a farmer in Tarai, Uttarakhand)",
+ "template": "varieties_for",
+ "context": {"crop": "crop:rice", "state": "state:5", "zones": ["zone:uk_tarai_bhabhar_plain"]},
+ "expect": {"scope": "local", "asks": [], "visible": ["Narendra-359, HKR-47"],
+            "citations": {"Narendra-359, HKR-47": {"pdf_page": 1, "printed_page": null, "status": "approved",
+                                                   "source_id": "source:gbpuat_kharif_advisory_2020"}},
+            "labels": {"Narendra-359, HKR-47": []},
+            "varieties": {"Narendra-359, HKR-47": [
+              "variety:hkr_47", "variety:narendra_359", "variety:pant_basmati_1", "variety:pant_basmati_2",
+              "variety:pant_dhan_10", "variety:pant_dhan_12", "variety:pant_dhan_19", "variety:pant_dhan_24",
+              "variety:pant_dhan_26", "variety:pant_sugandha_dhan_15", "variety:pant_sugandha_dhan_17",
+              "variety:pant_sugandha_dhan_27", "variety:pr_113", "variety:pr_114", "variety:pusa_basmati_1121",
+              "variety:pusa_basmati_1509"]}}}
